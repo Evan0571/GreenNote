@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.evan</groupId>
+        <artifactId>GreenNote</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>GreenNote-kv-api</module>
+        <module>GreenNote-kv-biz</module>
+    </modules>
+
+    <artifactId>GreenNote-kv</artifactId>
+    <name>${project.artifactId}</name>
+    <description>Key-Value 键值存储服务</description>
+</project>

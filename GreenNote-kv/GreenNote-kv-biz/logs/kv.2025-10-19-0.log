@@ -1,0 +1,75 @@
+2025-10-19 11:10:56.095 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:10:56.201 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:10:57.090 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:10:57.126 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:10:57.127 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - The following 1 profile is active: "dev"
+2025-10-19 11:10:57.839 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2025-10-19 11:10:57.900 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 0 Reactive Cassandra repository interfaces.
+2025-10-19 11:10:57.910 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2025-10-19 11:10:57.942 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 1 Cassandra repository interfaces.
+2025-10-19 11:10:58.250 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=695550e0-028a-3e26-b840-8297d09cbca0
+2025-10-19 11:10:58.847 [main] INFO  c.d.o.driver.internal.core.DefaultMavenCoordinates - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+2025-10-19 11:10:59.725 [s0-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-10-19 11:11:00.519 [s1-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-10-19 11:11:02.576 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - Started CassandraTests in 7.476 seconds (process running for 9.269)
+2025-10-19 11:11:03.548 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - 插入数据成功
+2025-10-19 11:16:28.388 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:16:28.499 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:16:29.301 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:16:29.334 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:16:29.335 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - The following 1 profile is active: "dev"
+2025-10-19 11:16:30.033 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2025-10-19 11:16:30.079 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 0 Reactive Cassandra repository interfaces.
+2025-10-19 11:16:30.089 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2025-10-19 11:16:30.112 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 1 Cassandra repository interfaces.
+2025-10-19 11:16:30.385 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=695550e0-028a-3e26-b840-8297d09cbca0
+2025-10-19 11:16:30.925 [main] INFO  c.d.o.driver.internal.core.DefaultMavenCoordinates - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+2025-10-19 11:16:31.786 [s0-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-10-19 11:16:32.484 [s1-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-10-19 11:16:34.706 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - Started CassandraTests in 7.337 seconds (process running for 8.963)
+2025-10-19 11:16:35.518 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - ==> 修改数据成功
+2025-10-19 11:20:43.323 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:20:43.428 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:20:44.245 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:20:44.273 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:20:44.274 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - The following 1 profile is active: "dev"
+2025-10-19 11:20:44.979 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2025-10-19 11:20:45.024 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 0 Reactive Cassandra repository interfaces.
+2025-10-19 11:20:45.032 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2025-10-19 11:20:45.058 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 1 Cassandra repository interfaces.
+2025-10-19 11:20:45.343 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=695550e0-028a-3e26-b840-8297d09cbca0
+2025-10-19 11:20:45.901 [main] INFO  c.d.o.driver.internal.core.DefaultMavenCoordinates - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+2025-10-19 11:20:46.766 [s0-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-10-19 11:20:47.477 [s1-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-10-19 11:20:49.588 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - Started CassandraTests in 7.303 seconds (process running for 8.907)
+2025-10-19 11:20:50.449 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - 查询结果：NoteContentDO(id=16ab5323-58cc-44ec-9b1a-d690d52d73f3, content=测试数据内容更新)
+2025-10-19 11:21:18.984 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:21:19.091 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:21:19.903 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:21:19.936 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:21:19.938 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - The following 1 profile is active: "dev"
+2025-10-19 11:21:20.626 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2025-10-19 11:21:20.675 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 0 Reactive Cassandra repository interfaces.
+2025-10-19 11:21:20.682 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2025-10-19 11:21:20.705 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 1 Cassandra repository interfaces.
+2025-10-19 11:21:20.988 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=695550e0-028a-3e26-b840-8297d09cbca0
+2025-10-19 11:21:21.516 [main] INFO  c.d.o.driver.internal.core.DefaultMavenCoordinates - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+2025-10-19 11:21:22.322 [s0-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-10-19 11:21:22.957 [s1-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-10-19 11:21:24.984 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - Started CassandraTests in 7.003 seconds (process running for 8.704)
+2025-10-19 11:21:25.844 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - 查询结果：{"id":"16ab5323-58cc-44ec-9b1a-d690d52d73f3","content":"测试数据内容更新"}
+2025-10-19 11:22:20.705 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:22:20.797 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:22:21.635 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:22:21.667 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-19 11:22:21.668 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - The following 1 profile is active: "dev"
+2025-10-19 11:22:22.366 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2025-10-19 11:22:22.411 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 0 Reactive Cassandra repository interfaces.
+2025-10-19 11:22:22.420 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2025-10-19 11:22:22.447 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 1 Cassandra repository interfaces.
+2025-10-19 11:22:22.709 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=695550e0-028a-3e26-b840-8297d09cbca0
+2025-10-19 11:22:23.243 [main] INFO  c.d.o.driver.internal.core.DefaultMavenCoordinates - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+2025-10-19 11:22:24.077 [s0-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-10-19 11:22:24.727 [s1-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-10-19 11:22:26.783 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - Started CassandraTests in 7.1 seconds (process running for 8.649)
+2025-10-19 11:22:27.653 [main] INFO  com.evan.greennote.kv.biz.CassandraTests - ==> 删除数据成功

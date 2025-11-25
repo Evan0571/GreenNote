@@ -1,0 +1,866 @@
+2025-10-22 16:49:13.900 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 16:49:13.998 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 16:49:14.396 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 16:49:14.398 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-10-22 16:49:14.399 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-10-22 16:49:14.400 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-10-22 16:49:14.443 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 16:49:14.443 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 16:49:14.448 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-10-22 16:49:14.821 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 16:49:14.854 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\12482\nacos\config
+2025-10-22 16:49:14.862 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of d35b623e-79c6-4a6b-b31a-436b8ad7bcca_config-0
+2025-10-22 16:49:14.895 [main] INFO  com.alibaba.nacos.common.remote.client - [d35b623e-79c6-4a6b-b31a-436b8ad7bcca_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$576/0x0000026316368000
+2025-10-22 16:49:14.896 [main] INFO  com.alibaba.nacos.common.remote.client - [d35b623e-79c6-4a6b-b31a-436b8ad7bcca_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$577/0x0000026316368420
+2025-10-22 16:49:14.896 [main] INFO  com.alibaba.nacos.common.remote.client - [d35b623e-79c6-4a6b-b31a-436b8ad7bcca_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-10-22 16:49:14.898 [main] INFO  com.alibaba.nacos.common.remote.client - [d35b623e-79c6-4a6b-b31a-436b8ad7bcca_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-10-22 16:49:14.915 [main] INFO  com.alibaba.nacos.common.remote.client - [d35b623e-79c6-4a6b-b31a-436b8ad7bcca_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 16:49:15.002 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 16:49:16.342 [main] INFO  com.alibaba.nacos.common.remote.client - [d35b623e-79c6-4a6b-b31a-436b8ad7bcca_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761122956105_127.0.0.1_49694
+2025-10-22 16:49:16.343 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [d35b623e-79c6-4a6b-b31a-436b8ad7bcca_config-0] Notify connected event to listeners.
+2025-10-22 16:49:16.344 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [d35b623e-79c6-4a6b-b31a-436b8ad7bcca_config-0] Connected,notify listen context...
+2025-10-22 16:49:16.344 [main] INFO  com.alibaba.nacos.common.remote.client - [d35b623e-79c6-4a6b-b31a-436b8ad7bcca_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 16:49:16.345 [main] INFO  com.alibaba.nacos.common.remote.client - [d35b623e-79c6-4a6b-b31a-436b8ad7bcca_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$597/0x00000263164efbe0
+2025-10-22 16:49:16.412 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-10-22 16:49:16.441 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss] & group[DEFAULT_GROUP]
+2025-10-22 16:49:16.455 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss.yaml] & group[DEFAULT_GROUP]
+2025-10-22 16:49:16.467 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss-dev.yaml] & group[DEFAULT_GROUP]
+2025-10-22 16:49:16.468 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss,DEFAULT_GROUP'}]
+2025-10-22 16:49:16.475 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 16:49:16.476 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - The following 1 profile is active: "dev"
+2025-10-22 16:49:17.256 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9336411e-a514-3c66-a3ff-45e25e22725e
+2025-10-22 16:49:17.907 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-10-22 16:49:17.921 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-22 16:49:17.922 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-10-22 16:49:18.026 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-22 16:49:18.027 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1534 ms
+2025-10-22 16:49:19.868 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-10-22 16:49:19.876 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-10-22 16:49:19.876 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-10-22 16:49:19.878 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-10-22 16:49:19.888 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 16:49:19.888 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 16:49:19.893 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 40b02151-c5d2-4c41-a506-525e3e7a11ce
+2025-10-22 16:49:19.895 [main] INFO  com.alibaba.nacos.common.remote.client - [40b02151-c5d2-4c41-a506-525e3e7a11ce] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-10-22 16:49:19.895 [main] INFO  com.alibaba.nacos.common.remote.client - [40b02151-c5d2-4c41-a506-525e3e7a11ce] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-10-22 16:49:19.896 [main] INFO  com.alibaba.nacos.common.remote.client - [40b02151-c5d2-4c41-a506-525e3e7a11ce] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-10-22 16:49:19.896 [main] INFO  com.alibaba.nacos.common.remote.client - [40b02151-c5d2-4c41-a506-525e3e7a11ce] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 16:49:19.896 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 16:49:20.040 [main] INFO  com.alibaba.nacos.common.remote.client - [40b02151-c5d2-4c41-a506-525e3e7a11ce] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761122959906_127.0.0.1_17295
+2025-10-22 16:49:20.040 [main] INFO  com.alibaba.nacos.common.remote.client - [40b02151-c5d2-4c41-a506-525e3e7a11ce] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 16:49:20.040 [main] INFO  com.alibaba.nacos.common.remote.client - [40b02151-c5d2-4c41-a506-525e3e7a11ce] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$597/0x00000263164efbe0
+2025-10-22 16:49:20.040 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [40b02151-c5d2-4c41-a506-525e3e7a11ce] Notify connected event to listeners.
+2025-10-22 16:49:20.041 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-10-22 16:49:20.042 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] greennote registering service GreenNote-oss with instance Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-10-22 16:49:20.060 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP GreenNote-oss 10.36.15.120:8081 register finished
+2025-10-22 16:49:20.271 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - Started GreenNoteOssBizApplication in 7.438 seconds (process running for 10.698)
+2025-10-22 16:49:20.275 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-10-22 16:49:20.275 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss-dev.yaml+DEFAULT_GROUP+greennote
+2025-10-22 16:49:20.285 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 16:49:20.286 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP
+2025-10-22 16:49:20.286 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss+DEFAULT_GROUP+greennote
+2025-10-22 16:49:20.286 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss, group=DEFAULT_GROUP, cnt=1
+2025-10-22 16:49:20.286 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss, group=DEFAULT_GROUP
+2025-10-22 16:49:20.287 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss.yaml+DEFAULT_GROUP+greennote
+2025-10-22 16:49:20.287 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 16:49:20.287 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP
+2025-10-22 17:25:25.522 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-22 17:25:25.525 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-10-22 17:25:25.527 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-10-22 17:25:25.528 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-10-22 17:25:25.600 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-10-22 17:25:25.602 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-oss with instance: Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-10-22 17:25:25.605 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-10-22 17:25:25.606 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-10-22 17:25:25.606 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-10-22 17:25:25.606 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-10-22 17:25:25.606 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-10-22 17:25:25.606 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-10-22 17:25:25.607 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-10-22 17:25:25.607 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-10-22 17:25:25.607 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-10-22 17:25:25.607 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 17:25:25.607 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 17:25:25.607 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-10-22 17:25:25.607 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-10-22 17:25:25.608 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 17:25:25.608 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 17:25:25.608 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-10-22 17:25:25.608 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-10-22 17:25:25.608 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@7c95113e[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-10-22 17:25:25.608 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1761122959906_127.0.0.1_17295
+2025-10-22 17:25:25.612 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@65cb59e4[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 463]
+2025-10-22 17:25:25.612 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@3dc4aec5[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 720]
+2025-10-22 17:25:25.612 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-10-22 17:25:25.613 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-10-22 17:25:25.614 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-10-22 17:25:53.554 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 17:25:53.657 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 17:25:54.017 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 17:25:54.020 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-10-22 17:25:54.020 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-10-22 17:25:54.021 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-10-22 17:25:54.063 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 17:25:54.063 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 17:25:54.067 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-10-22 17:25:54.458 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 17:25:54.481 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\12482\nacos\config
+2025-10-22 17:25:54.486 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of dc14d183-dd6d-4b6f-8a65-4862de2d45d9_config-0
+2025-10-22 17:25:54.514 [main] INFO  com.alibaba.nacos.common.remote.client - [dc14d183-dd6d-4b6f-8a65-4862de2d45d9_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$576/0x0000023294366fa8
+2025-10-22 17:25:54.515 [main] INFO  com.alibaba.nacos.common.remote.client - [dc14d183-dd6d-4b6f-8a65-4862de2d45d9_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$577/0x00000232943673c8
+2025-10-22 17:25:54.516 [main] INFO  com.alibaba.nacos.common.remote.client - [dc14d183-dd6d-4b6f-8a65-4862de2d45d9_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-10-22 17:25:54.516 [main] INFO  com.alibaba.nacos.common.remote.client - [dc14d183-dd6d-4b6f-8a65-4862de2d45d9_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-10-22 17:25:54.528 [main] INFO  com.alibaba.nacos.common.remote.client - [dc14d183-dd6d-4b6f-8a65-4862de2d45d9_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 17:25:54.588 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 17:25:55.990 [main] INFO  com.alibaba.nacos.common.remote.client - [dc14d183-dd6d-4b6f-8a65-4862de2d45d9_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761125155745_127.0.0.1_1846
+2025-10-22 17:25:55.991 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [dc14d183-dd6d-4b6f-8a65-4862de2d45d9_config-0] Notify connected event to listeners.
+2025-10-22 17:25:55.992 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [dc14d183-dd6d-4b6f-8a65-4862de2d45d9_config-0] Connected,notify listen context...
+2025-10-22 17:25:55.992 [main] INFO  com.alibaba.nacos.common.remote.client - [dc14d183-dd6d-4b6f-8a65-4862de2d45d9_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 17:25:55.992 [main] INFO  com.alibaba.nacos.common.remote.client - [dc14d183-dd6d-4b6f-8a65-4862de2d45d9_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$597/0x00000232944eea28
+2025-10-22 17:25:56.048 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-10-22 17:25:56.076 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss] & group[DEFAULT_GROUP]
+2025-10-22 17:25:56.087 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss.yaml] & group[DEFAULT_GROUP]
+2025-10-22 17:25:56.097 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss-dev.yaml] & group[DEFAULT_GROUP]
+2025-10-22 17:25:56.098 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss,DEFAULT_GROUP'}]
+2025-10-22 17:25:56.110 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 17:25:56.111 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - The following 1 profile is active: "dev"
+2025-10-22 17:25:57.145 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9336411e-a514-3c66-a3ff-45e25e22725e
+2025-10-22 17:25:57.823 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-10-22 17:25:57.839 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-22 17:25:57.840 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-10-22 17:25:57.956 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-22 17:25:57.957 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1826 ms
+2025-10-22 17:25:59.951 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-10-22 17:25:59.961 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-10-22 17:25:59.962 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-10-22 17:25:59.963 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-10-22 17:25:59.981 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 17:25:59.981 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 17:25:59.989 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of f353a93b-183a-4e19-8fe1-9d2f251aca32
+2025-10-22 17:25:59.992 [main] INFO  com.alibaba.nacos.common.remote.client - [f353a93b-183a-4e19-8fe1-9d2f251aca32] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-10-22 17:25:59.992 [main] INFO  com.alibaba.nacos.common.remote.client - [f353a93b-183a-4e19-8fe1-9d2f251aca32] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-10-22 17:25:59.992 [main] INFO  com.alibaba.nacos.common.remote.client - [f353a93b-183a-4e19-8fe1-9d2f251aca32] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-10-22 17:25:59.993 [main] INFO  com.alibaba.nacos.common.remote.client - [f353a93b-183a-4e19-8fe1-9d2f251aca32] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 17:25:59.993 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 17:26:00.122 [main] INFO  com.alibaba.nacos.common.remote.client - [f353a93b-183a-4e19-8fe1-9d2f251aca32] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761125160002_127.0.0.1_1853
+2025-10-22 17:26:00.122 [main] INFO  com.alibaba.nacos.common.remote.client - [f353a93b-183a-4e19-8fe1-9d2f251aca32] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 17:26:00.122 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [f353a93b-183a-4e19-8fe1-9d2f251aca32] Notify connected event to listeners.
+2025-10-22 17:26:00.122 [main] INFO  com.alibaba.nacos.common.remote.client - [f353a93b-183a-4e19-8fe1-9d2f251aca32] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$597/0x00000232944eea28
+2025-10-22 17:26:00.123 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-10-22 17:26:00.124 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] greennote registering service GreenNote-oss with instance Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-10-22 17:26:00.138 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP GreenNote-oss 10.36.15.120:8081 register finished
+2025-10-22 17:26:00.380 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - Started GreenNoteOssBizApplication in 7.923 seconds (process running for 10.835)
+2025-10-22 17:26:00.385 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-10-22 17:26:00.386 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss-dev.yaml+DEFAULT_GROUP+greennote
+2025-10-22 17:26:00.398 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 17:26:00.398 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP
+2025-10-22 17:26:00.399 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss+DEFAULT_GROUP+greennote
+2025-10-22 17:26:00.399 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss, group=DEFAULT_GROUP, cnt=1
+2025-10-22 17:26:00.399 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss, group=DEFAULT_GROUP
+2025-10-22 17:26:00.399 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss.yaml+DEFAULT_GROUP+greennote
+2025-10-22 17:26:00.400 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 17:26:00.400 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP
+2025-10-22 17:26:17.477 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-10-22 17:26:17.478 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-10-22 17:26:17.478 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-22 17:26:17.479 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-10-22 17:26:17.546 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-10-22 17:26:17.546 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-oss with instance: Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-10-22 17:26:17.553 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-10-22 17:26:17.553 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-10-22 17:26:17.553 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-10-22 17:26:17.553 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@a472656[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-10-22 17:26:17.554 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1761125160002_127.0.0.1_1853
+2025-10-22 17:26:17.561 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@22cefa25[Running, pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 11]
+2025-10-22 17:26:17.562 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@49a08e18[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 5]
+2025-10-22 17:26:17.562 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-10-22 17:26:17.562 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-10-22 17:26:17.565 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-10-22 17:26:17.559 [nacos-grpc-client-executor-127.0.0.1-11] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1761125160002_127.0.0.1_1853]Ignore complete event,isRunning:false,isAbandon=false
+2025-10-22 18:03:39.538 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:03:39.651 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:03:40.050 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:03:40.053 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-10-22 18:03:40.053 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-10-22 18:03:40.054 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-10-22 18:03:40.098 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 18:03:40.098 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 18:03:40.103 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-10-22 18:03:40.504 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:03:40.527 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\12482\nacos\config
+2025-10-22 18:03:40.533 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 6e88069b-a448-4d7f-9a87-fb5518e68c54_config-0
+2025-10-22 18:03:40.563 [main] INFO  com.alibaba.nacos.common.remote.client - [6e88069b-a448-4d7f-9a87-fb5518e68c54_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$576/0x00000194b43673f0
+2025-10-22 18:03:40.564 [main] INFO  com.alibaba.nacos.common.remote.client - [6e88069b-a448-4d7f-9a87-fb5518e68c54_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$577/0x00000194b4367810
+2025-10-22 18:03:40.564 [main] INFO  com.alibaba.nacos.common.remote.client - [6e88069b-a448-4d7f-9a87-fb5518e68c54_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-10-22 18:03:40.565 [main] INFO  com.alibaba.nacos.common.remote.client - [6e88069b-a448-4d7f-9a87-fb5518e68c54_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-10-22 18:03:40.573 [main] INFO  com.alibaba.nacos.common.remote.client - [6e88069b-a448-4d7f-9a87-fb5518e68c54_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 18:03:40.656 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 18:03:42.043 [main] INFO  com.alibaba.nacos.common.remote.client - [6e88069b-a448-4d7f-9a87-fb5518e68c54_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761127421793_127.0.0.1_6745
+2025-10-22 18:03:42.044 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [6e88069b-a448-4d7f-9a87-fb5518e68c54_config-0] Notify connected event to listeners.
+2025-10-22 18:03:42.045 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [6e88069b-a448-4d7f-9a87-fb5518e68c54_config-0] Connected,notify listen context...
+2025-10-22 18:03:42.045 [main] INFO  com.alibaba.nacos.common.remote.client - [6e88069b-a448-4d7f-9a87-fb5518e68c54_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 18:03:42.045 [main] INFO  com.alibaba.nacos.common.remote.client - [6e88069b-a448-4d7f-9a87-fb5518e68c54_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$597/0x00000194b44ef080
+2025-10-22 18:03:42.112 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-10-22 18:03:42.135 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss] & group[DEFAULT_GROUP]
+2025-10-22 18:03:42.147 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss.yaml] & group[DEFAULT_GROUP]
+2025-10-22 18:03:42.159 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss-dev.yaml] & group[DEFAULT_GROUP]
+2025-10-22 18:03:42.162 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss,DEFAULT_GROUP'}]
+2025-10-22 18:03:42.171 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:03:42.172 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - The following 1 profile is active: "dev"
+2025-10-22 18:03:43.272 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9336411e-a514-3c66-a3ff-45e25e22725e
+2025-10-22 18:03:43.941 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-10-22 18:03:43.958 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-22 18:03:43.958 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-10-22 18:03:44.095 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-22 18:03:44.095 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1896 ms
+2025-10-22 18:03:46.412 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-10-22 18:03:46.417 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-10-22 18:03:46.417 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-10-22 18:03:46.419 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-10-22 18:03:46.430 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 18:03:46.430 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 18:03:46.435 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of d1f9b7bc-4366-46ff-a877-84838601f341
+2025-10-22 18:03:46.437 [main] INFO  com.alibaba.nacos.common.remote.client - [d1f9b7bc-4366-46ff-a877-84838601f341] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-10-22 18:03:46.438 [main] INFO  com.alibaba.nacos.common.remote.client - [d1f9b7bc-4366-46ff-a877-84838601f341] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-10-22 18:03:46.438 [main] INFO  com.alibaba.nacos.common.remote.client - [d1f9b7bc-4366-46ff-a877-84838601f341] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-10-22 18:03:46.439 [main] INFO  com.alibaba.nacos.common.remote.client - [d1f9b7bc-4366-46ff-a877-84838601f341] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 18:03:46.439 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 18:03:46.566 [main] INFO  com.alibaba.nacos.common.remote.client - [d1f9b7bc-4366-46ff-a877-84838601f341] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761127426446_127.0.0.1_6750
+2025-10-22 18:03:46.566 [main] INFO  com.alibaba.nacos.common.remote.client - [d1f9b7bc-4366-46ff-a877-84838601f341] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 18:03:46.567 [main] INFO  com.alibaba.nacos.common.remote.client - [d1f9b7bc-4366-46ff-a877-84838601f341] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$597/0x00000194b44ef080
+2025-10-22 18:03:46.568 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [d1f9b7bc-4366-46ff-a877-84838601f341] Notify connected event to listeners.
+2025-10-22 18:03:46.568 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-10-22 18:03:46.570 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] greennote registering service GreenNote-oss with instance Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-10-22 18:03:46.587 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP GreenNote-oss 10.36.15.120:8081 register finished
+2025-10-22 18:03:46.871 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - Started GreenNoteOssBizApplication in 8.479 seconds (process running for 12.714)
+2025-10-22 18:03:46.877 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-10-22 18:03:46.878 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss-dev.yaml+DEFAULT_GROUP+greennote
+2025-10-22 18:03:46.891 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 18:03:46.891 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP
+2025-10-22 18:03:46.892 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss+DEFAULT_GROUP+greennote
+2025-10-22 18:03:46.892 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss, group=DEFAULT_GROUP, cnt=1
+2025-10-22 18:03:46.893 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss, group=DEFAULT_GROUP
+2025-10-22 18:03:46.894 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss.yaml+DEFAULT_GROUP+greennote
+2025-10-22 18:03:46.894 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 18:03:46.894 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP
+2025-10-22 18:13:10.387 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-10-22 18:13:10.387 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-22 18:13:10.388 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-10-22 18:13:10.388 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-10-22 18:13:10.444 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-10-22 18:13:10.445 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-oss with instance: Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-10-22 18:13:10.449 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-10-22 18:13:10.450 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-10-22 18:13:10.450 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-10-22 18:13:10.450 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-10-22 18:13:10.450 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-10-22 18:13:10.451 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-10-22 18:13:10.451 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-10-22 18:13:10.451 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-10-22 18:13:10.451 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-10-22 18:13:10.451 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 18:13:10.451 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 18:13:10.451 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-10-22 18:13:10.451 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-10-22 18:13:10.451 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 18:13:10.451 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 18:13:10.451 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-10-22 18:13:10.451 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-10-22 18:13:10.452 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@1e3f5c17[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-10-22 18:13:10.452 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1761127426446_127.0.0.1_6750
+2025-10-22 18:13:10.457 [nacos-grpc-client-executor-127.0.0.1-125] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1761127426446_127.0.0.1_6750]Ignore complete event,isRunning:false,isAbandon=false
+2025-10-22 18:13:10.461 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@3aca6b93[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 126]
+2025-10-22 18:13:10.461 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@3ccdc709[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 187]
+2025-10-22 18:13:10.462 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-10-22 18:13:10.462 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-10-22 18:13:10.462 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-10-22 18:13:17.603 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:13:17.727 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:13:18.162 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:13:18.166 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-10-22 18:13:18.167 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-10-22 18:13:18.168 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-10-22 18:13:18.234 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 18:13:18.234 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 18:13:18.242 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-10-22 18:13:18.716 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:13:18.744 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\12482\nacos\config
+2025-10-22 18:13:18.753 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of ed036e79-5c02-4e58-a2af-7e8f4622fb65_config-0
+2025-10-22 18:13:18.795 [main] INFO  com.alibaba.nacos.common.remote.client - [ed036e79-5c02-4e58-a2af-7e8f4622fb65_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$588/0x00000274363901f8
+2025-10-22 18:13:18.796 [main] INFO  com.alibaba.nacos.common.remote.client - [ed036e79-5c02-4e58-a2af-7e8f4622fb65_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$589/0x0000027436390618
+2025-10-22 18:13:18.797 [main] INFO  com.alibaba.nacos.common.remote.client - [ed036e79-5c02-4e58-a2af-7e8f4622fb65_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-10-22 18:13:18.797 [main] INFO  com.alibaba.nacos.common.remote.client - [ed036e79-5c02-4e58-a2af-7e8f4622fb65_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-10-22 18:13:18.812 [main] INFO  com.alibaba.nacos.common.remote.client - [ed036e79-5c02-4e58-a2af-7e8f4622fb65_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 18:13:18.900 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 18:13:20.614 [main] INFO  com.alibaba.nacos.common.remote.client - [ed036e79-5c02-4e58-a2af-7e8f4622fb65_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761128000352_127.0.0.1_56859
+2025-10-22 18:13:20.614 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [ed036e79-5c02-4e58-a2af-7e8f4622fb65_config-0] Notify connected event to listeners.
+2025-10-22 18:13:20.614 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [ed036e79-5c02-4e58-a2af-7e8f4622fb65_config-0] Connected,notify listen context...
+2025-10-22 18:13:20.615 [main] INFO  com.alibaba.nacos.common.remote.client - [ed036e79-5c02-4e58-a2af-7e8f4622fb65_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 18:13:20.615 [main] INFO  com.alibaba.nacos.common.remote.client - [ed036e79-5c02-4e58-a2af-7e8f4622fb65_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x00000274364d76d0
+2025-10-22 18:13:20.705 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-10-22 18:13:20.729 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss] & group[DEFAULT_GROUP]
+2025-10-22 18:13:20.738 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss.yaml] & group[DEFAULT_GROUP]
+2025-10-22 18:13:20.746 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss-dev.yaml] & group[DEFAULT_GROUP]
+2025-10-22 18:13:20.747 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss,DEFAULT_GROUP'}]
+2025-10-22 18:13:20.754 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:13:20.754 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - The following 1 profile is active: "dev"
+2025-10-22 18:13:21.712 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9336411e-a514-3c66-a3ff-45e25e22725e
+2025-10-22 18:13:22.448 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-10-22 18:13:22.466 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-22 18:13:22.466 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-10-22 18:13:22.595 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-22 18:13:22.595 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1824 ms
+2025-10-22 18:13:24.777 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-10-22 18:13:24.789 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-10-22 18:13:24.790 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-10-22 18:13:24.791 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-10-22 18:13:24.819 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 18:13:24.819 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 18:13:24.826 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 16e8bc04-be80-4de0-a7ef-06e3266c838f
+2025-10-22 18:13:24.830 [main] INFO  com.alibaba.nacos.common.remote.client - [16e8bc04-be80-4de0-a7ef-06e3266c838f] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-10-22 18:13:24.831 [main] INFO  com.alibaba.nacos.common.remote.client - [16e8bc04-be80-4de0-a7ef-06e3266c838f] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-10-22 18:13:24.831 [main] INFO  com.alibaba.nacos.common.remote.client - [16e8bc04-be80-4de0-a7ef-06e3266c838f] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-10-22 18:13:24.832 [main] INFO  com.alibaba.nacos.common.remote.client - [16e8bc04-be80-4de0-a7ef-06e3266c838f] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 18:13:24.833 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 18:13:24.967 [main] INFO  com.alibaba.nacos.common.remote.client - [16e8bc04-be80-4de0-a7ef-06e3266c838f] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761128004847_127.0.0.1_56868
+2025-10-22 18:13:24.967 [main] INFO  com.alibaba.nacos.common.remote.client - [16e8bc04-be80-4de0-a7ef-06e3266c838f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 18:13:24.967 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [16e8bc04-be80-4de0-a7ef-06e3266c838f] Notify connected event to listeners.
+2025-10-22 18:13:24.967 [main] INFO  com.alibaba.nacos.common.remote.client - [16e8bc04-be80-4de0-a7ef-06e3266c838f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x00000274364d76d0
+2025-10-22 18:13:24.967 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-10-22 18:13:24.968 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] greennote registering service GreenNote-oss with instance Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-10-22 18:13:24.987 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP GreenNote-oss 10.36.15.120:8081 register finished
+2025-10-22 18:13:25.330 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - Started GreenNoteOssBizApplication in 8.873 seconds (process running for 9.853)
+2025-10-22 18:13:25.336 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-10-22 18:13:25.338 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss-dev.yaml+DEFAULT_GROUP+greennote
+2025-10-22 18:13:25.353 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 18:13:25.353 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP
+2025-10-22 18:13:25.354 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss+DEFAULT_GROUP+greennote
+2025-10-22 18:13:25.354 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss, group=DEFAULT_GROUP, cnt=1
+2025-10-22 18:13:25.354 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss, group=DEFAULT_GROUP
+2025-10-22 18:13:25.355 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss.yaml+DEFAULT_GROUP+greennote
+2025-10-22 18:13:25.355 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 18:13:25.356 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP
+2025-10-22 18:16:04.344 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-10-22 18:16:04.344 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-22 18:16:04.345 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-10-22 18:16:04.345 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-10-22 18:16:04.386 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-10-22 18:16:04.386 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-oss with instance: Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-10-22 18:16:04.392 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-10-22 18:16:04.393 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-10-22 18:16:04.393 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-10-22 18:16:04.393 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-10-22 18:16:04.393 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@12d073c6[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-10-22 18:16:04.394 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1761128004847_127.0.0.1_56868
+2025-10-22 18:16:04.398 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@53dcd263[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 45]
+2025-10-22 18:16:04.398 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@7c6ed9fc[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 53]
+2025-10-22 18:16:04.398 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-10-22 18:16:04.398 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-10-22 18:16:04.398 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-10-22 18:16:07.766 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:16:07.876 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:16:08.233 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:16:08.235 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-10-22 18:16:08.236 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-10-22 18:16:08.237 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-10-22 18:16:08.290 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 18:16:08.290 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 18:16:08.294 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-10-22 18:16:08.699 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:16:08.730 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\12482\nacos\config
+2025-10-22 18:16:08.738 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 261202c2-86fa-44b0-8a43-6fdf34b72e10_config-0
+2025-10-22 18:16:08.772 [main] INFO  com.alibaba.nacos.common.remote.client - [261202c2-86fa-44b0-8a43-6fdf34b72e10_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$588/0x0000026a0138f818
+2025-10-22 18:16:08.773 [main] INFO  com.alibaba.nacos.common.remote.client - [261202c2-86fa-44b0-8a43-6fdf34b72e10_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$589/0x0000026a0138fc38
+2025-10-22 18:16:08.774 [main] INFO  com.alibaba.nacos.common.remote.client - [261202c2-86fa-44b0-8a43-6fdf34b72e10_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-10-22 18:16:08.775 [main] INFO  com.alibaba.nacos.common.remote.client - [261202c2-86fa-44b0-8a43-6fdf34b72e10_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-10-22 18:16:08.788 [main] INFO  com.alibaba.nacos.common.remote.client - [261202c2-86fa-44b0-8a43-6fdf34b72e10_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 18:16:08.857 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 18:16:10.217 [main] INFO  com.alibaba.nacos.common.remote.client - [261202c2-86fa-44b0-8a43-6fdf34b72e10_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761128169974_127.0.0.1_7786
+2025-10-22 18:16:10.219 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [261202c2-86fa-44b0-8a43-6fdf34b72e10_config-0] Notify connected event to listeners.
+2025-10-22 18:16:10.219 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [261202c2-86fa-44b0-8a43-6fdf34b72e10_config-0] Connected,notify listen context...
+2025-10-22 18:16:10.219 [main] INFO  com.alibaba.nacos.common.remote.client - [261202c2-86fa-44b0-8a43-6fdf34b72e10_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 18:16:10.219 [main] INFO  com.alibaba.nacos.common.remote.client - [261202c2-86fa-44b0-8a43-6fdf34b72e10_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x0000026a014d7908
+2025-10-22 18:16:10.294 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-10-22 18:16:10.314 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss] & group[DEFAULT_GROUP]
+2025-10-22 18:16:10.322 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss.yaml] & group[DEFAULT_GROUP]
+2025-10-22 18:16:10.329 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss-dev.yaml] & group[DEFAULT_GROUP]
+2025-10-22 18:16:10.330 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss,DEFAULT_GROUP'}]
+2025-10-22 18:16:10.336 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:16:10.337 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - The following 1 profile is active: "dev"
+2025-10-22 18:16:11.218 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9336411e-a514-3c66-a3ff-45e25e22725e
+2025-10-22 18:16:11.967 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-10-22 18:16:11.985 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-22 18:16:11.985 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-10-22 18:16:12.119 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-22 18:16:12.120 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1765 ms
+2025-10-22 18:16:14.105 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-10-22 18:16:14.114 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-10-22 18:16:14.114 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-10-22 18:16:14.115 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-10-22 18:16:14.131 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 18:16:14.131 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 18:16:14.138 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 0cfd3132-933a-4a78-869b-567a9f8c31a2
+2025-10-22 18:16:14.141 [main] INFO  com.alibaba.nacos.common.remote.client - [0cfd3132-933a-4a78-869b-567a9f8c31a2] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-10-22 18:16:14.141 [main] INFO  com.alibaba.nacos.common.remote.client - [0cfd3132-933a-4a78-869b-567a9f8c31a2] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-10-22 18:16:14.141 [main] INFO  com.alibaba.nacos.common.remote.client - [0cfd3132-933a-4a78-869b-567a9f8c31a2] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-10-22 18:16:14.142 [main] INFO  com.alibaba.nacos.common.remote.client - [0cfd3132-933a-4a78-869b-567a9f8c31a2] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 18:16:14.142 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 18:16:14.264 [main] INFO  com.alibaba.nacos.common.remote.client - [0cfd3132-933a-4a78-869b-567a9f8c31a2] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761128174150_127.0.0.1_7798
+2025-10-22 18:16:14.264 [main] INFO  com.alibaba.nacos.common.remote.client - [0cfd3132-933a-4a78-869b-567a9f8c31a2] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 18:16:14.264 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [0cfd3132-933a-4a78-869b-567a9f8c31a2] Notify connected event to listeners.
+2025-10-22 18:16:14.264 [main] INFO  com.alibaba.nacos.common.remote.client - [0cfd3132-933a-4a78-869b-567a9f8c31a2] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x0000026a014d7908
+2025-10-22 18:16:14.264 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-10-22 18:16:14.265 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] greennote registering service GreenNote-oss with instance Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-10-22 18:16:14.278 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP GreenNote-oss 10.36.15.120:8081 register finished
+2025-10-22 18:16:14.549 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - Started GreenNoteOssBizApplication in 7.873 seconds (process running for 8.645)
+2025-10-22 18:16:14.555 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-10-22 18:16:14.557 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss-dev.yaml+DEFAULT_GROUP+greennote
+2025-10-22 18:16:14.570 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 18:16:14.570 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP
+2025-10-22 18:16:14.572 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss+DEFAULT_GROUP+greennote
+2025-10-22 18:16:14.572 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss, group=DEFAULT_GROUP, cnt=1
+2025-10-22 18:16:14.572 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss, group=DEFAULT_GROUP
+2025-10-22 18:16:14.572 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss.yaml+DEFAULT_GROUP+greennote
+2025-10-22 18:16:14.572 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 18:16:14.573 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP
+2025-10-22 18:45:41.387 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-10-22 18:45:41.387 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-10-22 18:45:41.388 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-22 18:45:41.389 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-10-22 18:45:41.432 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-10-22 18:45:41.433 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-oss with instance: Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-10-22 18:45:41.436 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-10-22 18:45:41.436 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-10-22 18:45:41.436 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-10-22 18:45:41.436 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-10-22 18:45:41.436 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-10-22 18:45:41.436 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-10-22 18:45:41.436 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-10-22 18:45:41.436 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-10-22 18:45:41.436 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-10-22 18:45:41.436 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 18:45:41.436 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 18:45:41.436 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-10-22 18:45:41.437 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-10-22 18:45:41.437 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 18:45:41.437 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 18:45:41.437 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-10-22 18:45:41.437 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-10-22 18:45:41.437 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@25a34154[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-10-22 18:45:41.437 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1761128174150_127.0.0.1_7798
+2025-10-22 18:45:41.442 [nacos-grpc-client-executor-127.0.0.1-367] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1761128174150_127.0.0.1_7798]Ignore complete event,isRunning:false,isAbandon=false
+2025-10-22 18:45:41.444 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@70cbd901[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 368]
+2025-10-22 18:45:41.444 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@7b8812ea[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 587]
+2025-10-22 18:45:41.444 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-10-22 18:45:41.444 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-10-22 18:45:41.445 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-10-22 18:45:48.365 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:45:48.473 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:45:48.831 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:45:48.834 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-10-22 18:45:48.835 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-10-22 18:45:48.836 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-10-22 18:45:48.888 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 18:45:48.888 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 18:45:48.893 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-10-22 18:45:49.272 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:45:49.295 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\12482\nacos\config
+2025-10-22 18:45:49.302 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 0c3f6843-1400-40f6-8c34-abd9d27bd14e_config-0
+2025-10-22 18:45:49.331 [main] INFO  com.alibaba.nacos.common.remote.client - [0c3f6843-1400-40f6-8c34-abd9d27bd14e_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$588/0x000001e40938fa00
+2025-10-22 18:45:49.331 [main] INFO  com.alibaba.nacos.common.remote.client - [0c3f6843-1400-40f6-8c34-abd9d27bd14e_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$589/0x000001e409390000
+2025-10-22 18:45:49.332 [main] INFO  com.alibaba.nacos.common.remote.client - [0c3f6843-1400-40f6-8c34-abd9d27bd14e_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-10-22 18:45:49.333 [main] INFO  com.alibaba.nacos.common.remote.client - [0c3f6843-1400-40f6-8c34-abd9d27bd14e_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-10-22 18:45:49.348 [main] INFO  com.alibaba.nacos.common.remote.client - [0c3f6843-1400-40f6-8c34-abd9d27bd14e_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 18:45:49.405 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 18:45:50.990 [main] INFO  com.alibaba.nacos.common.remote.client - [0c3f6843-1400-40f6-8c34-abd9d27bd14e_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761129950748_127.0.0.1_46808
+2025-10-22 18:45:50.992 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [0c3f6843-1400-40f6-8c34-abd9d27bd14e_config-0] Notify connected event to listeners.
+2025-10-22 18:45:50.992 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [0c3f6843-1400-40f6-8c34-abd9d27bd14e_config-0] Connected,notify listen context...
+2025-10-22 18:45:50.993 [main] INFO  com.alibaba.nacos.common.remote.client - [0c3f6843-1400-40f6-8c34-abd9d27bd14e_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 18:45:50.993 [main] INFO  com.alibaba.nacos.common.remote.client - [0c3f6843-1400-40f6-8c34-abd9d27bd14e_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x000001e4094d76d0
+2025-10-22 18:45:51.078 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-10-22 18:45:51.103 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss] & group[DEFAULT_GROUP]
+2025-10-22 18:45:51.112 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss.yaml] & group[DEFAULT_GROUP]
+2025-10-22 18:45:51.121 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss-dev.yaml] & group[DEFAULT_GROUP]
+2025-10-22 18:45:51.122 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss,DEFAULT_GROUP'}]
+2025-10-22 18:45:51.129 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 18:45:51.130 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - The following 1 profile is active: "dev"
+2025-10-22 18:45:52.003 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9336411e-a514-3c66-a3ff-45e25e22725e
+2025-10-22 18:45:52.712 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-10-22 18:45:52.730 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-22 18:45:52.731 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-10-22 18:45:52.844 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-22 18:45:52.845 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1692 ms
+2025-10-22 18:45:54.895 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-10-22 18:45:54.900 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-10-22 18:45:54.901 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-10-22 18:45:54.901 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-10-22 18:45:54.914 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 18:45:54.914 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 18:45:54.921 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 265b48cb-3935-44c7-9d4f-0ae7cecf203d
+2025-10-22 18:45:54.924 [main] INFO  com.alibaba.nacos.common.remote.client - [265b48cb-3935-44c7-9d4f-0ae7cecf203d] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-10-22 18:45:54.924 [main] INFO  com.alibaba.nacos.common.remote.client - [265b48cb-3935-44c7-9d4f-0ae7cecf203d] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-10-22 18:45:54.925 [main] INFO  com.alibaba.nacos.common.remote.client - [265b48cb-3935-44c7-9d4f-0ae7cecf203d] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-10-22 18:45:54.925 [main] INFO  com.alibaba.nacos.common.remote.client - [265b48cb-3935-44c7-9d4f-0ae7cecf203d] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 18:45:54.925 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 18:45:55.047 [main] INFO  com.alibaba.nacos.common.remote.client - [265b48cb-3935-44c7-9d4f-0ae7cecf203d] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761129954931_127.0.0.1_46819
+2025-10-22 18:45:55.047 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [265b48cb-3935-44c7-9d4f-0ae7cecf203d] Notify connected event to listeners.
+2025-10-22 18:45:55.047 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-10-22 18:45:55.047 [main] INFO  com.alibaba.nacos.common.remote.client - [265b48cb-3935-44c7-9d4f-0ae7cecf203d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 18:45:55.047 [main] INFO  com.alibaba.nacos.common.remote.client - [265b48cb-3935-44c7-9d4f-0ae7cecf203d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x000001e4094d76d0
+2025-10-22 18:45:55.050 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] greennote registering service GreenNote-oss with instance Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-10-22 18:45:55.068 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP GreenNote-oss 10.36.15.120:8081 register finished
+2025-10-22 18:45:55.334 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - Started GreenNoteOssBizApplication in 8.154 seconds (process running for 8.973)
+2025-10-22 18:45:55.339 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-10-22 18:45:55.340 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss-dev.yaml+DEFAULT_GROUP+greennote
+2025-10-22 18:45:55.352 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 18:45:55.352 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP
+2025-10-22 18:45:55.352 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss+DEFAULT_GROUP+greennote
+2025-10-22 18:45:55.353 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss, group=DEFAULT_GROUP, cnt=1
+2025-10-22 18:45:55.353 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss, group=DEFAULT_GROUP
+2025-10-22 18:45:55.353 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss.yaml+DEFAULT_GROUP+greennote
+2025-10-22 18:45:55.353 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 18:45:55.353 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP
+2025-10-22 19:24:17.453 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-22 19:24:17.454 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-10-22 19:24:17.456 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-10-22 19:24:17.457 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-10-22 19:24:17.537 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-10-22 19:24:17.537 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-oss with instance: Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-10-22 19:24:17.541 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-10-22 19:24:17.541 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-10-22 19:24:17.541 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 19:24:17.543 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-10-22 19:24:17.544 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-10-22 19:24:17.544 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@35e2e9af[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-10-22 19:24:17.544 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1761129954931_127.0.0.1_46819
+2025-10-22 19:24:17.548 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@3b9327fc[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 474]
+2025-10-22 19:24:17.548 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@475864c4[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 765]
+2025-10-22 19:24:17.548 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-10-22 19:24:17.548 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-10-22 19:24:17.549 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-10-22 19:24:21.008 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:24:21.121 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:24:21.480 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:24:21.482 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-10-22 19:24:21.483 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-10-22 19:24:21.486 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-10-22 19:24:21.530 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 19:24:21.530 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 19:24:21.534 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-10-22 19:24:21.904 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:24:21.930 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\12482\nacos\config
+2025-10-22 19:24:21.938 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 1f6fd7ab-19c1-4ab1-97dd-0051379faa52_config-0
+2025-10-22 19:24:21.965 [main] INFO  com.alibaba.nacos.common.remote.client - [1f6fd7ab-19c1-4ab1-97dd-0051379faa52_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$588/0x0000025e8138ebb8
+2025-10-22 19:24:21.965 [main] INFO  com.alibaba.nacos.common.remote.client - [1f6fd7ab-19c1-4ab1-97dd-0051379faa52_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$589/0x0000025e8138efd8
+2025-10-22 19:24:21.965 [main] INFO  com.alibaba.nacos.common.remote.client - [1f6fd7ab-19c1-4ab1-97dd-0051379faa52_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-10-22 19:24:21.966 [main] INFO  com.alibaba.nacos.common.remote.client - [1f6fd7ab-19c1-4ab1-97dd-0051379faa52_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-10-22 19:24:21.982 [main] INFO  com.alibaba.nacos.common.remote.client - [1f6fd7ab-19c1-4ab1-97dd-0051379faa52_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 19:24:22.042 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 19:24:23.375 [main] INFO  com.alibaba.nacos.common.remote.client - [1f6fd7ab-19c1-4ab1-97dd-0051379faa52_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761132263129_127.0.0.1_59801
+2025-10-22 19:24:23.376 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [1f6fd7ab-19c1-4ab1-97dd-0051379faa52_config-0] Notify connected event to listeners.
+2025-10-22 19:24:23.376 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [1f6fd7ab-19c1-4ab1-97dd-0051379faa52_config-0] Connected,notify listen context...
+2025-10-22 19:24:23.376 [main] INFO  com.alibaba.nacos.common.remote.client - [1f6fd7ab-19c1-4ab1-97dd-0051379faa52_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 19:24:23.377 [main] INFO  com.alibaba.nacos.common.remote.client - [1f6fd7ab-19c1-4ab1-97dd-0051379faa52_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x0000025e814d6c48
+2025-10-22 19:24:23.448 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-10-22 19:24:23.466 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss] & group[DEFAULT_GROUP]
+2025-10-22 19:24:23.476 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss.yaml] & group[DEFAULT_GROUP]
+2025-10-22 19:24:23.483 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss-dev.yaml] & group[DEFAULT_GROUP]
+2025-10-22 19:24:23.484 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss,DEFAULT_GROUP'}]
+2025-10-22 19:24:23.489 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:24:23.490 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - The following 1 profile is active: "dev"
+2025-10-22 19:24:24.380 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9336411e-a514-3c66-a3ff-45e25e22725e
+2025-10-22 19:24:25.028 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-10-22 19:24:25.043 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-22 19:24:25.043 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-10-22 19:24:25.175 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-22 19:24:25.176 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1670 ms
+2025-10-22 19:24:27.228 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-10-22 19:24:27.234 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-10-22 19:24:27.235 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-10-22 19:24:27.235 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-10-22 19:24:27.247 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 19:24:27.247 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 19:24:27.252 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 8842c7b5-db6c-40fa-98d2-03d5402e2525
+2025-10-22 19:24:27.254 [main] INFO  com.alibaba.nacos.common.remote.client - [8842c7b5-db6c-40fa-98d2-03d5402e2525] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-10-22 19:24:27.255 [main] INFO  com.alibaba.nacos.common.remote.client - [8842c7b5-db6c-40fa-98d2-03d5402e2525] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-10-22 19:24:27.256 [main] INFO  com.alibaba.nacos.common.remote.client - [8842c7b5-db6c-40fa-98d2-03d5402e2525] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-10-22 19:24:27.257 [main] INFO  com.alibaba.nacos.common.remote.client - [8842c7b5-db6c-40fa-98d2-03d5402e2525] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 19:24:27.257 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 19:24:27.379 [main] INFO  com.alibaba.nacos.common.remote.client - [8842c7b5-db6c-40fa-98d2-03d5402e2525] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761132267266_127.0.0.1_59822
+2025-10-22 19:24:27.379 [main] INFO  com.alibaba.nacos.common.remote.client - [8842c7b5-db6c-40fa-98d2-03d5402e2525] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 19:24:27.379 [main] INFO  com.alibaba.nacos.common.remote.client - [8842c7b5-db6c-40fa-98d2-03d5402e2525] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x0000025e814d6c48
+2025-10-22 19:24:27.379 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [8842c7b5-db6c-40fa-98d2-03d5402e2525] Notify connected event to listeners.
+2025-10-22 19:24:27.380 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-10-22 19:24:27.382 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] greennote registering service GreenNote-oss with instance Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-10-22 19:24:27.399 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP GreenNote-oss 10.36.15.120:8081 register finished
+2025-10-22 19:24:27.648 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - Started GreenNoteOssBizApplication in 7.7 seconds (process running for 8.569)
+2025-10-22 19:24:27.652 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-10-22 19:24:27.653 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss-dev.yaml+DEFAULT_GROUP+greennote
+2025-10-22 19:24:27.664 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 19:24:27.664 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP
+2025-10-22 19:24:27.664 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss+DEFAULT_GROUP+greennote
+2025-10-22 19:24:27.664 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss, group=DEFAULT_GROUP, cnt=1
+2025-10-22 19:24:27.664 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss, group=DEFAULT_GROUP
+2025-10-22 19:24:27.665 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss.yaml+DEFAULT_GROUP+greennote
+2025-10-22 19:24:27.665 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 19:24:27.665 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP
+2025-10-22 19:37:50.860 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-22 19:37:50.860 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-10-22 19:37:50.860 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-10-22 19:37:50.863 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-10-22 19:37:50.920 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-10-22 19:37:50.920 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-oss with instance: Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-10-22 19:37:50.923 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-10-22 19:37:50.924 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-10-22 19:37:50.924 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 19:37:50.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-10-22 19:37:50.926 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-10-22 19:37:50.926 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6d1aa778[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-10-22 19:37:50.926 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1761132267266_127.0.0.1_59822
+2025-10-22 19:37:50.929 [nacos-grpc-client-executor-127.0.0.1-170] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1761132267266_127.0.0.1_59822]Ignore complete event,isRunning:false,isAbandon=false
+2025-10-22 19:37:50.935 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@2f5a0df8[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 171]
+2025-10-22 19:37:50.935 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@2d244ab4[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 267]
+2025-10-22 19:37:50.936 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-10-22 19:37:50.936 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-10-22 19:37:50.936 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-10-22 19:37:55.374 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:37:55.494 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:37:55.852 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:37:55.854 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-10-22 19:37:55.854 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-10-22 19:37:55.856 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-10-22 19:37:55.908 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 19:37:55.908 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 19:37:55.913 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-10-22 19:37:56.337 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:37:56.360 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\12482\nacos\config
+2025-10-22 19:37:56.369 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 4434df6e-5b1a-4114-95b0-9417ff40f0f7_config-0
+2025-10-22 19:37:56.402 [main] INFO  com.alibaba.nacos.common.remote.client - [4434df6e-5b1a-4114-95b0-9417ff40f0f7_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$588/0x0000025cbe390658
+2025-10-22 19:37:56.403 [main] INFO  com.alibaba.nacos.common.remote.client - [4434df6e-5b1a-4114-95b0-9417ff40f0f7_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$589/0x0000025cbe390a78
+2025-10-22 19:37:56.403 [main] INFO  com.alibaba.nacos.common.remote.client - [4434df6e-5b1a-4114-95b0-9417ff40f0f7_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-10-22 19:37:56.404 [main] INFO  com.alibaba.nacos.common.remote.client - [4434df6e-5b1a-4114-95b0-9417ff40f0f7_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-10-22 19:37:56.416 [main] INFO  com.alibaba.nacos.common.remote.client - [4434df6e-5b1a-4114-95b0-9417ff40f0f7_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 19:37:56.482 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 19:37:58.173 [main] INFO  com.alibaba.nacos.common.remote.client - [4434df6e-5b1a-4114-95b0-9417ff40f0f7_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761133077919_127.0.0.1_14515
+2025-10-22 19:37:58.175 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [4434df6e-5b1a-4114-95b0-9417ff40f0f7_config-0] Notify connected event to listeners.
+2025-10-22 19:37:58.175 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [4434df6e-5b1a-4114-95b0-9417ff40f0f7_config-0] Connected,notify listen context...
+2025-10-22 19:37:58.175 [main] INFO  com.alibaba.nacos.common.remote.client - [4434df6e-5b1a-4114-95b0-9417ff40f0f7_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 19:37:58.176 [main] INFO  com.alibaba.nacos.common.remote.client - [4434df6e-5b1a-4114-95b0-9417ff40f0f7_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x0000025cbe4d6a28
+2025-10-22 19:37:58.278 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-10-22 19:37:58.300 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss] & group[DEFAULT_GROUP]
+2025-10-22 19:37:58.308 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss.yaml] & group[DEFAULT_GROUP]
+2025-10-22 19:37:58.316 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss-dev.yaml] & group[DEFAULT_GROUP]
+2025-10-22 19:37:58.317 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss,DEFAULT_GROUP'}]
+2025-10-22 19:37:58.325 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:37:58.327 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - The following 1 profile is active: "dev"
+2025-10-22 19:37:59.296 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9336411e-a514-3c66-a3ff-45e25e22725e
+2025-10-22 19:37:59.804 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-22 19:37:59.804 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-10-22 19:37:59.805 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-10-22 19:37:59.805 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-10-22 19:38:00.084 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-10-22 19:38:00.361 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2014 ms
+2025-10-22 19:38:02.563 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-10-22 19:38:02.572 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-10-22 19:38:02.572 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-10-22 19:38:02.573 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-10-22 19:38:02.590 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 19:38:02.591 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 19:38:02.602 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of cb9cb02d-cb88-4d45-a225-10862db57e80
+2025-10-22 19:38:02.606 [main] INFO  com.alibaba.nacos.common.remote.client - [cb9cb02d-cb88-4d45-a225-10862db57e80] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-10-22 19:38:02.606 [main] INFO  com.alibaba.nacos.common.remote.client - [cb9cb02d-cb88-4d45-a225-10862db57e80] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-10-22 19:38:02.607 [main] INFO  com.alibaba.nacos.common.remote.client - [cb9cb02d-cb88-4d45-a225-10862db57e80] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-10-22 19:38:02.607 [main] INFO  com.alibaba.nacos.common.remote.client - [cb9cb02d-cb88-4d45-a225-10862db57e80] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 19:38:02.607 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 19:38:02.735 [main] INFO  com.alibaba.nacos.common.remote.client - [cb9cb02d-cb88-4d45-a225-10862db57e80] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761133082615_127.0.0.1_14527
+2025-10-22 19:38:02.735 [main] INFO  com.alibaba.nacos.common.remote.client - [cb9cb02d-cb88-4d45-a225-10862db57e80] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 19:38:02.735 [main] INFO  com.alibaba.nacos.common.remote.client - [cb9cb02d-cb88-4d45-a225-10862db57e80] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x0000025cbe4d6a28
+2025-10-22 19:38:02.735 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [cb9cb02d-cb88-4d45-a225-10862db57e80] Notify connected event to listeners.
+2025-10-22 19:38:02.736 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-10-22 19:38:02.737 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] greennote registering service GreenNote-oss with instance Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-10-22 19:38:02.752 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP GreenNote-oss 10.36.15.120:8081 register finished
+2025-10-22 19:38:03.002 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - Started GreenNoteOssBizApplication in 8.917 seconds (process running for 9.842)
+2025-10-22 19:38:03.006 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-10-22 19:38:03.007 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss-dev.yaml+DEFAULT_GROUP+greennote
+2025-10-22 19:38:03.017 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 19:38:03.018 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP
+2025-10-22 19:38:03.018 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss+DEFAULT_GROUP+greennote
+2025-10-22 19:38:03.018 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss, group=DEFAULT_GROUP, cnt=1
+2025-10-22 19:38:03.018 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss, group=DEFAULT_GROUP
+2025-10-22 19:38:03.018 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss.yaml+DEFAULT_GROUP+greennote
+2025-10-22 19:38:03.019 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 19:38:03.019 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP
+2025-10-22 19:38:03.034 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-10-22 19:38:03.034 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-oss with instance: Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-10-22 19:38:03.041 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-10-22 19:38:03.041 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-10-22 19:38:03.042 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-10-22 19:38:03.373 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-10-22 19:38:03.373 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-10-22 19:38:03.373 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-10-22 19:38:03.373 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-10-22 19:38:03.373 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-10-22 19:38:03.373 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-10-22 19:38:03.373 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 19:38:03.373 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 19:38:03.374 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-10-22 19:38:03.374 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-10-22 19:38:03.374 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 19:38:03.374 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 19:38:03.374 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-10-22 19:38:03.374 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-10-22 19:38:03.374 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@279bb803[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-10-22 19:38:03.374 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1761133082615_127.0.0.1_14527
+2025-10-22 19:38:03.378 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@502c75ff[Running, pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 8]
+2025-10-22 19:38:03.378 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@7598ac8b[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 0]
+2025-10-22 19:38:03.379 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-10-22 19:38:03.379 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-10-22 19:38:03.379 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-10-22 19:40:29.261 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:40:29.377 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:40:29.735 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:40:29.738 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-10-22 19:40:29.739 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-10-22 19:40:29.740 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-10-22 19:40:29.787 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 19:40:29.787 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 19:40:29.793 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-10-22 19:40:30.195 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:40:30.230 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\12482\nacos\config
+2025-10-22 19:40:30.236 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of e5a49bcc-bfb8-4c3c-af30-c33499d0958e_config-0
+2025-10-22 19:40:30.273 [main] INFO  com.alibaba.nacos.common.remote.client - [e5a49bcc-bfb8-4c3c-af30-c33499d0958e_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$588/0x000002722938efa8
+2025-10-22 19:40:30.274 [main] INFO  com.alibaba.nacos.common.remote.client - [e5a49bcc-bfb8-4c3c-af30-c33499d0958e_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$589/0x000002722938f3c8
+2025-10-22 19:40:30.275 [main] INFO  com.alibaba.nacos.common.remote.client - [e5a49bcc-bfb8-4c3c-af30-c33499d0958e_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-10-22 19:40:30.276 [main] INFO  com.alibaba.nacos.common.remote.client - [e5a49bcc-bfb8-4c3c-af30-c33499d0958e_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-10-22 19:40:30.301 [main] INFO  com.alibaba.nacos.common.remote.client - [e5a49bcc-bfb8-4c3c-af30-c33499d0958e_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 19:40:30.394 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 19:40:31.705 [main] INFO  com.alibaba.nacos.common.remote.client - [e5a49bcc-bfb8-4c3c-af30-c33499d0958e_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761133231464_127.0.0.1_35172
+2025-10-22 19:40:31.707 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [e5a49bcc-bfb8-4c3c-af30-c33499d0958e_config-0] Notify connected event to listeners.
+2025-10-22 19:40:31.707 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [e5a49bcc-bfb8-4c3c-af30-c33499d0958e_config-0] Connected,notify listen context...
+2025-10-22 19:40:31.707 [main] INFO  com.alibaba.nacos.common.remote.client - [e5a49bcc-bfb8-4c3c-af30-c33499d0958e_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 19:40:31.707 [main] INFO  com.alibaba.nacos.common.remote.client - [e5a49bcc-bfb8-4c3c-af30-c33499d0958e_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x00000272294d6a28
+2025-10-22 19:40:31.785 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-10-22 19:40:31.807 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss] & group[DEFAULT_GROUP]
+2025-10-22 19:40:31.816 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss.yaml] & group[DEFAULT_GROUP]
+2025-10-22 19:40:31.822 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[GreenNote-oss-dev.yaml] & group[DEFAULT_GROUP]
+2025-10-22 19:40:31.823 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-GreenNote-oss,DEFAULT_GROUP'}]
+2025-10-22 19:40:31.830 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-22 19:40:31.832 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - The following 1 profile is active: "dev"
+2025-10-22 19:40:32.675 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9336411e-a514-3c66-a3ff-45e25e22725e
+2025-10-22 19:40:33.370 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-10-22 19:40:33.386 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-22 19:40:33.387 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-10-22 19:40:33.516 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-22 19:40:33.516 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1665 ms
+2025-10-22 19:40:35.585 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-10-22 19:40:35.593 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-10-22 19:40:35.593 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-10-22 19:40:35.594 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-10-22 19:40:35.610 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-10-22 19:40:35.610 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-10-22 19:40:35.617 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 131f72fe-15b3-499a-92e0-78615ef58668
+2025-10-22 19:40:35.620 [main] INFO  com.alibaba.nacos.common.remote.client - [131f72fe-15b3-499a-92e0-78615ef58668] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-10-22 19:40:35.620 [main] INFO  com.alibaba.nacos.common.remote.client - [131f72fe-15b3-499a-92e0-78615ef58668] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-10-22 19:40:35.622 [main] INFO  com.alibaba.nacos.common.remote.client - [131f72fe-15b3-499a-92e0-78615ef58668] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-10-22 19:40:35.622 [main] INFO  com.alibaba.nacos.common.remote.client - [131f72fe-15b3-499a-92e0-78615ef58668] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-22 19:40:35.623 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-22 19:40:35.747 [main] INFO  com.alibaba.nacos.common.remote.client - [131f72fe-15b3-499a-92e0-78615ef58668] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1761133235631_127.0.0.1_35197
+2025-10-22 19:40:35.747 [main] INFO  com.alibaba.nacos.common.remote.client - [131f72fe-15b3-499a-92e0-78615ef58668] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-22 19:40:35.747 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [131f72fe-15b3-499a-92e0-78615ef58668] Notify connected event to listeners.
+2025-10-22 19:40:35.747 [main] INFO  com.alibaba.nacos.common.remote.client - [131f72fe-15b3-499a-92e0-78615ef58668] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x00000272294d6a28
+2025-10-22 19:40:35.748 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-10-22 19:40:35.749 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] greennote registering service GreenNote-oss with instance Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-10-22 19:40:35.773 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP GreenNote-oss 10.36.15.120:8081 register finished
+2025-10-22 19:40:36.071 [main] INFO  c.e.greennote.oss.biz.GreenNoteOssBizApplication - Started GreenNoteOssBizApplication in 7.851 seconds (process running for 8.637)
+2025-10-22 19:40:36.076 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-10-22 19:40:36.077 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss-dev.yaml+DEFAULT_GROUP+greennote
+2025-10-22 19:40:36.088 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 19:40:36.088 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss-dev.yaml, group=DEFAULT_GROUP
+2025-10-22 19:40:36.089 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss+DEFAULT_GROUP+greennote
+2025-10-22 19:40:36.089 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss, group=DEFAULT_GROUP, cnt=1
+2025-10-22 19:40:36.089 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss, group=DEFAULT_GROUP
+2025-10-22 19:40:36.089 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-greennote-127.0.0.1_8848] [subscribe] GreenNote-oss.yaml+DEFAULT_GROUP+greennote
+2025-10-22 19:40:36.090 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-greennote-127.0.0.1_8848] [add-listener] ok, tenant=greennote, dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP, cnt=1
+2025-10-22 19:40:36.090 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=GreenNote-oss.yaml, group=DEFAULT_GROUP
+2025-10-22 21:51:47.693 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-22 21:51:47.692 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-10-22 21:51:47.699 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-10-22 21:51:47.707 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-10-22 21:51:47.909 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-10-22 21:51:47.910 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-oss with instance: Instance{instanceId='null', ip='10.36.15.120', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-10-22 21:51:47.920 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-10-22 21:51:47.923 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-10-22 21:51:47.923 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-10-22 21:51:47.924 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-10-22 21:51:47.924 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-10-22 21:51:47.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-10-22 21:51:47.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-10-22 21:51:47.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-10-22 21:51:47.925 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-10-22 21:51:47.925 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 21:51:47.926 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 21:51:47.926 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-10-22 21:51:47.926 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-10-22 21:51:47.927 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-10-22 21:51:47.927 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-10-22 21:51:47.927 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-10-22 21:51:47.927 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-10-22 21:51:47.928 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@190054d2[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-10-22 21:51:47.928 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1761133235631_127.0.0.1_35197
+2025-10-22 21:51:47.933 [nacos-grpc-client-executor-127.0.0.1-1584] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1761133235631_127.0.0.1_35197]Ignore complete event,isRunning:false,isAbandon=false
+2025-10-22 21:51:47.944 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@474fd357[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 1585]
+2025-10-22 21:51:47.944 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@1811ae14[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 2614]
+2025-10-22 21:51:47.946 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-10-22 21:51:47.946 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-10-22 21:51:47.946 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop

@@ -1,0 +1,9 @@
+storage:
+  minio:
+    endpoint: http://127.0.0.1:9000
+    accessKey: Evan
+    secretKey: Evan828828
+  #aliyun:
+    #endpoint: oss-cn-hangzhou.aliyuncs.com
+    #accessKey: <your-access-key> #要钱，没买 TO-DO
+    #secretKey: <your-secret-key> #要钱，没买 TO-DO

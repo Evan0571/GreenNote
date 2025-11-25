@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+storage:
+  type: minio #可选minio/aliyun，但是aliyun要钱

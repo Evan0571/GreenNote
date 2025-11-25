@@ -1,0 +1,49 @@
+2025-10-09 19:20:54.987 [main] INFO  com.evan.greennote.auth.DruidTest - Starting DruidTest using Java 17.0.16 with PID 52956 (started by 12482 in C:\Users\12482\IdeaProjects\GreenNote\GreenNote-auth)
+2025-10-09 19:20:54.989 [main] INFO  com.evan.greennote.auth.DruidTest - The following 1 profile is active: "dev"
+2025-10-09 19:20:57.551 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-10-09 19:20:58.457 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-10-09 19:20:59.147 [main] INFO  com.evan.greennote.auth.DruidTest - Started DruidTest in 4.868 seconds (process running for 6.729)
+2025-10-09 19:21:00.324 [main] INFO  com.evan.greennote.auth.DruidTest - privateKey:MIIBVQIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAiTqsx7ECLgrR0wB8oCLG/hWiiBaYG1laWMlgUgenVyiPbfVetexgy2iAvqEHNgpUaT44flPRkE8vej4qkuIszQIDAQABAkAJ34ir1gk/8nOrOIc+5ub7Q+eNiVad7R1UyFRKQpZgbQWjv+g0L839d2Dap/3EuqOhZWdjBBErqeTR7VRn7+IPAiEA01pIdy5xnXbDh7iks032998bPxgwf5xDLhHTAQew+FMCIQCmN+COvLaX3Q/8Fsw100unGZOZNuWIpA+ZSKrPyHkiXwIhAKCNsAjhfiuJQcYDTRJswpTPpkoK3STDlwETR0A8EILDAiEAgx/JclDE6oBlv8RsTHnnUGcI3PFFmcly1MVSmp/Xj5kCIFbuKa4VvTE7InsVTgXRySN/+H6Z2mLXXa53EPQhqY4a
+2025-10-09 19:21:00.332 [main] INFO  com.evan.greennote.auth.DruidTest - publicKey:MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIk6rMexAi4K0dMAfKAixv4VoogWmBtZWljJYFIHp1coj231XrXsYMtogL6hBzYKVGk+OH5T0ZBPL3o+KpLiLM0CAwEAAQ==
+2025-10-09 19:21:00.336 [main] INFO  com.evan.greennote.auth.DruidTest - encodePassword:LtQNS8Y/56oD4R3EVyykLNTW25AixLZwD2LxPgKOpmTLXBA9wpV0UHO1rVwCyb1hLFcT9m0ntNujpGP8cdN0oA==
+2025-10-09 19:21:00.381 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.evan.greennote.auth.GreenNoteAuthApplicationTests]: GreenNoteAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-09 19:21:00.384 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.evan.greennote.auth.GreenNoteAuthApplication for test class com.evan.greennote.auth.GreenNoteAuthApplicationTests
+2025-10-09 19:21:00.470 [main] DEBUG c.e.g.auth.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (id, username, create_time, update_time) values (?, ?, ?, ?)
+2025-10-09 19:21:00.845 [main] DEBUG c.e.g.auth.domain.mapper.UserDOMapper.insert - ==> Parameters: null, Evan(String), null, null
+2025-10-09 19:21:00.978 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==>  Preparing: delete from t_user where id = ?
+2025-10-09 19:21:01.000 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==> Parameters: 2(Long)
+2025-10-09 19:21:01.013 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.deleteByPrimaryKey - <==    Updates: 1
+2025-10-09 19:21:01.024 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-10-09 19:21:01.032 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 2(Long)
+2025-10-09 19:21:01.059 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-10-09 19:21:01.074 [main] INFO  c.e.greennote.auth.GreenNoteAuthApplicationTests - User:null
+2025-10-09 19:21:01.081 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==>  Preparing: update t_user set username = ?, create_time = ?, update_time = ? where id = ?
+2025-10-09 19:21:01.084 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==> Parameters: Evan Song(String), null, null, 2(Long)
+2025-10-09 19:21:01.086 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.updateByPrimaryKey - <==    Updates: 0
+2025-10-09 19:21:01.123 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-10-09 19:21:01.131 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-10-09 19:28:18.074 [main] INFO  com.evan.greennote.auth.DruidTest - Starting DruidTest using Java 17.0.16 with PID 70576 (started by 12482 in C:\Users\12482\IdeaProjects\GreenNote\GreenNote-auth)
+2025-10-09 19:28:18.077 [main] INFO  com.evan.greennote.auth.DruidTest - The following 1 profile is active: "dev"
+2025-10-09 19:28:20.654 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-10-09 19:28:21.583 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-10-09 19:28:22.295 [main] INFO  com.evan.greennote.auth.DruidTest - Started DruidTest in 4.888 seconds (process running for 6.317)
+2025-10-09 19:28:23.536 [main] INFO  com.evan.greennote.auth.DruidTest - privateKey:MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAi4+cIbWOzCMK/M6z5WTV4kvFcrjqYYHTBTxaiLEiJRtbeuVnGhPLdZe75r5PRipmsxILU0dNnRtxw9IdNOqmKQIDAQABAkADUwb9T5GTSmoRK7b3Hx/azYK/xj4BAhe9yhpUTgyElTkG9dR0gKc45L/eQ9uR07r+eL9BWihB2u7uqjCGE6KhAiEAko/0nlUMxXzjgZqcg1H4gCdmwZI96EUFbh1RFJe5qJECIQDzxVCfR9hmZyCwzd1byFxZKvjNyicE1a8JcTcOuE4wGQIgf5pMLOn5k5vXbEiTihX9GH61jUTpF2e4gZWOuTIcV7ECIQC/UDoH57DUHVewqsBxSfwAFxORHngk+TcYJ/xX1xm18QIgZHNpk1GRvOBvGBaAUN7bLHuNWr8aYddvYBIlceZiW24=
+2025-10-09 19:28:23.545 [main] INFO  com.evan.greennote.auth.DruidTest - publicKey:MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIuPnCG1jswjCvzOs+Vk1eJLxXK46mGB0wU8WoixIiUbW3rlZxoTy3WXu+a+T0YqZrMSC1NHTZ0bccPSHTTqpikCAwEAAQ==
+2025-10-09 19:28:23.550 [main] INFO  com.evan.greennote.auth.DruidTest - encodePassword:dHHLPCYAdgWt71VBr94K2f7a6FK1BtaMwfD8XnLXfqGZchbslbyakrrFPyqiDtcLzyYYpkU3R/NUJ6STHXpg1w==
+2025-10-09 19:28:23.602 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.evan.greennote.auth.GreenNoteAuthApplicationTests]: GreenNoteAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-09 19:28:23.605 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.evan.greennote.auth.GreenNoteAuthApplication for test class com.evan.greennote.auth.GreenNoteAuthApplicationTests
+2025-10-09 19:28:23.717 [main] DEBUG c.e.g.auth.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (id, username, create_time, update_time) values (?, ?, ?, ?)
+2025-10-09 19:28:24.086 [main] DEBUG c.e.g.auth.domain.mapper.UserDOMapper.insert - ==> Parameters: null, Evan(String), 2025-10-09T19:28:23.627117800(LocalDateTime), 2025-10-09T19:28:23.627117800(LocalDateTime)
+2025-10-09 19:28:24.105 [main] DEBUG c.e.g.auth.domain.mapper.UserDOMapper.insert - <==    Updates: 1
+2025-10-09 19:28:24.116 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==>  Preparing: delete from t_user where id = ?
+2025-10-09 19:28:24.130 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==> Parameters: 2(Long)
+2025-10-09 19:28:24.134 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.deleteByPrimaryKey - <==    Updates: 0
+2025-10-09 19:28:24.144 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-10-09 19:28:24.156 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 2(Long)
+2025-10-09 19:28:24.188 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-10-09 19:28:24.204 [main] INFO  c.e.greennote.auth.GreenNoteAuthApplicationTests - User:null
+2025-10-09 19:28:24.209 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==>  Preparing: update t_user set username = ?, create_time = ?, update_time = ? where id = ?
+2025-10-09 19:28:24.212 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==> Parameters: Evan Song(String), 2025-10-09T19:28:24.209821100(LocalDateTime), 2025-10-09T19:28:24.209821100(LocalDateTime), 2(Long)
+2025-10-09 19:28:24.214 [main] DEBUG c.e.g.a.d.mapper.UserDOMapper.updateByPrimaryKey - <==    Updates: 0
+2025-10-09 19:28:24.243 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-10-09 19:28:24.256 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

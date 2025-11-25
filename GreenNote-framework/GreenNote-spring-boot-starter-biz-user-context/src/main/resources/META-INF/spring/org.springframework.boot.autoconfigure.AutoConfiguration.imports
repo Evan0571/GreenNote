@@ -1,0 +1,2 @@
+com.evan.framework.biz.context.config.ContextAutoConfiguration
+com.evan.framework.biz.context.config.FeignContextAutoConfiguration

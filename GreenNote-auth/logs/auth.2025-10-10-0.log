@@ -1,0 +1,73 @@
+2025-10-10 10:04:31.485 [main] INFO  com.evan.greennote.auth.RedisTests - Starting RedisTests using Java 17.0.16 with PID 81372 (started by 12482 in C:\Users\12482\IdeaProjects\GreenNote\GreenNote-auth)
+2025-10-10 10:04:31.488 [main] INFO  com.evan.greennote.auth.RedisTests - The following 1 profile is active: "dev"
+2025-10-10 10:04:32.703 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-10 10:04:32.710 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-10-10 10:04:32.774 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2025-10-10 10:04:35.647 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-10-10 10:04:36.530 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-10-10 10:04:37.512 [main] INFO  com.evan.greennote.auth.RedisTests - Started RedisTests in 6.899 seconds (process running for 8.638)
+2025-10-10 10:04:39.113 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-10-10 10:04:39.131 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-10-10 10:17:20.135 [main] INFO  com.evan.greennote.auth.RedisTests - Starting RedisTests using Java 17.0.16 with PID 79420 (started by 12482 in C:\Users\12482\IdeaProjects\GreenNote\GreenNote-auth)
+2025-10-10 10:17:20.137 [main] INFO  com.evan.greennote.auth.RedisTests - The following 1 profile is active: "dev"
+2025-10-10 10:17:21.239 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-10 10:17:21.246 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-10-10 10:17:21.309 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+2025-10-10 10:17:24.184 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-10-10 10:17:24.939 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-10-10 10:17:25.776 [main] INFO  com.evan.greennote.auth.RedisTests - Started RedisTests in 6.413 seconds (process running for 7.909)
+2025-10-10 10:17:27.381 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-10-10 10:17:27.396 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-10-10 10:20:06.285 [main] INFO  com.evan.greennote.auth.RedisTests - Starting RedisTests using Java 17.0.16 with PID 83676 (started by 12482 in C:\Users\12482\IdeaProjects\GreenNote\GreenNote-auth)
+2025-10-10 10:20:06.287 [main] INFO  com.evan.greennote.auth.RedisTests - The following 1 profile is active: "dev"
+2025-10-10 10:20:07.297 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-10 10:20:07.301 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-10-10 10:20:07.357 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2025-10-10 10:20:09.838 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-10-10 10:20:10.734 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-10-10 10:20:11.628 [main] INFO  com.evan.greennote.auth.RedisTests - Started RedisTests in 6.055 seconds (process running for 7.534)
+2025-10-10 10:20:13.470 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-10-10 10:20:13.485 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-10-10 10:23:50.462 [main] INFO  com.evan.greennote.auth.RedisTests - Starting RedisTests using Java 17.0.16 with PID 75668 (started by 12482 in C:\Users\12482\IdeaProjects\GreenNote\GreenNote-auth)
+2025-10-10 10:23:50.466 [main] INFO  com.evan.greennote.auth.RedisTests - The following 1 profile is active: "dev"
+2025-10-10 10:23:51.534 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-10 10:23:51.540 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-10-10 10:23:51.595 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2025-10-10 10:23:54.161 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-10-10 10:23:54.929 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-10-10 10:23:55.925 [main] INFO  com.evan.greennote.auth.RedisTests - Started RedisTests in 6.221 seconds (process running for 7.754)
+2025-10-10 10:23:57.542 [main] INFO  com.evan.greennote.auth.RedisTests - key 是否存在: true
+2025-10-10 10:23:57.566 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-10-10 10:23:57.577 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-10-10 10:24:15.192 [main] INFO  com.evan.greennote.auth.RedisTests - Starting RedisTests using Java 17.0.16 with PID 67996 (started by 12482 in C:\Users\12482\IdeaProjects\GreenNote\GreenNote-auth)
+2025-10-10 10:24:15.194 [main] INFO  com.evan.greennote.auth.RedisTests - The following 1 profile is active: "dev"
+2025-10-10 10:24:16.279 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-10 10:24:16.283 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-10-10 10:24:16.339 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2025-10-10 10:24:18.974 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-10-10 10:24:19.615 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-10-10 10:24:20.344 [main] INFO  com.evan.greennote.auth.RedisTests - Started RedisTests in 5.932 seconds (process running for 7.454)
+2025-10-10 10:24:22.261 [main] INFO  com.evan.greennote.auth.RedisTests - value 值: Evan
+2025-10-10 10:24:22.286 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-10-10 10:24:22.302 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-10-10 10:25:27.141 [main] INFO  com.evan.greennote.auth.RedisTests - Starting RedisTests using Java 17.0.16 with PID 56920 (started by 12482 in C:\Users\12482\IdeaProjects\GreenNote\GreenNote-auth)
+2025-10-10 10:25:27.143 [main] INFO  com.evan.greennote.auth.RedisTests - The following 1 profile is active: "dev"
+2025-10-10 10:25:28.235 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-10 10:25:28.239 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-10-10 10:25:28.291 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2025-10-10 10:25:30.842 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-10-10 10:25:31.511 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-10-10 10:25:32.361 [main] INFO  com.evan.greennote.auth.RedisTests - Started RedisTests in 6.011 seconds (process running for 7.559)
+2025-10-10 10:25:34.235 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-10-10 10:25:34.249 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-10-10 11:19:31.928 [main] INFO  c.evan.greennote.auth.ThreadPoolTaskExecutorTests - Starting ThreadPoolTaskExecutorTests using Java 17.0.16 with PID 83628 (started by 12482 in C:\Users\12482\IdeaProjects\GreenNote\GreenNote-auth)
+2025-10-10 11:19:31.930 [main] INFO  c.evan.greennote.auth.ThreadPoolTaskExecutorTests - The following 1 profile is active: "dev"
+2025-10-10 11:19:32.978 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-10 11:19:32.984 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-10-10 11:19:33.044 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+2025-10-10 11:19:35.639 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-10-10 11:19:36.385 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-10-10 11:19:37.354 [main] INFO  c.evan.greennote.auth.ThreadPoolTaskExecutorTests - Started ThreadPoolTaskExecutorTests in 6.17 seconds (process running for 7.684)
+2025-10-10 11:19:38.119 [AuthExecutor-1] INFO  c.evan.greennote.auth.ThreadPoolTaskExecutorTests - 异步线程：111
+2025-10-10 11:19:38.146 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-10-10 11:19:38.161 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
