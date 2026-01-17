@@ -48,7 +48,7 @@
       #{createTime,jdbcType=TIMESTAMP}, #{status,jdbcType=TINYINT})
   </insert>
   <insert id="insertSelective" parameterType="com.evan.greennote.note.biz.domain.dataobject.NoteLikeDO">
-    insert into t_note_like
+    INSERT IGNORE INTO t_note_like
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
         id,

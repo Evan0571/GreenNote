@@ -22,6 +22,7 @@ import org.apache.rocketmq.spring.annotation.ConsumeMode;
 import org.apache.rocketmq.spring.annotation.RocketMQMessageListener;
 import org.apache.rocketmq.spring.core.RocketMQListener;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.script.DefaultRedisScript;
@@ -55,6 +56,8 @@ public class FollowUnfollowConsumer implements RocketMQListener<Message> {
     private RedisTemplate<String, Object> redisTemplate;
     @Resource
     private RocketMQTemplate rocketMQTemplate;
+    @Value("${count.forward.enabled:true}")
+    private boolean countForwardEnabled;
 
     @Override
     public void onMessage(Message message) {
@@ -199,6 +202,10 @@ public class FollowUnfollowConsumer implements RocketMQListener<Message> {
         //构建消息对象，并将DTO转成Json字符串设置到消息体中
         org.springframework.messaging.Message<String> message= MessageBuilder.withPayload(JsonUtils.toJsonString(countFollowUnfollowMqDTO))
                 .build();
+        if(!countForwardEnabled){
+            log.debug("skip forwarding count messages by config: count.forward.enabled=false, payload={}", JsonUtils.toJsonString(countFollowUnfollowMqDTO));
+            return;
+        }
 
         //异步发送MQ消息
         rocketMQTemplate.asyncSend(MQConstants.TOPIC_COUNT_FOLLOWING,message, new SendCallback() {

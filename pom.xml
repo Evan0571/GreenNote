@@ -23,6 +23,7 @@
         <module>GreenNote-user-relation</module>
         <module>GreenNote-count</module>
         <module>GreenNote-data-align</module>
+        <module>GreenNote-search</module>
     </modules>
 
     <properties>
@@ -48,7 +49,6 @@
         <nacos-config.version>0.3.0-RC</nacos-config.version>
         <transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
         <minio.version>8.2.1</minio.version>
-        <minio.version>8.2.1</minio.version>
         <aliyun-sdk-oss.version>3.17.4</aliyun-sdk-oss.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
         <activation.version>1.1.1</activation.version>
@@ -57,6 +57,7 @@
         <caffeine.version>3.1.8</caffeine.version>
         <rocketmq.version>2.2.3</rocketmq.version>
         <buffertrigger.version>0.2.21</buffertrigger.version>
+        <xxl-job.version>2.4.1</xxl-job.version>
     </properties>
 
     <!--统一依赖管理-->
@@ -270,6 +271,19 @@
                 <groupId>com.github.phantomthief</groupId>
                 <artifactId>buffer-trigger</artifactId>
                 <version>${buffertrigger.version}</version>
+            </dependency>
+
+            <!-- XXL-JOB 分布式定时任务调度 -->
+            <dependency>
+                <groupId>com.xuxueli</groupId>
+                <artifactId>xxl-job-core</artifactId>
+                <version>${xxl-job.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.evan</groupId>
+                <artifactId>GreenNote-spring-boot-starter-jackson</artifactId>
+                <version>${revision}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

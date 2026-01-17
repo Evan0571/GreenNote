@@ -67,3 +67,8 @@ rocketmq:
   consumer:
     group: greennote_group
     pull-batch-size: 5 # 每次拉取的最大消息数
+
+# 控制是否将关注/取关事件转发到计数相关 Topic（本地开发默认关闭以防噪音）
+count:
+  forward:
+    enabled: false

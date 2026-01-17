@@ -876,3 +876,957 @@
 2025-11-25 13:59:57.708 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764050397704] time[2] tag[updateCacheFromDb]
 2025-11-25 14:00:57.720 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
 2025-11-25 14:00:57.726 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764050457720] time[6] tag[updateCacheFromDb]
+2025-11-25 14:01:57.739 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:01:57.743 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764050517740] time[3] tag[updateCacheFromDb]
+2025-11-25 14:02:57.744 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:02:57.746 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764050577744] time[2] tag[updateCacheFromDb]
+2025-11-25 14:03:57.754 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:03:57.759 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764050637755] time[5] tag[updateCacheFromDb]
+2025-11-25 14:04:57.763 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:04:57.767 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764050697763] time[3] tag[updateCacheFromDb]
+2025-11-25 14:05:57.780 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:05:57.785 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764050757780] time[4] tag[updateCacheFromDb]
+2025-11-25 14:06:57.790 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:06:57.794 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764050817790] time[3] tag[updateCacheFromDb]
+2025-11-25 14:07:57.805 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:07:57.808 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764050877805] time[3] tag[updateCacheFromDb]
+2025-11-25 14:08:57.810 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:08:57.814 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764050937811] time[3] tag[updateCacheFromDb]
+2025-11-25 14:09:57.828 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:09:57.834 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764050997829] time[4] tag[updateCacheFromDb]
+2025-11-25 14:10:57.836 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:10:57.839 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764051057836] time[3] tag[updateCacheFromDb]
+2025-11-25 14:11:57.843 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:11:57.846 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764051117844] time[3] tag[updateCacheFromDb]
+2025-11-25 14:12:57.848 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:12:57.851 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764051177849] time[2] tag[updateCacheFromDb]
+2025-11-25 14:13:57.867 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:13:57.872 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764051237868] time[3] tag[updateCacheFromDb]
+2025-11-25 14:14:57.880 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:14:57.883 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764051297880] time[2] tag[updateCacheFromDb]
+2025-11-25 14:15:57.888 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:15:57.891 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764051357888] time[2] tag[updateCacheFromDb]
+2025-11-25 14:16:57.899 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:16:57.915 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764051417899] time[15] tag[updateCacheFromDb]
+2025-11-25 14:17:57.920 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:17:57.923 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764051477920] time[2] tag[updateCacheFromDb]
+2025-11-25 14:18:57.924 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:18:57.928 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764051537925] time[2] tag[updateCacheFromDb]
+2025-11-25 14:19:57.934 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:19:57.937 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764051597934] time[3] tag[updateCacheFromDb]
+2025-11-25 14:20:36.802 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4001ms for session id 0x10000049289003c
+2025-11-25 14:20:36.803 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003c for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 4001ms for session id 0x10000049289003c
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 14:20:36.931 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+2025-11-25 14:20:36.958 [schedule-upload-time] INFO  c.e.g.d.i.g.b.c.snowflake.SnowflakeZookeeperHolder - update init data error path is /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000 error is {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2551)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:291)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:287)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:93)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.pathInForeground(SetDataBuilderImpl.java:284)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:270)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:33)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder.updateNewData(SnowflakeZookeeperHolder.java:158)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder$1.run(SnowflakeZookeeperHolder.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-25 14:20:38.280 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 14:20:38.280 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 14:20:38.283 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:59823, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 14:20:43.228 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, session id = 0x10000049289003c, negotiated timeout = 6000
+2025-11-25 14:20:43.229 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2025-11-25 14:20:43.303 [main-EventThread] INFO  org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+2025-11-25 14:21:02.074 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 14:21:02.077 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764051662074] time[2] tag[updateCacheFromDb]
+2025-11-25 14:21:45.364 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4006ms for session id 0x10000049289003c
+2025-11-25 14:21:45.364 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003c for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 4006ms for session id 0x10000049289003c
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 14:21:45.473 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+2025-11-25 14:21:45.489 [schedule-upload-time] INFO  c.e.g.d.i.g.b.c.snowflake.SnowflakeZookeeperHolder - update init data error path is /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000 error is {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2551)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:291)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:287)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:93)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.pathInForeground(SetDataBuilderImpl.java:284)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:270)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:33)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder.updateNewData(SnowflakeZookeeperHolder.java:158)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder$1.run(SnowflakeZookeeperHolder.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-25 15:58:44.652 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 15:58:44.653 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 15:58:44.655 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:2829, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 15:58:46.224 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, session id = 0x10000049289003c, negotiated timeout = 6000
+2025-11-25 15:58:46.224 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2025-11-25 15:58:46.269 [main-EventThread] INFO  org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+2025-11-25 15:58:59.735 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 15:58:59.913 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764057539735] time[178] tag[updateCacheFromDb]
+2025-11-25 15:59:59.929 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 15:59:59.933 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764057599929] time[3] tag[updateCacheFromDb]
+2025-11-25 16:00:59.943 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:00:59.945 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764057659943] time[2] tag[updateCacheFromDb]
+2025-11-25 16:01:59.959 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:01:59.963 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764057719960] time[2] tag[updateCacheFromDb]
+2025-11-25 16:02:59.975 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:02:59.979 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764057779975] time[3] tag[updateCacheFromDb]
+2025-11-25 16:03:59.981 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:03:59.984 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764057839981] time[2] tag[updateCacheFromDb]
+2025-11-25 16:04:59.990 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:04:59.993 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764057899990] time[2] tag[updateCacheFromDb]
+2025-11-25 16:06:00.001 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:06:00.006 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764057960002] time[4] tag[updateCacheFromDb]
+2025-11-25 16:07:00.012 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:07:00.021 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058020012] time[8] tag[updateCacheFromDb]
+2025-11-25 16:08:00.029 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:08:00.032 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058080029] time[3] tag[updateCacheFromDb]
+2025-11-25 16:09:00.045 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:09:00.048 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058140045] time[3] tag[updateCacheFromDb]
+2025-11-25 16:10:00.058 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:10:00.061 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058200058] time[3] tag[updateCacheFromDb]
+2025-11-25 16:11:00.066 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:11:00.071 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058260066] time[4] tag[updateCacheFromDb]
+2025-11-25 16:12:00.084 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:12:00.086 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058320084] time[2] tag[updateCacheFromDb]
+2025-11-25 16:13:00.093 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:13:00.096 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058380093] time[2] tag[updateCacheFromDb]
+2025-11-25 16:14:00.104 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:14:00.110 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058440105] time[5] tag[updateCacheFromDb]
+2025-11-25 16:15:00.123 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:15:00.126 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058500123] time[3] tag[updateCacheFromDb]
+2025-11-25 16:16:00.131 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:16:00.135 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058560131] time[3] tag[updateCacheFromDb]
+2025-11-25 16:17:00.149 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:17:00.151 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058620149] time[2] tag[updateCacheFromDb]
+2025-11-25 16:18:00.164 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:18:00.168 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058680164] time[4] tag[updateCacheFromDb]
+2025-11-25 16:19:00.169 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:19:00.174 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058740169] time[4] tag[updateCacheFromDb]
+2025-11-25 16:20:00.183 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:20:00.186 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058800183] time[2] tag[updateCacheFromDb]
+2025-11-25 16:21:00.192 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:21:00.195 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058860192] time[3] tag[updateCacheFromDb]
+2025-11-25 16:22:00.203 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:22:00.205 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058920203] time[3] tag[updateCacheFromDb]
+2025-11-25 16:23:00.207 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:23:00.211 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764058980208] time[3] tag[updateCacheFromDb]
+2025-11-25 16:24:00.212 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:24:00.214 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059040212] time[2] tag[updateCacheFromDb]
+2025-11-25 16:25:00.220 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:25:00.223 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059100220] time[2] tag[updateCacheFromDb]
+2025-11-25 16:26:00.227 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:26:00.231 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059160227] time[3] tag[updateCacheFromDb]
+2025-11-25 16:27:00.245 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:27:00.248 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059220245] time[2] tag[updateCacheFromDb]
+2025-11-25 16:28:00.253 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:28:00.256 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059280253] time[2] tag[updateCacheFromDb]
+2025-11-25 16:29:00.260 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:29:00.263 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059340260] time[2] tag[updateCacheFromDb]
+2025-11-25 16:30:00.264 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:30:00.269 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059400265] time[4] tag[updateCacheFromDb]
+2025-11-25 16:31:00.271 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:31:00.277 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059460272] time[4] tag[updateCacheFromDb]
+2025-11-25 16:32:00.290 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:32:00.293 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059520290] time[3] tag[updateCacheFromDb]
+2025-11-25 16:33:00.296 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:33:00.300 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059580296] time[2] tag[updateCacheFromDb]
+2025-11-25 16:34:00.303 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:34:00.307 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059640304] time[2] tag[updateCacheFromDb]
+2025-11-25 16:35:00.319 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:35:00.321 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059700319] time[2] tag[updateCacheFromDb]
+2025-11-25 16:36:00.328 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:36:00.331 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059760328] time[2] tag[updateCacheFromDb]
+2025-11-25 16:37:00.335 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:37:00.340 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059820335] time[3] tag[updateCacheFromDb]
+2025-11-25 16:38:00.355 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:38:00.357 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059880355] time[2] tag[updateCacheFromDb]
+2025-11-25 16:39:00.371 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:39:00.372 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764059940371] time[2] tag[updateCacheFromDb]
+2025-11-25 16:40:00.374 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:40:00.384 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060000374] time[9] tag[updateCacheFromDb]
+2025-11-25 16:41:00.396 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:41:00.399 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060060396] time[2] tag[updateCacheFromDb]
+2025-11-25 16:42:00.412 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:42:00.416 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060120413] time[2] tag[updateCacheFromDb]
+2025-11-25 16:43:00.426 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:43:00.430 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060180427] time[3] tag[updateCacheFromDb]
+2025-11-25 16:44:00.440 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:44:00.443 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060240440] time[3] tag[updateCacheFromDb]
+2025-11-25 16:45:00.445 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:45:00.448 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060300445] time[2] tag[updateCacheFromDb]
+2025-11-25 16:46:00.465 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:46:00.468 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060360465] time[2] tag[updateCacheFromDb]
+2025-11-25 16:47:00.469 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:47:00.472 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060420470] time[2] tag[updateCacheFromDb]
+2025-11-25 16:48:00.482 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:48:00.487 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060480484] time[3] tag[updateCacheFromDb]
+2025-11-25 16:49:00.489 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:49:00.493 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060540489] time[2] tag[updateCacheFromDb]
+2025-11-25 16:50:00.499 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:50:00.503 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060600500] time[3] tag[updateCacheFromDb]
+2025-11-25 16:51:00.508 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:51:00.511 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060660508] time[3] tag[updateCacheFromDb]
+2025-11-25 16:52:00.517 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:52:00.521 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060720518] time[4] tag[updateCacheFromDb]
+2025-11-25 16:53:00.526 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:53:00.530 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060780527] time[3] tag[updateCacheFromDb]
+2025-11-25 16:54:00.542 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:54:00.544 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060840542] time[2] tag[updateCacheFromDb]
+2025-11-25 16:55:00.549 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:55:00.553 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060900550] time[3] tag[updateCacheFromDb]
+2025-11-25 16:56:00.568 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:56:00.570 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764060960568] time[2] tag[updateCacheFromDb]
+2025-11-25 16:57:00.578 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:57:00.581 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061020579] time[2] tag[updateCacheFromDb]
+2025-11-25 16:58:00.594 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:58:00.597 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061080594] time[2] tag[updateCacheFromDb]
+2025-11-25 16:59:00.605 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 16:59:00.608 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061140605] time[2] tag[updateCacheFromDb]
+2025-11-25 17:00:00.624 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:00:00.628 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061200625] time[2] tag[updateCacheFromDb]
+2025-11-25 17:01:00.641 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:01:00.643 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061260641] time[3] tag[updateCacheFromDb]
+2025-11-25 17:02:00.659 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:02:00.663 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061320660] time[3] tag[updateCacheFromDb]
+2025-11-25 17:03:00.668 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:03:00.670 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061380668] time[2] tag[updateCacheFromDb]
+2025-11-25 17:04:00.684 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:04:00.688 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061440684] time[4] tag[updateCacheFromDb]
+2025-11-25 17:05:00.702 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:05:00.705 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061500702] time[2] tag[updateCacheFromDb]
+2025-11-25 17:06:00.719 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:06:00.721 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061560719] time[2] tag[updateCacheFromDb]
+2025-11-25 17:07:00.734 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:07:00.737 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061620734] time[3] tag[updateCacheFromDb]
+2025-11-25 17:08:00.747 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:08:00.750 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061680748] time[2] tag[updateCacheFromDb]
+2025-11-25 17:09:00.757 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:09:00.760 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061740757] time[3] tag[updateCacheFromDb]
+2025-11-25 17:10:00.768 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:10:00.772 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061800768] time[3] tag[updateCacheFromDb]
+2025-11-25 17:11:00.777 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:11:00.780 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061860777] time[2] tag[updateCacheFromDb]
+2025-11-25 17:12:00.793 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:12:00.796 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061920793] time[2] tag[updateCacheFromDb]
+2025-11-25 17:13:00.811 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:13:00.813 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764061980811] time[3] tag[updateCacheFromDb]
+2025-11-25 17:14:00.818 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:14:00.821 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764062040818] time[3] tag[updateCacheFromDb]
+2025-11-25 17:15:00.829 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:15:00.831 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764062100829] time[2] tag[updateCacheFromDb]
+2025-11-25 17:15:11.049 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4010ms for session id 0x10000049289003c
+2025-11-25 17:15:11.052 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003c for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 4010ms for session id 0x10000049289003c
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 17:15:11.174 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+2025-11-25 17:15:11.182 [schedule-upload-time] INFO  c.e.g.d.i.g.b.c.snowflake.SnowflakeZookeeperHolder - update init data error path is /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000 error is {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2551)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:291)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:287)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:93)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.pathInForeground(SetDataBuilderImpl.java:284)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:270)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:33)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder.updateNewData(SnowflakeZookeeperHolder.java:158)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder$1.run(SnowflakeZookeeperHolder.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-25 17:15:12.749 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 17:15:12.749 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 17:15:12.751 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:3631, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 17:15:17.471 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, session id = 0x10000049289003c, negotiated timeout = 6000
+2025-11-25 17:15:17.472 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2025-11-25 17:15:17.492 [main-EventThread] INFO  org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+2025-11-25 17:16:04.931 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:16:04.934 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764062164931] time[2] tag[updateCacheFromDb]
+2025-11-25 17:17:04.939 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:17:04.942 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764062224939] time[2] tag[updateCacheFromDb]
+2025-11-25 17:17:18.852 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4013ms for session id 0x10000049289003c
+2025-11-25 17:17:18.852 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003c for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 4013ms for session id 0x10000049289003c
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 17:17:18.962 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+2025-11-25 17:17:18.977 [schedule-upload-time] INFO  c.e.g.d.i.g.b.c.snowflake.SnowflakeZookeeperHolder - update init data error path is /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000 error is {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2551)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:291)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:287)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:93)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.pathInForeground(SetDataBuilderImpl.java:284)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:270)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:33)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder.updateNewData(SnowflakeZookeeperHolder.java:158)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder$1.run(SnowflakeZookeeperHolder.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-25 17:17:28.830 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 17:17:28.830 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 17:17:28.832 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:39641, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 17:17:28.874 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, session id = 0x10000049289003c, negotiated timeout = 6000
+2025-11-25 17:17:28.874 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2025-11-25 17:17:28.879 [main-EventThread] INFO  org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+2025-11-25 17:18:12.976 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 17:18:12.978 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764062292976] time[2] tag[updateCacheFromDb]
+2025-11-25 17:18:30.305 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4004ms for session id 0x10000049289003c
+2025-11-25 17:18:30.306 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003c for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 4004ms for session id 0x10000049289003c
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 17:18:30.415 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+2025-11-25 17:18:30.430 [schedule-upload-time] INFO  c.e.g.d.i.g.b.c.snowflake.SnowflakeZookeeperHolder - update init data error path is /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000 error is {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2551)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:291)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:287)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:93)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.pathInForeground(SetDataBuilderImpl.java:284)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:270)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:33)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder.updateNewData(SnowflakeZookeeperHolder.java:158)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder$1.run(SnowflakeZookeeperHolder.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-25 17:18:31.821 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 17:18:31.821 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 17:18:31.822 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:48503, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 18:07:34.330 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 2942508ms for session id 0x10000049289003c
+2025-11-25 18:07:34.331 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003c for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 2942508ms for session id 0x10000049289003c
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 18:07:35.816 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 18:07:35.816 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 18:07:35.818 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:58145, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 18:07:35.934 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, session id = 0x10000049289003c, negotiated timeout = 6000
+2025-11-25 18:07:35.941 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2025-11-25 18:07:35.988 [main-EventThread] INFO  org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+2025-11-25 18:08:15.068 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:08:15.103 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764065295068] time[34] tag[updateCacheFromDb]
+2025-11-25 18:09:15.116 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:09:15.119 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764065355116] time[2] tag[updateCacheFromDb]
+2025-11-25 18:10:15.134 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:10:15.137 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764065415134] time[2] tag[updateCacheFromDb]
+2025-11-25 18:11:15.146 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:11:15.151 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764065475146] time[5] tag[updateCacheFromDb]
+2025-11-25 18:12:15.167 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:12:15.169 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764065535167] time[2] tag[updateCacheFromDb]
+2025-11-25 18:13:15.181 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:13:15.184 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764065595181] time[2] tag[updateCacheFromDb]
+2025-11-25 18:14:15.188 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:14:15.191 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764065655189] time[3] tag[updateCacheFromDb]
+2025-11-25 18:15:15.202 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:15:15.206 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764065715202] time[3] tag[updateCacheFromDb]
+2025-11-25 18:16:15.209 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:16:15.212 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764065775209] time[3] tag[updateCacheFromDb]
+2025-11-25 18:17:15.218 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:17:15.220 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764065835218] time[2] tag[updateCacheFromDb]
+2025-11-25 18:18:15.235 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:18:15.237 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764065895235] time[2] tag[updateCacheFromDb]
+2025-11-25 18:19:15.246 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:19:15.252 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764065955248] time[4] tag[updateCacheFromDb]
+2025-11-25 18:20:15.262 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:20:15.264 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066015263] time[2] tag[updateCacheFromDb]
+2025-11-25 18:21:15.271 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:21:15.274 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066075271] time[2] tag[updateCacheFromDb]
+2025-11-25 18:22:15.278 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:22:15.282 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066135278] time[3] tag[updateCacheFromDb]
+2025-11-25 18:23:15.291 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:23:15.294 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066195291] time[2] tag[updateCacheFromDb]
+2025-11-25 18:24:15.302 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:24:15.303 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066255302] time[2] tag[updateCacheFromDb]
+2025-11-25 18:25:15.305 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:25:15.308 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066315305] time[3] tag[updateCacheFromDb]
+2025-11-25 18:26:15.312 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:26:15.314 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066375312] time[2] tag[updateCacheFromDb]
+2025-11-25 18:27:15.316 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:27:15.320 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066435316] time[3] tag[updateCacheFromDb]
+2025-11-25 18:28:15.322 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:28:15.325 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066495322] time[2] tag[updateCacheFromDb]
+2025-11-25 18:29:15.332 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:29:15.337 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066555334] time[2] tag[updateCacheFromDb]
+2025-11-25 18:30:15.342 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:30:15.345 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066615342] time[2] tag[updateCacheFromDb]
+2025-11-25 18:31:15.360 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:31:15.361 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066675360] time[2] tag[updateCacheFromDb]
+2025-11-25 18:32:15.368 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:32:15.371 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066735368] time[2] tag[updateCacheFromDb]
+2025-11-25 18:33:15.379 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:33:15.382 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066795379] time[2] tag[updateCacheFromDb]
+2025-11-25 18:34:15.383 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:34:15.386 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066855383] time[2] tag[updateCacheFromDb]
+2025-11-25 18:35:15.394 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:35:15.398 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066915395] time[2] tag[updateCacheFromDb]
+2025-11-25 18:36:15.411 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:36:15.414 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764066975411] time[2] tag[updateCacheFromDb]
+2025-11-25 18:37:15.424 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:37:15.426 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067035424] time[2] tag[updateCacheFromDb]
+2025-11-25 18:38:15.435 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:38:15.439 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067095435] time[3] tag[updateCacheFromDb]
+2025-11-25 18:39:15.442 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:39:15.444 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067155442] time[1] tag[updateCacheFromDb]
+2025-11-25 18:40:15.455 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:40:15.458 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067215455] time[2] tag[updateCacheFromDb]
+2025-11-25 18:41:15.472 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:41:15.474 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067275472] time[2] tag[updateCacheFromDb]
+2025-11-25 18:42:15.485 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:42:15.487 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067335485] time[2] tag[updateCacheFromDb]
+2025-11-25 18:43:15.499 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:43:15.501 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067395499] time[2] tag[updateCacheFromDb]
+2025-11-25 18:44:15.508 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:44:15.510 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067455508] time[2] tag[updateCacheFromDb]
+2025-11-25 18:45:15.517 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:45:15.520 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067515518] time[2] tag[updateCacheFromDb]
+2025-11-25 18:46:15.530 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:46:15.532 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067575530] time[2] tag[updateCacheFromDb]
+2025-11-25 18:47:15.541 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:47:15.544 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067635541] time[3] tag[updateCacheFromDb]
+2025-11-25 18:48:15.549 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:48:15.552 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067695549] time[3] tag[updateCacheFromDb]
+2025-11-25 18:49:15.556 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:49:15.558 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067755556] time[2] tag[updateCacheFromDb]
+2025-11-25 18:50:15.573 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:50:15.575 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067815573] time[2] tag[updateCacheFromDb]
+2025-11-25 18:51:15.581 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:51:15.584 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067875581] time[2] tag[updateCacheFromDb]
+2025-11-25 18:52:15.590 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:52:15.594 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067935590] time[3] tag[updateCacheFromDb]
+2025-11-25 18:53:15.603 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:53:15.605 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764067995603] time[2] tag[updateCacheFromDb]
+2025-11-25 18:54:15.620 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:54:15.625 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764068055621] time[4] tag[updateCacheFromDb]
+2025-11-25 18:55:15.632 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:55:15.634 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764068115632] time[2] tag[updateCacheFromDb]
+2025-11-25 18:56:15.647 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:56:15.650 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764068175647] time[2] tag[updateCacheFromDb]
+2025-11-25 18:57:15.660 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:57:15.664 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764068235660] time[3] tag[updateCacheFromDb]
+2025-11-25 18:58:15.670 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:58:15.674 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764068295670] time[4] tag[updateCacheFromDb]
+2025-11-25 18:59:15.676 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 18:59:15.680 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764068355676] time[3] tag[updateCacheFromDb]
+2025-11-25 19:00:15.683 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:00:15.685 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764068415684] time[2] tag[updateCacheFromDb]
+2025-11-25 19:01:15.688 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:01:15.690 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764068475688] time[2] tag[updateCacheFromDb]
+2025-11-25 19:01:43.760 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4016ms for session id 0x10000049289003c
+2025-11-25 19:01:43.761 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003c for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 4016ms for session id 0x10000049289003c
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 19:01:43.869 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+2025-11-25 19:01:43.884 [schedule-upload-time] INFO  c.e.g.d.i.g.b.c.snowflake.SnowflakeZookeeperHolder - update init data error path is /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000 error is {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2551)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:291)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:287)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:93)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.pathInForeground(SetDataBuilderImpl.java:284)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:270)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:33)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder.updateNewData(SnowflakeZookeeperHolder.java:158)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder$1.run(SnowflakeZookeeperHolder.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-25 19:24:06.764 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 19:24:06.765 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 19:24:06.766 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:17773, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 19:24:08.214 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, session id = 0x10000049289003c, negotiated timeout = 6000
+2025-11-25 19:24:08.214 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2025-11-25 19:24:08.250 [main-EventThread] INFO  org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+2025-11-25 19:24:37.049 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:24:37.053 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764069877049] time[3] tag[updateCacheFromDb]
+2025-11-25 19:25:37.056 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:25:37.060 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764069937057] time[3] tag[updateCacheFromDb]
+2025-11-25 19:26:37.071 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:26:37.077 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764069997071] time[6] tag[updateCacheFromDb]
+2025-11-25 19:27:37.078 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:27:37.080 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070057078] time[2] tag[updateCacheFromDb]
+2025-11-25 19:28:37.088 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:28:37.090 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070117088] time[2] tag[updateCacheFromDb]
+2025-11-25 19:29:37.096 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:29:37.098 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070177096] time[2] tag[updateCacheFromDb]
+2025-11-25 19:30:37.102 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:30:37.108 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070237102] time[5] tag[updateCacheFromDb]
+2025-11-25 19:31:37.110 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:31:37.112 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070297110] time[2] tag[updateCacheFromDb]
+2025-11-25 19:32:37.125 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:32:37.127 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070357125] time[2] tag[updateCacheFromDb]
+2025-11-25 19:33:37.128 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:33:37.131 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070417128] time[2] tag[updateCacheFromDb]
+2025-11-25 19:34:37.140 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:34:37.142 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070477140] time[2] tag[updateCacheFromDb]
+2025-11-25 19:35:37.150 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:35:37.154 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070537150] time[3] tag[updateCacheFromDb]
+2025-11-25 19:36:37.157 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:36:37.160 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070597158] time[2] tag[updateCacheFromDb]
+2025-11-25 19:37:37.174 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:37:37.176 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070657174] time[2] tag[updateCacheFromDb]
+2025-11-25 19:38:37.183 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:38:37.188 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070717184] time[4] tag[updateCacheFromDb]
+2025-11-25 19:39:37.196 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:39:37.197 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070777196] time[2] tag[updateCacheFromDb]
+2025-11-25 19:40:37.207 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:40:37.210 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070837207] time[2] tag[updateCacheFromDb]
+2025-11-25 19:41:37.213 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:41:37.215 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070897213] time[2] tag[updateCacheFromDb]
+2025-11-25 19:42:37.216 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:42:37.220 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764070957218] time[2] tag[updateCacheFromDb]
+2025-11-25 19:43:37.231 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:43:37.233 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071017231] time[2] tag[updateCacheFromDb]
+2025-11-25 19:44:37.247 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:44:37.250 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071077247] time[2] tag[updateCacheFromDb]
+2025-11-25 19:45:37.262 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:45:37.263 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071137262] time[2] tag[updateCacheFromDb]
+2025-11-25 19:46:37.273 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:46:37.275 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071197273] time[2] tag[updateCacheFromDb]
+2025-11-25 19:47:37.287 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:47:37.290 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071257288] time[2] tag[updateCacheFromDb]
+2025-11-25 19:48:37.290 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:48:37.295 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071317291] time[4] tag[updateCacheFromDb]
+2025-11-25 19:49:37.306 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:49:37.309 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071377306] time[2] tag[updateCacheFromDb]
+2025-11-25 19:50:37.310 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:50:37.311 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071437310] time[2] tag[updateCacheFromDb]
+2025-11-25 19:51:37.324 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:51:37.327 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071497324] time[3] tag[updateCacheFromDb]
+2025-11-25 19:52:37.328 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:52:37.330 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071557328] time[2] tag[updateCacheFromDb]
+2025-11-25 19:53:37.344 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:53:37.346 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071617344] time[2] tag[updateCacheFromDb]
+2025-11-25 19:54:37.348 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:54:37.350 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071677348] time[2] tag[updateCacheFromDb]
+2025-11-25 19:55:37.362 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:55:37.366 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071737362] time[3] tag[updateCacheFromDb]
+2025-11-25 19:56:37.380 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:56:37.383 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071797381] time[3] tag[updateCacheFromDb]
+2025-11-25 19:57:37.397 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:57:37.399 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071857397] time[2] tag[updateCacheFromDb]
+2025-11-25 19:58:37.411 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:58:37.412 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071917411] time[1] tag[updateCacheFromDb]
+2025-11-25 19:59:37.417 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 19:59:37.418 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764071977417] time[2] tag[updateCacheFromDb]
+2025-11-25 20:00:37.433 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:00:37.435 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072037433] time[2] tag[updateCacheFromDb]
+2025-11-25 20:01:37.442 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:01:37.445 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072097442] time[2] tag[updateCacheFromDb]
+2025-11-25 20:02:37.453 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:02:37.455 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072157453] time[2] tag[updateCacheFromDb]
+2025-11-25 20:03:37.461 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:03:37.462 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072217461] time[2] tag[updateCacheFromDb]
+2025-11-25 20:04:37.467 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:04:37.469 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072277467] time[2] tag[updateCacheFromDb]
+2025-11-25 20:05:37.481 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:05:37.484 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072337481] time[2] tag[updateCacheFromDb]
+2025-11-25 20:06:37.494 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:06:37.496 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072397494] time[2] tag[updateCacheFromDb]
+2025-11-25 20:07:37.498 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:07:37.499 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072457498] time[2] tag[updateCacheFromDb]
+2025-11-25 20:08:37.516 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:08:37.519 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072517516] time[3] tag[updateCacheFromDb]
+2025-11-25 20:09:37.525 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:09:37.527 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072577525] time[1] tag[updateCacheFromDb]
+2025-11-25 20:10:37.530 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:10:37.533 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072637530] time[2] tag[updateCacheFromDb]
+2025-11-25 20:11:37.536 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:11:37.545 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072697536] time[9] tag[updateCacheFromDb]
+2025-11-25 20:12:37.555 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:12:37.557 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072757555] time[2] tag[updateCacheFromDb]
+2025-11-25 20:13:37.570 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:13:37.572 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072817570] time[2] tag[updateCacheFromDb]
+2025-11-25 20:14:37.586 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:14:37.589 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072877586] time[2] tag[updateCacheFromDb]
+2025-11-25 20:15:37.592 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:15:37.595 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072937592] time[3] tag[updateCacheFromDb]
+2025-11-25 20:16:37.598 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:16:37.601 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764072997598] time[2] tag[updateCacheFromDb]
+2025-11-25 20:17:37.602 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:17:37.605 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764073057602] time[2] tag[updateCacheFromDb]
+2025-11-25 20:18:37.616 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:18:37.620 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764073117616] time[3] tag[updateCacheFromDb]
+2025-11-25 20:19:05.527 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4014ms for session id 0x10000049289003c
+2025-11-25 20:19:05.528 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003c for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 4014ms for session id 0x10000049289003c
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 20:19:05.636 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+2025-11-25 20:19:05.649 [schedule-upload-time] INFO  c.e.g.d.i.g.b.c.snowflake.SnowflakeZookeeperHolder - update init data error path is /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000 error is {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2551)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:291)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:287)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:93)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.pathInForeground(SetDataBuilderImpl.java:284)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:270)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:33)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder.updateNewData(SnowflakeZookeeperHolder.java:158)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder$1.run(SnowflakeZookeeperHolder.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-25 20:19:07.584 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 20:19:07.584 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 20:19:07.586 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:34977, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 20:29:16.639 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 609054ms for session id 0x10000049289003c
+2025-11-25 20:29:16.639 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003c for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 609054ms for session id 0x10000049289003c
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 20:29:17.557 [Curator-ConnectionStateManager-0] WARN  o.a.curator.framework.state.ConnectionStateManager - Session timeout has elapsed while SUSPENDED. Injecting a session expiration. Elapsed ms: 611324. Adjusted session timeout ms: 6000
+2025-11-25 20:29:18.751 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 20:29:18.751 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 20:29:18.753 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:30652, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 20:29:19.318 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, session id = 0x10000049289003c, negotiated timeout = 6000
+2025-11-25 20:29:25.355 [Curator-ConnectionStateManager-0] INFO  org.apache.zookeeper.ZooKeeperTestable - injectSessionExpiration() called
+2025-11-25 20:29:25.492 [Curator-ConnectionStateManager-0] WARN  o.a.curator.framework.state.ConnectionStateManager - Session timeout has elapsed while SUSPENDED. Injecting a session expiration. Elapsed ms: 8532. Adjusted session timeout ms: 6000
+2025-11-25 20:29:25.492 [Curator-ConnectionStateManager-0] INFO  org.apache.zookeeper.ZooKeeperTestable - injectSessionExpiration() called
+2025-11-25 20:29:25.493 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2025-11-25 20:29:25.552 [main-EventThread] WARN  org.apache.curator.ConnectionState - Session expired event received
+2025-11-25 20:29:26.431 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=6000 watcher=org.apache.curator.ConnectionState@1a8e9ed9
+2025-11-25 20:29:29.760 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 1048575 Bytes
+2025-11-25 20:29:29.869 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - zookeeper.request.timeout value is 0. feature enabled=false
+2025-11-25 20:29:29.904 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 20:29:29.904 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 20:29:29.906 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:3399, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 20:29:29.948 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: LOST
+2025-11-25 20:29:30.476 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, session id = 0x10000049289003d, negotiated timeout = 6000
+2025-11-25 20:29:30.477 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2025-11-25 20:29:30.558 [main-EventThread] INFO  org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+2025-11-25 20:29:30.635 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: LOST
+2025-11-25 20:29:30.640 [Curator-ConnectionStateManager-0] WARN  o.a.curator.framework.state.ConnectionStateManager - ConnectionState is LOST but isConnected() is true. Forcing RECONNECTED.
+2025-11-25 20:29:30.640 [Curator-ConnectionStateManager-0] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2025-11-25 20:29:30.644 [main-EventThread] INFO  org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+2025-11-25 20:29:30.642 [main-EventThread] ERROR o.a.curator.framework.imps.CuratorFrameworkImpl - Background operation retry gave up
+org.apache.zookeeper.KeeperException$SessionExpiredException: KeeperErrorCode = Session expired
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:134)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkBackgroundRetry(CuratorFrameworkImpl.java:851)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.processBackgroundOperation(CuratorFrameworkImpl.java:643)
+	at org.apache.curator.framework.imps.WatcherRemovalFacade.processBackgroundOperation(WatcherRemovalFacade.java:152)
+	at org.apache.curator.framework.imps.GetConfigBuilderImpl$2.processResult(GetConfigBuilderImpl.java:222)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:632)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:551)
+2025-11-25 20:29:31.390 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x10000049289003c
+2025-11-25 20:29:42.948 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:29:42.952 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764073782948] time[2] tag[updateCacheFromDb]
+2025-11-25 20:30:42.959 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:30:42.962 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764073842960] time[2] tag[updateCacheFromDb]
+2025-11-25 20:31:42.969 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:31:42.972 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764073902969] time[3] tag[updateCacheFromDb]
+2025-11-25 20:32:42.986 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:32:42.989 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764073962986] time[2] tag[updateCacheFromDb]
+2025-11-25 20:33:43.004 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:33:43.006 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764074023004] time[1] tag[updateCacheFromDb]
+2025-11-25 20:34:43.019 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:34:43.020 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764074083019] time[2] tag[updateCacheFromDb]
+2025-11-25 20:35:43.034 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:35:43.041 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764074143034] time[6] tag[updateCacheFromDb]
+2025-11-25 20:36:43.047 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:36:43.049 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764074203047] time[2] tag[updateCacheFromDb]
+2025-11-25 20:37:43.056 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:37:43.059 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764074263056] time[2] tag[updateCacheFromDb]
+2025-11-25 20:38:43.064 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:38:43.066 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764074323064] time[2] tag[updateCacheFromDb]
+2025-11-25 20:39:43.076 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:39:43.078 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764074383076] time[2] tag[updateCacheFromDb]
+2025-11-25 20:40:43.091 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:40:43.094 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764074443091] time[2] tag[updateCacheFromDb]
+2025-11-25 20:41:43.108 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:41:43.110 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764074503108] time[2] tag[updateCacheFromDb]
+2025-11-25 20:42:43.122 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:42:43.126 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764074563122] time[3] tag[updateCacheFromDb]
+2025-11-25 20:43:43.126 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:43:43.129 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764074623126] time[2] tag[updateCacheFromDb]
+2025-11-25 20:44:43.139 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:44:43.141 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764074683139] time[2] tag[updateCacheFromDb]
+2025-11-25 20:45:36.510 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4015ms for session id 0x10000049289003d
+2025-11-25 20:45:36.511 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003d for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 4015ms for session id 0x10000049289003d
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 20:45:36.617 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+2025-11-25 20:45:36.633 [schedule-upload-time] INFO  c.e.g.d.i.g.b.c.snowflake.SnowflakeZookeeperHolder - update init data error path is /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000 error is {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2551)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:291)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:287)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:93)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.pathInForeground(SetDataBuilderImpl.java:284)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:270)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:33)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder.updateNewData(SnowflakeZookeeperHolder.java:158)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder$1.run(SnowflakeZookeeperHolder.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-25 20:45:37.822 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 20:45:37.822 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 20:45:37.824 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:1976, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 20:56:50.658 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 672833ms for session id 0x10000049289003d
+2025-11-25 20:56:50.658 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003d for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 672833ms for session id 0x10000049289003d
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 20:56:52.115 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 20:56:52.115 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 20:56:52.116 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:37237, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 20:56:52.158 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, session id = 0x10000049289003d, negotiated timeout = 6000
+2025-11-25 20:56:52.159 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2025-11-25 20:56:52.333 [main-EventThread] INFO  org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+2025-11-25 20:56:54.911 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:56:54.914 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764075414911] time[2] tag[updateCacheFromDb]
+2025-11-25 20:57:54.921 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:57:54.924 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764075474921] time[2] tag[updateCacheFromDb]
+2025-11-25 20:58:54.928 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:58:54.929 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764075534928] time[2] tag[updateCacheFromDb]
+2025-11-25 20:59:54.945 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 20:59:54.949 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764075594945] time[4] tag[updateCacheFromDb]
+2025-11-25 21:00:54.960 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:00:54.966 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764075654961] time[4] tag[updateCacheFromDb]
+2025-11-25 21:01:54.969 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:01:54.972 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764075714969] time[2] tag[updateCacheFromDb]
+2025-11-25 21:02:54.978 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:02:54.981 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764075774978] time[3] tag[updateCacheFromDb]
+2025-11-25 21:03:54.996 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:03:54.998 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764075834996] time[2] tag[updateCacheFromDb]
+2025-11-25 21:04:54.999 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:04:55.002 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764075895000] time[2] tag[updateCacheFromDb]
+2025-11-25 21:05:55.012 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:05:55.014 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764075955012] time[2] tag[updateCacheFromDb]
+2025-11-25 21:06:55.025 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:06:55.027 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076015025] time[2] tag[updateCacheFromDb]
+2025-11-25 21:07:55.031 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:07:55.034 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076075031] time[2] tag[updateCacheFromDb]
+2025-11-25 21:08:55.037 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:08:55.040 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076135038] time[2] tag[updateCacheFromDb]
+2025-11-25 21:09:55.043 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:09:55.045 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076195043] time[2] tag[updateCacheFromDb]
+2025-11-25 21:10:55.049 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:10:55.053 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076255050] time[3] tag[updateCacheFromDb]
+2025-11-25 21:11:55.068 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:11:55.071 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076315068] time[3] tag[updateCacheFromDb]
+2025-11-25 21:12:55.085 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:12:55.088 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076375086] time[2] tag[updateCacheFromDb]
+2025-11-25 21:13:55.098 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:13:55.101 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076435098] time[2] tag[updateCacheFromDb]
+2025-11-25 21:14:55.110 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:14:55.117 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076495112] time[5] tag[updateCacheFromDb]
+2025-11-25 21:15:55.124 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:15:55.127 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076555124] time[2] tag[updateCacheFromDb]
+2025-11-25 21:16:55.135 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:16:55.138 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076615135] time[2] tag[updateCacheFromDb]
+2025-11-25 21:17:55.142 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:17:55.145 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076675142] time[2] tag[updateCacheFromDb]
+2025-11-25 21:18:55.145 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:18:55.147 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076735145] time[2] tag[updateCacheFromDb]
+2025-11-25 21:19:55.154 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:19:55.157 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076795154] time[1] tag[updateCacheFromDb]
+2025-11-25 21:20:55.169 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:20:55.174 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076855169] time[3] tag[updateCacheFromDb]
+2025-11-25 21:21:55.177 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:21:55.179 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076915177] time[3] tag[updateCacheFromDb]
+2025-11-25 21:22:55.198 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:22:55.201 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764076975198] time[2] tag[updateCacheFromDb]
+2025-11-25 21:23:55.203 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:23:55.206 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077035203] time[1] tag[updateCacheFromDb]
+2025-11-25 21:24:55.214 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:24:55.216 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077095214] time[2] tag[updateCacheFromDb]
+2025-11-25 21:25:55.222 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:25:55.224 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077155222] time[2] tag[updateCacheFromDb]
+2025-11-25 21:26:55.230 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:26:55.232 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077215230] time[2] tag[updateCacheFromDb]
+2025-11-25 21:27:55.237 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:27:55.239 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077275237] time[2] tag[updateCacheFromDb]
+2025-11-25 21:28:55.252 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:28:55.255 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077335252] time[2] tag[updateCacheFromDb]
+2025-11-25 21:29:55.271 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:29:55.279 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077395271] time[8] tag[updateCacheFromDb]
+2025-11-25 21:30:55.289 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:30:55.291 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077455289] time[2] tag[updateCacheFromDb]
+2025-11-25 21:31:55.304 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:31:55.307 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077515304] time[2] tag[updateCacheFromDb]
+2025-11-25 21:32:55.308 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:32:55.310 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077575308] time[1] tag[updateCacheFromDb]
+2025-11-25 21:33:55.311 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:33:55.313 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077635311] time[2] tag[updateCacheFromDb]
+2025-11-25 21:34:55.320 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:34:55.323 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077695320] time[2] tag[updateCacheFromDb]
+2025-11-25 21:35:55.333 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:35:55.337 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077755333] time[2] tag[updateCacheFromDb]
+2025-11-25 21:36:55.346 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:36:55.348 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077815346] time[2] tag[updateCacheFromDb]
+2025-11-25 21:37:55.352 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:37:55.354 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077875352] time[1] tag[updateCacheFromDb]
+2025-11-25 21:38:55.362 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:38:55.365 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077935362] time[2] tag[updateCacheFromDb]
+2025-11-25 21:39:55.374 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:39:55.377 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764077995374] time[2] tag[updateCacheFromDb]
+2025-11-25 21:40:55.386 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:40:55.391 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078055389] time[1] tag[updateCacheFromDb]
+2025-11-25 21:41:55.394 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:41:55.396 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078115394] time[2] tag[updateCacheFromDb]
+2025-11-25 21:42:55.401 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:42:55.403 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078175401] time[2] tag[updateCacheFromDb]
+2025-11-25 21:43:55.410 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:43:55.412 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078235410] time[2] tag[updateCacheFromDb]
+2025-11-25 21:44:55.421 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:44:55.423 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078295422] time[2] tag[updateCacheFromDb]
+2025-11-25 21:45:55.432 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:45:55.436 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078355432] time[2] tag[updateCacheFromDb]
+2025-11-25 21:46:55.451 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:46:55.454 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078415451] time[2] tag[updateCacheFromDb]
+2025-11-25 21:47:55.455 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:47:55.457 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078475455] time[2] tag[updateCacheFromDb]
+2025-11-25 21:48:55.459 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:48:55.462 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078535460] time[1] tag[updateCacheFromDb]
+2025-11-25 21:49:55.468 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:49:55.471 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078595468] time[2] tag[updateCacheFromDb]
+2025-11-25 21:50:55.475 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:50:55.477 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078655475] time[2] tag[updateCacheFromDb]
+2025-11-25 21:51:55.488 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:51:55.491 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078715488] time[2] tag[updateCacheFromDb]
+2025-11-25 21:52:55.504 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:52:55.507 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078775504] time[2] tag[updateCacheFromDb]
+2025-11-25 21:53:55.508 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:53:55.510 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078835508] time[2] tag[updateCacheFromDb]
+2025-11-25 21:54:55.524 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:54:55.527 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078895524] time[2] tag[updateCacheFromDb]
+2025-11-25 21:55:55.535 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:55:55.538 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764078955535] time[2] tag[updateCacheFromDb]
+2025-11-25 21:56:05.456 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4001ms for session id 0x10000049289003d
+2025-11-25 21:56:05.456 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003d for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 4001ms for session id 0x10000049289003d
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 21:56:05.567 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+2025-11-25 21:56:05.581 [schedule-upload-time] INFO  c.e.g.d.i.g.b.c.snowflake.SnowflakeZookeeperHolder - update init data error path is /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000 error is {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2551)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:291)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:287)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:93)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.pathInForeground(SetDataBuilderImpl.java:284)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:270)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:33)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder.updateNewData(SnowflakeZookeeperHolder.java:158)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder$1.run(SnowflakeZookeeperHolder.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-25 21:56:44.812 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 21:56:44.812 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 21:56:44.818 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:8145, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 21:56:44.906 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, session id = 0x10000049289003d, negotiated timeout = 6000
+2025-11-25 21:56:44.907 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2025-11-25 21:56:44.923 [main-EventThread] INFO  org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+2025-11-25 21:57:32.778 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:57:32.781 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764079052778] time[3] tag[updateCacheFromDb]
+2025-11-25 21:58:32.784 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:58:32.787 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764079112784] time[2] tag[updateCacheFromDb]
+2025-11-25 21:59:32.794 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 21:59:32.796 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764079172794] time[2] tag[updateCacheFromDb]
+2025-11-25 22:00:32.801 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-11-25 22:00:32.805 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1764079232801] time[4] tag[updateCacheFromDb]
+2025-11-25 22:00:33.224 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4010ms for session id 0x10000049289003d
+2025-11-25 22:00:33.224 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003d for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 4010ms for session id 0x10000049289003d
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 22:00:33.334 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+2025-11-25 22:00:33.349 [schedule-upload-time] INFO  c.e.g.d.i.g.b.c.snowflake.SnowflakeZookeeperHolder - update init data error path is /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000 error is {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2551)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:291)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:287)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:93)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.pathInForeground(SetDataBuilderImpl.java:284)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:270)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:33)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder.updateNewData(SnowflakeZookeeperHolder.java:158)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder$1.run(SnowflakeZookeeperHolder.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-25 22:45:40.330 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 22:45:40.330 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 22:45:40.332 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:5941, server: kubernetes.docker.internal/127.0.0.1:2181
+2025-11-25 22:45:40.548 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, session id = 0x10000049289003d, negotiated timeout = 6000
+2025-11-25 22:45:40.549 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2025-11-25 22:45:40.603 [main-EventThread] INFO  org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+2025-11-25 22:45:44.607 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4004ms for session id 0x10000049289003d
+2025-11-25 22:45:44.607 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10000049289003d for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 4004ms for session id 0x10000049289003d
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2025-11-25 22:45:44.717 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+2025-11-25 22:45:44.732 [schedule-upload-time] INFO  c.e.g.d.i.g.b.c.snowflake.SnowflakeZookeeperHolder - update init data error path is /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000 error is {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/com.sankuai.leaf.opensource.test/forever/10.36.15.120:2222-0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2551)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:291)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:287)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:93)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.pathInForeground(SetDataBuilderImpl.java:284)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:270)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:33)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder.updateNewData(SnowflakeZookeeperHolder.java:158)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder$1.run(SnowflakeZookeeperHolder.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-25 22:45:46.424 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2025-11-25 22:45:46.424 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-11-25 22:45:46.426 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:26586, server: kubernetes.docker.internal/127.0.0.1:2181
