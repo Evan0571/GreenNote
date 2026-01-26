@@ -1,0 +1,336 @@
+2026-01-25 00:00:15.592 [s1-admin-0] WARN  c.d.oss.driver.internal.core.pool.ChannelPool - [s1|127.0.0.1/<unresolved>:9042]  Error while opening new channel (ConnectionInitException: [s1|id: 0x6b99f8db, L:/127.0.0.1:58312 - R:/127.0.0.1:9042] Protocol initialization request, step 1 (STARTUP {CQL_VERSION=3.0.0, DRIVER_NAME=DataStax Java driver for Apache Cassandra(R), DRIVER_VERSION=4.15.0, CLIENT_ID=5ccb641a-272c-4317-8f4a-044d031d4f55}): unexpected failure (com.datastax.oss.driver.api.core.connection.ClosedConnectionException: Lost connection to remote peer))
+2026-01-25 00:00:15.603 [s0-admin-0] WARN  c.d.oss.driver.internal.core.pool.ChannelPool - [s0|127.0.0.1/<unresolved>:9042]  Error while opening new channel (ConnectionInitException: [s0|id: 0xa07486c1, L:/127.0.0.1:58313 - R:/127.0.0.1:9042] Protocol initialization request, step 1 (STARTUP {CQL_VERSION=3.0.0, DRIVER_NAME=DataStax Java driver for Apache Cassandra(R), DRIVER_VERSION=4.15.0, CLIENT_ID=8b8b6e96-4064-4ee3-9c48-38f1e3e4afe2}): unexpected failure (com.datastax.oss.driver.api.core.connection.ClosedConnectionException: Lost connection to remote peer))
+2026-01-25 00:00:17.470 [s1-admin-0] WARN  c.d.oss.driver.internal.core.pool.ChannelPool - [s1|127.0.0.1/<unresolved>:9042]  Error while opening new channel (ConnectionInitException: [s1|id: 0x37543c61, L:/127.0.0.1:58320 - R:/127.0.0.1:9042] Protocol initialization request, step 1 (STARTUP {CQL_VERSION=3.0.0, DRIVER_NAME=DataStax Java driver for Apache Cassandra(R), DRIVER_VERSION=4.15.0, CLIENT_ID=5ccb641a-272c-4317-8f4a-044d031d4f55}): unexpected failure (com.datastax.oss.driver.api.core.connection.ClosedConnectionException: Lost connection to remote peer))
+2026-01-25 00:00:17.779 [s0-admin-0] WARN  c.d.oss.driver.internal.core.pool.ChannelPool - [s0|127.0.0.1/<unresolved>:9042]  Error while opening new channel (ConnectionInitException: [s0|id: 0xafb1551a, L:/127.0.0.1:58321 - R:/127.0.0.1:9042] Protocol initialization request, step 1 (STARTUP {CQL_VERSION=3.0.0, DRIVER_NAME=DataStax Java driver for Apache Cassandra(R), DRIVER_VERSION=4.15.0, CLIENT_ID=8b8b6e96-4064-4ee3-9c48-38f1e3e4afe2}): unexpected failure (com.datastax.oss.driver.api.core.connection.ClosedConnectionException: Lost connection to remote peer))
+2026-01-25 00:00:21.840 [s1-admin-0] WARN  c.d.oss.driver.internal.core.pool.ChannelPool - [s1|127.0.0.1/<unresolved>:9042]  Error while opening new channel (ConnectionInitException: [s1|connecting...] Protocol initialization request, step 1 (STARTUP {CQL_VERSION=3.0.0, DRIVER_NAME=DataStax Java driver for Apache Cassandra(R), DRIVER_VERSION=4.15.0, CLIENT_ID=5ccb641a-272c-4317-8f4a-044d031d4f55}): failed to send request (io.netty.channel.StacklessClosedChannelException))
+2026-01-25 00:00:22.023 [s0-admin-0] WARN  c.d.oss.driver.internal.core.pool.ChannelPool - [s0|127.0.0.1/<unresolved>:9042]  Error while opening new channel (ConnectionInitException: [s0|connecting...] Protocol initialization request, step 1 (STARTUP {CQL_VERSION=3.0.0, DRIVER_NAME=DataStax Java driver for Apache Cassandra(R), DRIVER_VERSION=4.15.0, CLIENT_ID=8b8b6e96-4064-4ee3-9c48-38f1e3e4afe2}): failed to send request (io.netty.channel.StacklessClosedChannelException))
+2026-01-25 00:00:22.354 [Thread-24] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2026-01-25 00:00:22.356 [Thread-21] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2026-01-25 00:00:22.357 [Thread-21] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2026-01-25 00:00:22.358 [Thread-24] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2026-01-25 00:00:24.687 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2026-01-25 00:00:24.690 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-kv with instance: Instance{instanceId='null', ip='10.141.192.48', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2026-01-25 00:00:24.702 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2026-01-25 00:00:24.704 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2026-01-25 00:00:24.704 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2026-01-25 00:00:24.705 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2026-01-25 00:00:24.706 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@29881621[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2026-01-25 00:00:24.707 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1769307775457_127.0.0.1_38933
+2026-01-25 00:00:24.712 [nacos-grpc-client-executor-127.0.0.1-2146] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1769307775457_127.0.0.1_38933]Ignore complete event,isRunning:false,isAbandon=false
+2026-01-25 00:00:24.720 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@7edaab56[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 2147]
+2026-01-25 00:00:24.720 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@6cb20216[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 3529]
+2026-01-25 00:00:24.721 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2026-01-25 00:00:24.721 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2026-01-25 00:00:24.722 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2026-01-25 13:51:04.365 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 13:51:04.727 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 13:51:06.207 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 13:51:06.239 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 13:51:06.241 [main] INFO  c.evan.greennote.kv.biz.GreenNoteKVBizApplication - The following 1 profile is active: "dev"
+2026-01-25 13:51:07.923 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2026-01-25 13:51:09.018 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1034 ms. Found 0 Reactive Cassandra repository interfaces.
+2026-01-25 13:51:09.021 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2026-01-25 13:51:09.053 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 1 Cassandra repository interfaces.
+2026-01-25 13:51:09.293 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=477abb53-46d8-3523-8077-9b2b6b31a0e9
+2026-01-25 13:51:09.800 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2026-01-25 13:51:09.818 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-25 13:51:09.818 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2026-01-25 13:51:10.021 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-01-25 13:51:10.021 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3762 ms
+2026-01-25 13:51:13.904 [main] INFO  c.d.o.driver.internal.core.DefaultMavenCoordinates - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+2026-01-25 13:51:15.821 [s0-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2026-01-25 13:51:16.507 [s0-admin-1] WARN  c.d.o.d.internal.core.control.ControlConnection - [s0] Error connecting to Node(endPoint=127.0.0.1/<unresolved>:9042, hostId=null, hashCode=5dab62d0), trying next node (ConnectionInitException: [s0|control|id: 0x7a395407, L:/127.0.0.1:4060 - R:/127.0.0.1:9042] Protocol initialization request, step 1 (OPTIONS): unexpected failure (com.datastax.oss.driver.api.core.connection.ClosedConnectionException: Lost connection to remote peer))
+2026-01-25 13:51:18.648 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'noteContentController': Injection of resource dependencies failed
+2026-01-25 13:51:18.650 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-01-25 13:51:18.718 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-25 13:51:18.752 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'noteContentController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.evan.greennote.kv.biz.GreenNoteKVBizApplication.main(GreenNoteKVBizApplication.java:9)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'noteContentServiceImpl': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:490)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 17 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'noteContentRepository' defined in com.evan.greennote.kv.biz.domain.repository.NoteContentRepository defined in @EnableCassandraRepositories declared on CassandraRepositoriesRegistrar.EnableCassandraRepositoriesConfiguration: Cannot resolve reference to bean 'cassandraTemplate' while setting bean property 'cassandraTemplate'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1663)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1412)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cassandraTemplate' defined in class path resource [com/evan/greennote/kv/biz/config/CassandraConfig.class]: Failed to instantiate [org.springframework.data.cassandra.core.CassandraAdminTemplate]: Factory method 'cassandraTemplate' threw exception with message: Error creating bean with name 'cassandraSessionFactory' defined in class path resource [com/evan/greennote/kv/biz/config/CassandraConfig.class]: Unsatisfied dependency expressed through method 'cassandraSessionFactory' parameter 0: Error creating bean with name 'cassandraSession' defined in class path resource [com/evan/greennote/kv/biz/config/CassandraConfig.class]: Could not reach any contact point, make sure you've provided valid addresses (showing first 1 nodes, use getAllErrors() for more): Node(endPoint=127.0.0.1/<unresolved>:9042, hostId=null, hashCode=5dab62d0): [com.datastax.oss.driver.api.core.connection.ConnectionInitException: [s0|control|id: 0x7a395407, L:/127.0.0.1:4060 - R:/127.0.0.1:9042] Protocol initialization request, step 1 (OPTIONS): unexpected failure (com.datastax.oss.driver.api.core.connection.ClosedConnectionException: Lost connection to remote peer)]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 49 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.cassandra.core.CassandraAdminTemplate]: Factory method 'cassandraTemplate' threw exception with message: Error creating bean with name 'cassandraSessionFactory' defined in class path resource [com/evan/greennote/kv/biz/config/CassandraConfig.class]: Unsatisfied dependency expressed through method 'cassandraSessionFactory' parameter 0: Error creating bean with name 'cassandraSession' defined in class path resource [com/evan/greennote/kv/biz/config/CassandraConfig.class]: Could not reach any contact point, make sure you've provided valid addresses (showing first 1 nodes, use getAllErrors() for more): Node(endPoint=127.0.0.1/<unresolved>:9042, hostId=null, hashCode=5dab62d0): [com.datastax.oss.driver.api.core.connection.ConnectionInitException: [s0|control|id: 0x7a395407, L:/127.0.0.1:4060 - R:/127.0.0.1:9042] Protocol initialization request, step 1 (OPTIONS): unexpected failure (com.datastax.oss.driver.api.core.connection.ClosedConnectionException: Lost connection to remote peer)]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cassandraSessionFactory' defined in class path resource [com/evan/greennote/kv/biz/config/CassandraConfig.class]: Unsatisfied dependency expressed through method 'cassandraSessionFactory' parameter 0: Error creating bean with name 'cassandraSession' defined in class path resource [com/evan/greennote/kv/biz/config/CassandraConfig.class]: Could not reach any contact point, make sure you've provided valid addresses (showing first 1 nodes, use getAllErrors() for more): Node(endPoint=127.0.0.1/<unresolved>:9042, hostId=null, hashCode=5dab62d0): [com.datastax.oss.driver.api.core.connection.ConnectionInitException: [s0|control|id: 0x7a395407, L:/127.0.0.1:4060 - R:/127.0.0.1:9042] Protocol initialization request, step 1 (OPTIONS): unexpected failure (com.datastax.oss.driver.api.core.connection.ClosedConnectionException: Lost connection to remote peer)]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:548)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1298)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1259)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:331)
+	at org.springframework.data.cassandra.config.AbstractSessionConfiguration.requireBeanOfType(AbstractSessionConfiguration.java:103)
+	at org.springframework.data.cassandra.config.AbstractCassandraConfiguration.getRequiredSessionFactory(AbstractCassandraConfiguration.java:245)
+	at org.springframework.data.cassandra.config.AbstractCassandraConfiguration.cassandraTemplate(AbstractCassandraConfiguration.java:171)
+	at com.evan.greennote.kv.biz.config.CassandraConfig$$SpringCGLIB$$0.CGLIB$cassandraTemplate$13(<generated>)
+	at com.evan.greennote.kv.biz.config.CassandraConfig$$SpringCGLIB$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.evan.greennote.kv.biz.config.CassandraConfig$$SpringCGLIB$$0.cassandraTemplate(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 60 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cassandraSession' defined in class path resource [com/evan/greennote/kv/biz/config/CassandraConfig.class]: Could not reach any contact point, make sure you've provided valid addresses (showing first 1 nodes, use getAllErrors() for more): Node(endPoint=127.0.0.1/<unresolved>:9042, hostId=null, hashCode=5dab62d0): [com.datastax.oss.driver.api.core.connection.ConnectionInitException: [s0|control|id: 0x7a395407, L:/127.0.0.1:4060 - R:/127.0.0.1:9042] Protocol initialization request, step 1 (OPTIONS): unexpected failure (com.datastax.oss.driver.api.core.connection.ClosedConnectionException: Lost connection to remote peer)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 87 common frames omitted
+Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not reach any contact point, make sure you've provided valid addresses (showing first 1 nodes, use getAllErrors() for more): Node(endPoint=127.0.0.1/<unresolved>:9042, hostId=null, hashCode=5dab62d0): [com.datastax.oss.driver.api.core.connection.ConnectionInitException: [s0|control|id: 0x7a395407, L:/127.0.0.1:4060 - R:/127.0.0.1:9042] Protocol initialization request, step 1 (OPTIONS): unexpected failure (com.datastax.oss.driver.api.core.connection.ClosedConnectionException: Lost connection to remote peer)]
+	at com.datastax.oss.driver.api.core.AllNodesFailedException.copy(AllNodesFailedException.java:141)
+	at com.datastax.oss.driver.internal.core.util.concurrent.CompletableFutures.getUninterruptibly(CompletableFutures.java:149)
+	at com.datastax.oss.driver.api.core.session.SessionBuilder.build(SessionBuilder.java:835)
+	at org.springframework.data.cassandra.config.CqlSessionFactoryBean.buildSystemSession(CqlSessionFactoryBean.java:535)
+	at org.springframework.data.cassandra.config.CqlSessionFactoryBean.afterPropertiesSet(CqlSessionFactoryBean.java:469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 98 common frames omitted
+	Suppressed: com.datastax.oss.driver.api.core.connection.ConnectionInitException: [s0|control|id: 0x7a395407, L:/127.0.0.1:4060 - R:/127.0.0.1:9042] Protocol initialization request, step 1 (OPTIONS): unexpected failure (com.datastax.oss.driver.api.core.connection.ClosedConnectionException: Lost connection to remote peer)
+		at com.datastax.oss.driver.internal.core.channel.ProtocolInitHandler$InitRequest.fail(ProtocolInitHandler.java:356)
+		at com.datastax.oss.driver.internal.core.channel.ChannelHandlerRequest.onFailure(ChannelHandlerRequest.java:104)
+		at com.datastax.oss.driver.internal.core.channel.InFlightHandler.fail(InFlightHandler.java:381)
+		at com.datastax.oss.driver.internal.core.channel.InFlightHandler.abortAllInFlight(InFlightHandler.java:371)
+		at com.datastax.oss.driver.internal.core.channel.InFlightHandler.abortAllInFlight(InFlightHandler.java:353)
+		at com.datastax.oss.driver.internal.core.channel.InFlightHandler.channelInactive(InFlightHandler.java:331)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+		at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813)
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: com.datastax.oss.driver.api.core.connection.ClosedConnectionException: Lost connection to remote peer
+2026-01-25 14:01:02.615 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 14:01:02.688 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 14:01:03.167 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 14:01:03.179 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 14:01:03.181 [main] INFO  c.evan.greennote.kv.biz.GreenNoteKVBizApplication - The following 1 profile is active: "dev"
+2026-01-25 14:01:03.753 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2026-01-25 14:01:03.889 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 131 ms. Found 0 Reactive Cassandra repository interfaces.
+2026-01-25 14:01:03.894 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2026-01-25 14:01:03.910 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 1 Cassandra repository interfaces.
+2026-01-25 14:01:04.120 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=477abb53-46d8-3523-8077-9b2b6b31a0e9
+2026-01-25 14:01:04.477 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2026-01-25 14:01:04.489 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-25 14:01:04.490 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2026-01-25 14:01:04.604 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-01-25 14:01:04.605 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1413 ms
+2026-01-25 14:01:05.130 [main] INFO  c.d.o.driver.internal.core.DefaultMavenCoordinates - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+2026-01-25 14:01:05.688 [s0-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2026-01-25 14:01:06.130 [s1-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2026-01-25 14:01:07.216 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-01-25 14:01:07.293 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2026-01-25 14:01:07.301 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 14:01:07.302 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2026-01-25 14:01:07.303 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2026-01-25 14:01:07.304 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2026-01-25 14:01:07.338 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2026-01-25 14:01:07.338 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2026-01-25 14:01:07.339 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2026-01-25 14:01:07.346 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2026-01-25 14:01:07.347 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2026-01-25 14:01:07.350 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2026-01-25 14:01:07.363 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of a83127b1-1152-48e0-954b-b3840d712a36
+2026-01-25 14:01:07.390 [main] INFO  com.alibaba.nacos.common.remote.client - [a83127b1-1152-48e0-954b-b3840d712a36] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2026-01-25 14:01:07.390 [main] INFO  com.alibaba.nacos.common.remote.client - [a83127b1-1152-48e0-954b-b3840d712a36] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2026-01-25 14:01:07.391 [main] INFO  com.alibaba.nacos.common.remote.client - [a83127b1-1152-48e0-954b-b3840d712a36] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2026-01-25 14:01:07.393 [main] INFO  com.alibaba.nacos.common.remote.client - [a83127b1-1152-48e0-954b-b3840d712a36] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2026-01-25 14:01:07.436 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2026-01-25 14:01:08.310 [main] INFO  com.alibaba.nacos.common.remote.client - [a83127b1-1152-48e0-954b-b3840d712a36] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1769371268127_127.0.0.1_11828
+2026-01-25 14:01:08.310 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [a83127b1-1152-48e0-954b-b3840d712a36] Notify connected event to listeners.
+2026-01-25 14:01:08.310 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2026-01-25 14:01:08.310 [main] INFO  com.alibaba.nacos.common.remote.client - [a83127b1-1152-48e0-954b-b3840d712a36] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2026-01-25 14:01:08.310 [main] INFO  com.alibaba.nacos.common.remote.client - [a83127b1-1152-48e0-954b-b3840d712a36] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1500/0x00000212418ce608
+2026-01-25 14:01:08.312 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] greennote registering service GreenNote-kv with instance Instance{instanceId='null', ip='10.141.192.48', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2026-01-25 14:01:08.329 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP GreenNote-kv 10.141.192.48:8084 register finished
+2026-01-25 14:01:08.445 [main] INFO  c.evan.greennote.kv.biz.GreenNoteKVBizApplication - Started GreenNoteKVBizApplication in 6.501 seconds (process running for 7.311)
+2026-01-25 14:55:49.955 [Thread-21] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2026-01-25 14:55:49.957 [Thread-21] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2026-01-25 14:55:49.955 [Thread-24] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2026-01-25 14:55:49.959 [Thread-24] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2026-01-25 14:55:52.195 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2026-01-25 14:55:52.195 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-kv with instance: Instance{instanceId='null', ip='10.141.192.48', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2026-01-25 14:55:52.198 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2026-01-25 14:55:52.200 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2026-01-25 14:55:52.200 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2026-01-25 14:55:52.200 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2026-01-25 14:55:52.200 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2026-01-25 14:55:52.200 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2026-01-25 14:55:52.200 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2026-01-25 14:55:52.200 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2026-01-25 14:55:52.201 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2026-01-25 14:55:52.201 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2026-01-25 14:55:52.201 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2026-01-25 14:55:52.201 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2026-01-25 14:55:52.201 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2026-01-25 14:55:52.201 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2026-01-25 14:55:52.201 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2026-01-25 14:55:52.201 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2026-01-25 14:55:52.201 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2026-01-25 14:55:52.201 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@55fdfbef[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2026-01-25 14:55:52.201 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1769371268127_127.0.0.1_11828
+2026-01-25 14:55:52.204 [nacos-grpc-client-executor-127.0.0.1-699] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1769371268127_127.0.0.1_11828]Ignore complete event,isRunning:false,isAbandon=false
+2026-01-25 14:55:52.207 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@1d823d9d[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 700]
+2026-01-25 14:55:52.207 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@6c77fe81[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 1090]
+2026-01-25 14:55:52.207 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2026-01-25 14:55:52.208 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2026-01-25 14:55:52.209 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2026-01-25 21:52:11.452 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 21:52:11.504 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 21:52:11.842 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 21:52:11.852 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 21:52:11.853 [main] INFO  c.evan.greennote.kv.biz.GreenNoteKVBizApplication - The following 1 profile is active: "dev"
+2026-01-25 21:52:12.242 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2026-01-25 21:52:12.342 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96 ms. Found 0 Reactive Cassandra repository interfaces.
+2026-01-25 21:52:12.345 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2026-01-25 21:52:12.356 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 1 Cassandra repository interfaces.
+2026-01-25 21:52:12.479 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=477abb53-46d8-3523-8077-9b2b6b31a0e9
+2026-01-25 21:52:12.699 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2026-01-25 21:52:12.708 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-25 21:52:12.709 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2026-01-25 21:52:12.792 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-01-25 21:52:12.792 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 930 ms
+2026-01-25 21:52:13.178 [main] INFO  c.d.o.driver.internal.core.DefaultMavenCoordinates - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+2026-01-25 21:52:13.750 [s0-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2026-01-25 21:52:14.170 [s1-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2026-01-25 21:52:14.901 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-01-25 21:52:14.944 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2026-01-25 21:52:14.948 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-01-25 21:52:14.948 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2026-01-25 21:52:14.949 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2026-01-25 21:52:14.949 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2026-01-25 21:52:14.965 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2026-01-25 21:52:14.966 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2026-01-25 21:52:14.966 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2026-01-25 21:52:14.969 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2026-01-25 21:52:14.969 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2026-01-25 21:52:14.971 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2026-01-25 21:52:14.976 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 7242c020-5986-4e72-a736-88caec194ba6
+2026-01-25 21:52:14.988 [main] INFO  com.alibaba.nacos.common.remote.client - [7242c020-5986-4e72-a736-88caec194ba6] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2026-01-25 21:52:14.988 [main] INFO  com.alibaba.nacos.common.remote.client - [7242c020-5986-4e72-a736-88caec194ba6] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2026-01-25 21:52:14.989 [main] INFO  com.alibaba.nacos.common.remote.client - [7242c020-5986-4e72-a736-88caec194ba6] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2026-01-25 21:52:14.991 [main] INFO  com.alibaba.nacos.common.remote.client - [7242c020-5986-4e72-a736-88caec194ba6] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2026-01-25 21:52:15.013 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2026-01-25 21:52:15.585 [main] INFO  com.alibaba.nacos.common.remote.client - [7242c020-5986-4e72-a736-88caec194ba6] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1769399535423_127.0.0.1_58434
+2026-01-25 21:52:15.585 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [7242c020-5986-4e72-a736-88caec194ba6] Notify connected event to listeners.
+2026-01-25 21:52:15.585 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2026-01-25 21:52:15.585 [main] INFO  com.alibaba.nacos.common.remote.client - [7242c020-5986-4e72-a736-88caec194ba6] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2026-01-25 21:52:15.586 [main] INFO  com.alibaba.nacos.common.remote.client - [7242c020-5986-4e72-a736-88caec194ba6] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1503/0x0000022a018ca110
+2026-01-25 21:52:15.587 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] greennote registering service GreenNote-kv with instance Instance{instanceId='null', ip='10.140.23.247', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2026-01-25 21:52:15.597 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP GreenNote-kv 10.140.23.247:8084 register finished
+2026-01-25 21:52:15.655 [main] INFO  c.evan.greennote.kv.biz.GreenNoteKVBizApplication - Started GreenNoteKVBizApplication in 4.687 seconds (process running for 6.153)

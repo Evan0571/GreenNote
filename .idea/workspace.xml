@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ab4837d-c112-4b7d-be43-b200b407ba63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/GreenNote-framework/GreenNote-common/src/main/java/com/evan/framework/common/util/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GreenNote-framework/GreenNote-common/src/main/java/com/evan/framework/common/util/NumberUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.flattened-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/.flattened-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-api/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-api/.flattened-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-api/src/main/java/com/evan/greennote/distributed/id/generator/api/DistributedIdGeneratorFeignApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-api/src/main/java/com/evan/greennote/distributed/id/generator/api/DistributedIdGeneratorFeignApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-api/src/main/java/com/evan/greennote/distributed/id/generator/constant/ApiConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-api/src/main/java/com/evan/greennote/distributed/id/generator/constant/ApiConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/.flattened-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/GreenNoteDistributedGeneratorBizApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/GreenNoteDistributedGeneratorBizApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/constant/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/controller/LeafController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/controller/LeafController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/controller/LeafMonitorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/controller/LeafMonitorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/IDGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/IDGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/common/CheckVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/common/CheckVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/common/PropertyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/common/PropertyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/common/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/common/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/common/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/common/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/common/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/common/ZeroIDGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/common/ZeroIDGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/SegmentIDGenImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/SegmentIDGenImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/dao/IDAllocDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/dao/IDAllocDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/dao/IDAllocMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/dao/IDAllocMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/dao/impl/IDAllocDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/dao/impl/IDAllocDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/model/LeafAlloc.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/model/LeafAlloc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/model/Segment.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/model/Segment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/model/SegmentBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/segment/model/SegmentBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/snowflake/SnowflakeIDGenImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/snowflake/SnowflakeIDGenImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/snowflake/SnowflakeZookeeperHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/snowflake/SnowflakeZookeeperHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/snowflake/exception/CheckLastTimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/snowflake/exception/CheckLastTimeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/snowflake/exception/CheckOtherNodeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/snowflake/exception/CheckOtherNodeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/snowflake/exception/ClockGoBackException.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/core/snowflake/exception/ClockGoBackException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/exception/InitException.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/exception/InitException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/exception/LeafServerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/exception/LeafServerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/exception/NoKeyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/exception/NoKeyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/model/SegmentBufferView.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/model/SegmentBufferView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/service/SegmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/service/SegmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/service/SnowflakeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/java/com/evan/greennote/distributed/id/generator/biz/service/SnowflakeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/resources/config/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/resources/config/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/resources/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/resources/config/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/resources/config/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/resources/leaf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/resources/leaf.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/GreenNote-distributed-id-generator-biz/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/GreenNote-distributed-id-generator-biz/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-disreibuted-id-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-distributed-id-generator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-framework/GreenNote-common/src/main/java/com/evan/framework/common/constant/DateConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-framework/GreenNote-common/src/main/java/com/evan/framework/common/constant/DateConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/java/com/evan/greennote/search/GreenNoteSearchApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/java/com/evan/greennote/search/config/ElasticsearchProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/java/com/evan/greennote/search/config/ElasticsearchRestHighLevelClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/java/com/evan/greennote/search/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/java/com/evan/greennote/search/enums/ResponseCodeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/java/com/evan/greennote/search/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/java/com/evan/greennote/search/index/UserIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/java/com/evan/greennote/search/model/vo/SearchUserReqVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/java/com/evan/greennote/search/model/vo/SearchUserRspVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/java/com/evan/greennote/search/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/java/com/evan/greennote/search/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/resources/config/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/resources/config/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/resources/config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/resources/config/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/auth.2025-11-24-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/auth.2025-11-25-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/count.2025-11-24-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/count.2025-11-25-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/data-align.2025-11-24-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/data-align.2025-11-25-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-09-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-09-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-10-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-10-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-11-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-11-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-12-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-12-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-13-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-13-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-17-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-17-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-18-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-18-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-19-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-19-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-20-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-20-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-21-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-21-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-23-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-23-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-24-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2025-11-25-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/kv.2025-11-24-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/kv.2025-11-25-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note.2025-11-24-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note.2025-11-25-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/oss.2025-11-24-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/oss.2025-11-25-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-relation.2025-11-24-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-relation.2025-11-25-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user.2025-11-24-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user.2025-11-25-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Evan0571"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Evan0571/GreenNote.git",
+    "accountId": "bfdcbfcd-8677-4f32-89bc-e3fdcb8a601a"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\Maven\apache-maven-3.9.11" />
+        <option name="localRepository" value="C:\Maven\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="showDialogWithAdvancedSettings" value="true" />
+        <option name="userSettingsFile" value="C:\Maven\apache-maven-3.9.11\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="38matO6JNEmzrob2lvBXJZWRlGO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GreenNoteAuthApplication">
+    <configuration name="GreenNoteAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GreenNote-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evan.greennote.auth.GreenNoteAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreenNoteCountBizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GreenNote-count-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evan.greennote.count.biz.GreenNoteCountBizApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreenNoteDataAlignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GreenNote-data-align" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evan.greennote.data.align.GreenNoteDataAlignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreenNoteDistributedGeneratorBizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GreenNote-distributed-id-generator-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evan.greennote.distributed.id.generator.biz.GreenNoteDistributedGeneratorBizApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreenNoteGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GreenNote-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evan.greennote.gateway.GreenNoteGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreenNoteNoteBizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GreenNote-note-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evan.greennote.note.biz.GreenNoteNoteBizApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreenNoteOssBizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GreenNote-oss-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evan.greennote.oss.biz.GreenNoteOssBizApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreenNoteSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GreenNote-search-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evan.greennote.search.GreenNoteSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreenNoteUserBizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GreenNote-user-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evan.greennote.user.biz.GreenNoteUserBizApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreenNoteUserRelationBizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GreenNote-user-relation-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evan.greennote.user.relation.biz.GreenNoteUserRelationBizApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ab4837d-c112-4b7d-be43-b200b407ba63" name="Changes" comment="" />
+      <created>1769407415279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769407415279</updated>
+      <workItem from="1769407416949" duration="655000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
