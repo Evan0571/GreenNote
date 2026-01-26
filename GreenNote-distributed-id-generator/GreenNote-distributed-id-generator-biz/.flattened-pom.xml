@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.evan</groupId>
-    <artifactId>GreenNote-disreibuted-id-generator</artifactId>
+    <artifactId>GreenNote-distributed-id-generator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.evan</groupId>

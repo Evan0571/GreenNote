@@ -4,7 +4,7 @@
 
     <parent>
         <groupId>com.evan</groupId>
-        <artifactId>GreenNote-disreibuted-id-generator</artifactId>
+        <artifactId>GreenNote-distributed-id-generator</artifactId>
         <version>${revision}</version>
     </parent>
 

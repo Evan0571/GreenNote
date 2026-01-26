@@ -16,11 +16,12 @@
     <module>GreenNote-oss</module>
     <module>GreenNote-user</module>
     <module>GreenNote-kv</module>
-    <module>GreenNote-disreibuted-id-generator</module>
+    <module>GreenNote-distributed-id-generator</module>
     <module>GreenNote-note</module>
     <module>GreenNote-user-relation</module>
     <module>GreenNote-count</module>
     <module>GreenNote-data-align</module>
+    <module>GreenNote-search</module>
   </modules>
   <properties>
     <minio.version>8.2.1</minio.version>
@@ -35,6 +36,7 @@
     <flatten-maven-plugin.version>1.5.0</flatten-maven-plugin.version>
     <spring-cloud-alibaba.version>2022.0.0.0</spring-cloud-alibaba.version>
     <spring-cloud.version>2022.0.0</spring-cloud.version>
+    <elasticsearch.version>7.3.0</elasticsearch.version>
     <mybatis-generator-maven-plugin.version>1.3.5</mybatis-generator-maven-plugin.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <commons-lang3.version>3.12.0</commons-lang3.version>
@@ -50,9 +52,11 @@
     <revision>0.0.1-SNAPSHOT</revision>
     <lombok.version>1.18.30</lombok.version>
     <jaxb-api.version>2.3.1</jaxb-api.version>
+    <canal.version>1.1.7</canal.version>
     <druid.version>1.2.23</druid.version>
     <nacos-config.version>0.3.0-RC</nacos-config.version>
     <transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
+    <xxl-job.version>2.4.1</xxl-job.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -222,9 +226,54 @@
         <artifactId>buffer-trigger</artifactId>
         <version>${buffertrigger.version}</version>
       </dependency>
+      <dependency>
+        <groupId>com.xuxueli</groupId>
+        <artifactId>xxl-job-core</artifactId>
+        <version>${xxl-job.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.evan</groupId>
+        <artifactId>GreenNote-spring-boot-starter-jackson</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.elasticsearch.client</groupId>
+        <artifactId>elasticsearch-rest-high-level-client</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.elasticsearch.client</groupId>
+        <artifactId>elasticsearch-rest-client</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.elasticsearch</groupId>
+        <artifactId>elasticsearch</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba.otter</groupId>
+        <artifactId>canal.client</artifactId>
+        <version>${canal.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba.otter</groupId>
+        <artifactId>canal.common</artifactId>
+        <version>${canal.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba.otter</groupId>
+        <artifactId>canal.protocol</artifactId>
+        <version>${canal.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
   <repositories>
+    <repository>
+      <id>central</id>
+      <name>Maven Central</name>
+      <url>https://repo1.maven.org/maven2</url>
+    </repository>
     <repository>
       <id>huaweicloud</id>
       <name>huawei</name>
@@ -234,11 +283,6 @@
       <id>aliyunmaven</id>
       <name>aliyun</name>
       <url>https://maven.aliyun.com/repository/public</url>
-    </repository>
-    <repository>
-      <id>central</id>
-      <name>Maven Central</name>
-      <url>https://repo1.maven.org/maven2</url>
     </repository>
   </repositories>
   <build>

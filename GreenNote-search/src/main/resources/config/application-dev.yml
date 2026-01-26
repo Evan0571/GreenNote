@@ -1,2 +1,0 @@
-elasticsearch:
-  address: 127.0.0.1:9200 # Elasticsearch 地址
