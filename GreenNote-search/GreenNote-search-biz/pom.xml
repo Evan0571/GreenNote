@@ -121,6 +121,13 @@
             <artifactId>druid-spring-boot-3-starter</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.evan</groupId>
+            <artifactId>GreenNote-search-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>

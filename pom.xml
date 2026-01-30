@@ -24,6 +24,7 @@
         <module>GreenNote-count</module>
         <module>GreenNote-data-align</module>
         <module>GreenNote-search</module>
+        <module>GreenNote-comment</module>
     </modules>
 
     <properties>
@@ -320,6 +321,12 @@
                 <groupId>com.alibaba.otter</groupId>
                 <artifactId>canal.protocol</artifactId>
                 <version>${canal.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.evan</groupId>
+                <artifactId>GreenNote-search-api</artifactId>
+                <version>${revision}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

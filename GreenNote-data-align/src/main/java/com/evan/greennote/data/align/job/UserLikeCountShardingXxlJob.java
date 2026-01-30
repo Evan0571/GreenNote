@@ -29,9 +29,7 @@ public class UserLikeCountShardingXxlJob {
     @Resource
     private RedisTemplate<String, Object> redisTemplate;
 
-    /**
-     * 分片广播任务
-     */
+    //分片广播任务
     @XxlJob("userLikeCountShardingJobHandler")
     public void userLikeCountShardingJobHandler() throws Exception {
         // 获取分片参数

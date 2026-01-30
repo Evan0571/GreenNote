@@ -29,9 +29,7 @@ public class UserCollectCountShardingXxlJob {
     @Resource
     private RedisTemplate<String, Object> redisTemplate;
 
-    /**
-     * 分片广播任务
-     */
+    //分片广播任务
     @XxlJob("userCollectCountShardingJobHandler")
     public void userCollectCountShardingJobHandler() throws Exception {
         // 获取分片参数

@@ -8,7 +8,7 @@ import com.evan.framework.common.enums.StatusEnum;
 import com.evan.framework.common.exception.BizException;
 import com.evan.framework.common.response.Response;
 import com.evan.framework.common.util.JsonUtils;
-import com.evan.greennote.oss.api.FileFeignApi;
+import com.evan.greennote.search.api.FileFeignApi;
 import com.evan.greennote.user.biz.constant.RedisKeyConstants;
 import com.evan.greennote.user.biz.constant.RoleConstants;
 import com.evan.greennote.user.biz.domain.dataobject.RoleDO;

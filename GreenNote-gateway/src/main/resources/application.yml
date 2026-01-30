@@ -29,6 +29,12 @@ spring:
             - Path=/relation/**
           filters:
             - StripPrefix=1
+        - id: comment
+          uri: lb://GreenNote-comment
+          predicates:
+            - Path=/comment/**
+          filters:
+            - StripPrefix=1
 
   data:
     redis:

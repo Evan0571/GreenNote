@@ -97,6 +97,11 @@
             <groupId>org.apache.rocketmq</groupId>
             <artifactId>rocketmq-spring-boot-starter</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.evan</groupId>
+            <artifactId>GreenNote-search-api</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

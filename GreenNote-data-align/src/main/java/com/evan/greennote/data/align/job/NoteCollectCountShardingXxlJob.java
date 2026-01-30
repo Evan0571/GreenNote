@@ -6,6 +6,7 @@ import com.evan.greennote.data.align.constant.TableConstants;
 import com.evan.greennote.data.align.domain.mapper.DeleteMapper;
 import com.evan.greennote.data.align.domain.mapper.SelectMapper;
 import com.evan.greennote.data.align.domain.mapper.UpdateMapper;
+import com.evan.greennote.data.align.rpc.SearchRpcService;
 import com.xxl.job.core.context.XxlJobHelper;
 import com.xxl.job.core.handler.annotation.XxlJob;
 import jakarta.annotation.Resource;
@@ -28,10 +29,10 @@ public class NoteCollectCountShardingXxlJob {
     private DeleteMapper deleteMapper;
     @Resource
     private RedisTemplate<String, Object> redisTemplate;
+    @Resource
+    private SearchRpcService searchRpcService;
 
-    /**
-     * 分片广播任务
-     */
+    //分片广播任务
     @XxlJob("noteCollectCountShardingJobHandler")
     public void noteCollectCountShardingJobHandler() throws Exception {
         // 获取分片参数
@@ -82,6 +83,9 @@ public class NoteCollectCountShardingXxlJob {
                         redisTemplate.opsForHash().put(redisKey, RedisKeyConstants.FIELD_COLLECT_TOTAL, collectTotal);
                     }
                 }
+
+                // 远程 RPC, 调用搜索服务，重新构建文档
+                searchRpcService.rebuildNoteDocument(noteId);
             });
 
             // 批量物理删除这一批次记录

@@ -1,7 +1,7 @@
 package com.evan.greennote.user.biz.rpc;
 
 import com.evan.framework.common.response.Response;
-import com.evan.greennote.oss.api.FileFeignApi;
+import com.evan.greennote.search.api.FileFeignApi;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;

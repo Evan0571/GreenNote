@@ -2,6 +2,8 @@ package com.evan.greennote.search.controller;
 
 import com.evan.framework.biz.operationlog.aspect.ApiOperationLog;
 import com.evan.framework.common.response.PageResponse;
+import com.evan.framework.common.response.Response;
+import com.evan.greennote.search.dto.RebuildNoteDocumentReqDTO;
 import com.evan.greennote.search.model.vo.SearchNoteReqVO;
 import com.evan.greennote.search.model.vo.SearchNoteRspVO;
 import com.evan.greennote.search.service.NoteService;
@@ -26,5 +28,12 @@ public class NoteController {
     @ApiOperationLog(description = "搜索笔记")
     public PageResponse<SearchNoteRspVO> searchNote(@RequestBody @Validated SearchNoteReqVO searchNoteReqVO) {
         return noteService.searchNote(searchNoteReqVO);
+    }
+
+    //对其他服务提供的接口
+    @PostMapping("/note/document/rebuild")
+    @ApiOperationLog(description = "用户文档重建")
+    public Response<Long> rebuildDocument(@Validated @RequestBody RebuildNoteDocumentReqDTO rebuildNoteDocumentReqDTO) {
+        return noteService.rebuildDocument(rebuildNoteDocumentReqDTO);
     }
 }

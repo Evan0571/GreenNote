@@ -2,7 +2,10 @@ package com.evan.greennote.search.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
 import com.evan.framework.common.response.PageResponse;
+import com.evan.framework.common.response.Response;
 import com.evan.framework.common.util.NumberUtils;
+import com.evan.greennote.search.domain.mapper.SelectMapper;
+import com.evan.greennote.search.dto.RebuildUserDocumentReqDTO;
 import com.evan.greennote.search.index.UserIndex;
 import com.evan.greennote.search.model.vo.SearchUserReqVO;
 import com.evan.greennote.search.model.vo.SearchUserRspVO;
@@ -10,6 +13,7 @@ import com.evan.greennote.search.service.UserService;
 import com.google.common.collect.Lists;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
+import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RequestOptions;
@@ -24,6 +28,7 @@ import org.elasticsearch.search.sort.SortBuilder;
 import org.elasticsearch.search.sort.SortOrder;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
@@ -34,6 +39,8 @@ public class UserServiceImpl implements UserService {
 
     @Resource
     private RestHighLevelClient restHighLevelClient;
+    @Resource
+    private SelectMapper selectMapper;
 
     //搜索用户
     @Override
@@ -128,5 +135,31 @@ public class UserServiceImpl implements UserService {
         }
 
         return PageResponse.success(searchUserRspVOS, pageNo, total);
+    }
+
+    //重建用户文档
+    @Override
+    public Response<Long> rebuildDocument(RebuildUserDocumentReqDTO rebuildUserDocumentReqDTO) {
+        Long userId = rebuildUserDocumentReqDTO.getId();
+
+        // 从数据库查询 Elasticsearch 索引数据
+        List<Map<String, Object>> result = selectMapper.selectEsUserIndexData(userId);
+
+        // 遍历查询结果，将每条记录同步到 Elasticsearch
+        for (Map<String, Object> recordMap : result) {
+            // 创建索引请求对象，指定索引名称
+            IndexRequest indexRequest = new IndexRequest(UserIndex.NAME);
+            // 设置文档的 ID，使用记录中的主键 “id” 字段值
+            indexRequest.id((String.valueOf(recordMap.get(UserIndex.FIELD_USER_ID))));
+            // 设置文档的内容，使用查询结果的记录数据
+            indexRequest.source(recordMap);
+            // 将数据写入 Elasticsearch 索引
+            try {
+                restHighLevelClient.index(indexRequest, RequestOptions.DEFAULT);
+            } catch (IOException e) {
+                log.error("==> 重建用户文档异常: ", e);
+            }
+        }
+        return Response.success();
     }
 }
