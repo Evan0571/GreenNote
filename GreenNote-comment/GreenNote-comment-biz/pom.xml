@@ -37,7 +37,7 @@
         <!-- Jackson 组件 -->
         <dependency>
             <groupId>com.evan</groupId>
-            <artifactId>GreenNote-spring-boot-starter-jackson</artifactId>
+            <artifactId>GreenNote-spring-boot-starter-biz-jackson</artifactId>
         </dependency>
 
         <dependency>
@@ -108,6 +108,45 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <!-- Rocket MQ 客户端 -->
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.evan</groupId>
+            <artifactId>GreenNote-distributed-id-generator-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.evan</groupId>
+            <artifactId>GreenNote-kv-api</artifactId>
+        </dependency>
+
+        <!-- 快手 Buffer Trigger -->
+        <dependency>
+            <groupId>com.github.phantomthief</groupId>
+            <artifactId>buffer-trigger</artifactId>
+        </dependency>
+
+        <!-- Redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.evan</groupId>
+            <artifactId>GreenNote-user-api</artifactId>
+        </dependency>
+
+        <!-- Caffeine 本地缓存 -->
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
         </dependency>
 
     </dependencies>

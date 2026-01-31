@@ -19,6 +19,12 @@ public interface MQConstants {
     String TOPIC_COUNT_NOTE_COLLECT_2_DB="CountNoteCollect2DBTopic";
     //Topic: 笔记操作（发布/删除）
     String TOPIC_NOTE_OPERATE="NoteOperateTopic";
+    //Topic: 计数 - 笔记点赞数
+    String TOPIC_LIKE_OR_UNLIKE = "LikeUnlikeTopic";
+    //Topic: 笔记评论总数计数
+    String TOPIC_COUNT_NOTE_COMMENT = "CountNoteCommentTopic";
+    //Topic: 评论热度值更新
+    String TOPIC_COMMENT_HEAT_UPDATE = "CommentHeatUpdateTopic";
     //笔记发布标签
     String TAG_NOTE_PUBLISH="publishNote";
     //笔记删除标签

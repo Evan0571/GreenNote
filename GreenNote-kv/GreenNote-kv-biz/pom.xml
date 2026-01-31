@@ -56,5 +56,16 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.evan</groupId>
+            <artifactId>GreenNote-spring-boot-starter-biz-operationlog</artifactId>
+        </dependency>
+
+        <!-- Jackson 组件 -->
+        <dependency>
+            <groupId>com.evan</groupId>
+            <artifactId>GreenNote-spring-boot-starter-biz-jackson</artifactId>
+        </dependency>
     </dependencies>
 </project>

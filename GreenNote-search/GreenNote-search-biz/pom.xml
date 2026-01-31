@@ -43,7 +43,7 @@
         <!-- Jackson 组件 -->
         <dependency>
             <groupId>com.evan</groupId>
-            <artifactId>GreenNote-spring-boot-starter-jackson</artifactId>
+            <artifactId>GreenNote-spring-boot-starter-biz-jackson</artifactId>
         </dependency>
 
         <dependency>

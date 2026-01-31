@@ -26,4 +26,6 @@ public class PublishCommentMqDTO {
 
     private Long creatorId;
 
+    private Long commentId;
+
 }

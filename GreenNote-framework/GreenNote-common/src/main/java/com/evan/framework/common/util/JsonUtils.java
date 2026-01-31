@@ -15,6 +15,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class JsonUtils {
 
@@ -79,4 +80,14 @@ public class JsonUtils {
                 .constructCollectionType(List.class, clazz);
         return OBJECT_MAPPER.readValue(jsonStr, listType);
     }
+    // Json字符串转Set
+    public static <T> Set<T> parseSet(String jsonStr, Class<T> clazz) throws Exception {
+        if (StringUtils.isBlank(jsonStr)) {
+            return null;
+        }
+        CollectionType setType = OBJECT_MAPPER.getTypeFactory()
+                .constructCollectionType(Set.class, clazz);
+        return OBJECT_MAPPER.readValue(jsonStr, setType);
+    }
+
 }
