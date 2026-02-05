@@ -17,6 +17,7 @@
         <dependency>
             <groupId>com.evan</groupId>
             <artifactId>GreenNote-common</artifactId>
+            <version>${revision}</version>
         </dependency>
 
         <!-- 业务接口日志组件 -->
@@ -108,6 +109,12 @@
             <version>0.0.1-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.evan</groupId>
+            <artifactId>GreenNote-count-api</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

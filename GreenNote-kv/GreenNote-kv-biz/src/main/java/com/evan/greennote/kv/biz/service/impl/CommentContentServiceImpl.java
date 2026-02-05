@@ -6,10 +6,7 @@ import com.evan.greennote.kv.biz.domain.dataobject.CommentContentDO;
 import com.evan.greennote.kv.biz.domain.dataobject.CommentContentPrimaryKey;
 import com.evan.greennote.kv.biz.domain.repository.CommentContentRepository;
 import com.evan.greennote.kv.biz.service.CommentContentService;
-import com.evan.greennote.kv.dto.req.BatchAddCommentContentReqDTO;
-import com.evan.greennote.kv.dto.req.BatchFindCommentContentReqDTO;
-import com.evan.greennote.kv.dto.req.CommentContentReqDTO;
-import com.evan.greennote.kv.dto.req.FindCommentContentReqDTO;
+import com.evan.greennote.kv.dto.req.*;
 import com.evan.greennote.kv.dto.rsp.FindCommentContentRspDTO;
 import com.google.common.collect.Lists;
 import jakarta.annotation.Resource;
@@ -99,5 +96,18 @@ public class CommentContentServiceImpl implements CommentContentService {
         }
 
         return Response.success(findCommentContentRspDTOS);
+    }
+
+    //删除评论内容
+    @Override
+    public Response<?> deleteCommentContent(DeleteCommentContentReqDTO deleteCommentContentReqDTO) {
+        Long noteId = deleteCommentContentReqDTO.getNoteId();
+        String yearMonth = deleteCommentContentReqDTO.getYearMonth();
+        String contentId = deleteCommentContentReqDTO.getContentId();
+
+        // 删除评论正文
+        commentContentRepository.deleteByPrimaryKeyNoteIdAndPrimaryKeyYearMonthAndPrimaryKeyContentId(noteId, yearMonth, UUID.fromString(contentId));
+
+        return Response.success();
     }
 }

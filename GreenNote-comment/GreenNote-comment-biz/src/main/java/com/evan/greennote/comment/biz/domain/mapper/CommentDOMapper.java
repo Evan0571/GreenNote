@@ -48,4 +48,31 @@ public interface CommentDOMapper {
     //查询热门评论
     List<CommentDO> selectHeatComments(Long noteId);
 
+    //查询一级评论下子评论总数
+    Long selectChildCommentTotalById(Long commentId);
+
+    //查询二级评论分页数据
+    List<CommentDO> selectChildPageList(@Param("parentId") Long parentId,
+                                        @Param("offset") long offset,
+                                        @Param("pageSize") long pageSize);
+
+    //批量查询计数数据
+    List<CommentDO> selectCommentCountByIds(@Param("commentIds") List<Long> commentIds);
+
+    //查询子评论
+    List<CommentDO> selectChildCommentsByParentIdAndLimit(@Param("parentId") Long parentId,
+                                                          @Param("limit") int limit);
+
+    //删除一级评论下，所有二级评论
+    int deleteByParentId(Long commentId);
+
+    //批量删除评论
+    int deleteByIds(@Param("commentIds") List<Long> commentIds);
+
+    //根据 reply_comment_id 查询
+    CommentDO selectByReplyCommentId(Long commentId);
+
+    //更新一级评论的子评论总数（扣减）
+    int decreaseChildCommentTotal(@Param("parentId") Long parentId, @Param("count") int count);
+
 }

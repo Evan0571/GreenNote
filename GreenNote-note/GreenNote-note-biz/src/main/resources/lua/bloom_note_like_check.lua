@@ -1,3 +1,5 @@
+-- LUA 脚本：点赞布隆过滤器
+
 local key = KEYS[1] -- 操作的 Redis Key
 local noteId = ARGV[1] -- 笔记ID
 
@@ -16,3 +18,8 @@ end
 -- 未被点赞，添加点赞数据
 redis.call('BF.ADD', key, noteId)
 return 0
+
+
+
+
+

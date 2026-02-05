@@ -17,6 +17,7 @@
         <dependency>
             <groupId>com.evan</groupId>
             <artifactId>GreenNote-common</artifactId>
+            <version>${revision}</version>
         </dependency>
 
         <!-- OpenFeign -->

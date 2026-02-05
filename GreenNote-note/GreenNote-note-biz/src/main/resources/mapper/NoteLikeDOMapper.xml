@@ -27,7 +27,7 @@
   <select id="selectNoteIsLiked" parameterType="map" resultType="int">
       select count(1) from t_note_like where user_id = #{userId} and note_id = #{noteId} and status=1 limit 1
   </select>
-  <select id="selectLinkedByUserIdAndLimit" resultMap="BaseResultMap" parameterType="map">
+  <select id="selectLikedByUserIdAndLimit" resultMap="BaseResultMap" parameterType="map">
       select note_id, create_time from t_note_like
       where user_id = #{userId} and status=1 order by create_time desc limit #{limit}
   </select>

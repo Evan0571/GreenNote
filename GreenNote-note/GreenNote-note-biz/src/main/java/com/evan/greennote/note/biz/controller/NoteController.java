@@ -89,4 +89,12 @@ public class NoteController {
     public Response<?> unCollectNote(@Validated @RequestBody UnCollectNoteReqVO unCollectNoteReqVO) {
         return noteService.unCollectNote(unCollectNoteReqVO);
     }
+
+    //判断当前用户是否点赞、收藏
+    @PostMapping(value = "/isLikedAndCollectedData")
+    @ApiOperationLog(description = "获取当前用户是否点赞、收藏数据")
+    public Response<FindNoteIsLikedAndCollectedRspVO> isLikedAndCollectedData(@Validated @RequestBody FindNoteIsLikedAndCollectedReqVO findNoteIsLikedAndCollectedReqVO) {
+        return noteService.isLikedAndCollectedData(findNoteIsLikedAndCollectedReqVO);
+    }
+
 }

@@ -1,5 +1,6 @@
 package com.evan.greennote.user.biz.model.vo;
 
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -21,4 +22,6 @@ public class UpdateUserInfoReqVO {
     private LocalDate birthday; //生日
     private String introduction; //个人简介
     private MultipartFile backgroundImg; //背景图
+    @NotNull(message = "用户 ID 不能为空")
+    private Long userId;
 }

@@ -1,0 +1,69 @@
+2026-02-05 00:32:28.704 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-05 00:32:28.709 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-05 00:32:28.722 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2026-02-05 00:32:28.734 [http-nio-8081-exec-1] INFO  c.e.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 3
+2026-02-05 00:32:28.837 [http-nio-8081-exec-1] INFO  c.e.greennote.search.biz.controller.FileController - 当前用户 ID：3
+2026-02-05 00:32:28.838 [http-nio-8081-exec-1] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2026-02-05 00:32:28.840 [http-nio-8081-exec-1] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio，ObjectName：{}，objectName
+2026-02-05 00:32:30.987 [http-nio-8081-exec-1] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径：http://127.0.0.1:9000/greennote/6efa063396d24034997672386304920a.jpg
+2026-02-05 00:32:31.040 [http-nio-8081-exec-1] INFO  c.e.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 3
+2026-02-05 00:32:31.076 [http-nio-8081-exec-2] INFO  c.e.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 3
+2026-02-05 00:32:31.161 [http-nio-8081-exec-2] INFO  c.e.greennote.search.biz.controller.FileController - 当前用户 ID：3
+2026-02-05 00:32:31.162 [http-nio-8081-exec-2] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2026-02-05 00:32:31.162 [http-nio-8081-exec-2] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio，ObjectName：{}，objectName
+2026-02-05 00:32:31.417 [http-nio-8081-exec-2] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径：http://127.0.0.1:9000/greennote/d616517b3e7645858398aa3a00b16f59.png
+2026-02-05 00:32:31.420 [http-nio-8081-exec-2] INFO  c.e.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 3
+2026-02-05 00:33:07.726 [http-nio-8081-exec-3] INFO  c.e.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 3
+2026-02-05 00:33:07.733 [http-nio-8081-exec-3] INFO  c.e.greennote.search.biz.controller.FileController - 当前用户 ID：3
+2026-02-05 00:33:07.733 [http-nio-8081-exec-3] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2026-02-05 00:33:07.733 [http-nio-8081-exec-3] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio，ObjectName：{}，objectName
+2026-02-05 00:33:07.829 [http-nio-8081-exec-3] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径：http://127.0.0.1:9000/greennote/d4c0e253344042639fb354146cb75923.jpg
+2026-02-05 00:33:07.831 [http-nio-8081-exec-3] INFO  c.e.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 3
+2026-02-05 00:33:07.851 [http-nio-8081-exec-4] INFO  c.e.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 3
+2026-02-05 00:33:07.912 [http-nio-8081-exec-4] INFO  c.e.greennote.search.biz.controller.FileController - 当前用户 ID：3
+2026-02-05 00:33:07.913 [http-nio-8081-exec-4] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2026-02-05 00:33:07.913 [http-nio-8081-exec-4] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio，ObjectName：{}，objectName
+2026-02-05 00:33:08.196 [http-nio-8081-exec-4] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径：http://127.0.0.1:9000/greennote/28ea78f1f8a94d76889eab4199a32887.png
+2026-02-05 00:33:08.198 [http-nio-8081-exec-4] INFO  c.e.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 3
+2026-02-05 00:34:56.695 [http-nio-8081-exec-5] INFO  c.e.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 3
+2026-02-05 00:34:56.700 [http-nio-8081-exec-5] INFO  c.e.greennote.search.biz.controller.FileController - 当前用户 ID：3
+2026-02-05 00:34:56.701 [http-nio-8081-exec-5] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2026-02-05 00:34:56.701 [http-nio-8081-exec-5] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio，ObjectName：{}，objectName
+2026-02-05 00:34:56.781 [http-nio-8081-exec-5] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径：http://127.0.0.1:9000/greennote/294deb8715134e72beb9e849e6332cef.jpg
+2026-02-05 00:34:56.783 [http-nio-8081-exec-5] INFO  c.e.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 3
+2026-02-05 00:34:56.802 [http-nio-8081-exec-6] INFO  c.e.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 3
+2026-02-05 00:34:56.838 [http-nio-8081-exec-6] INFO  c.e.greennote.search.biz.controller.FileController - 当前用户 ID：3
+2026-02-05 00:34:56.839 [http-nio-8081-exec-6] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2026-02-05 00:34:56.839 [http-nio-8081-exec-6] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio，ObjectName：{}，objectName
+2026-02-05 00:34:57.116 [http-nio-8081-exec-6] INFO  c.e.g.search.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径：http://127.0.0.1:9000/greennote/6352390a4051463b9f10f69991ff6a51.png
+2026-02-05 00:34:57.119 [http-nio-8081-exec-6] INFO  c.e.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 3
+2026-02-05 00:36:35.881 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2026-02-05 00:36:35.882 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2026-02-05 00:36:35.894 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2026-02-05 00:36:35.895 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2026-02-05 00:36:36.014 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2026-02-05 00:36:36.015 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-oss with instance: Instance{instanceId='null', ip='10.141.73.9', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2026-02-05 00:36:36.029 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2026-02-05 00:36:36.031 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2026-02-05 00:36:36.031 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2026-02-05 00:36:36.032 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2026-02-05 00:36:36.032 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2026-02-05 00:36:36.034 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2026-02-05 00:36:36.035 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2026-02-05 00:36:36.035 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2026-02-05 00:36:36.036 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2026-02-05 00:36:36.036 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2026-02-05 00:36:36.037 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2026-02-05 00:36:36.037 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2026-02-05 00:36:36.037 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2026-02-05 00:36:36.038 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2026-02-05 00:36:36.038 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2026-02-05 00:36:36.038 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2026-02-05 00:36:36.038 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2026-02-05 00:36:36.038 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@2fdc5e29[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2026-02-05 00:36:36.038 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1770269054382_127.0.0.1_40655
+2026-02-05 00:36:36.059 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@184c2127[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 881]
+2026-02-05 00:36:36.062 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@11f71449[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 1443]
+2026-02-05 00:36:36.063 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2026-02-05 00:36:36.063 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2026-02-05 00:36:36.063 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop

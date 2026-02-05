@@ -1,0 +1,135 @@
+2026-02-05 00:00:07.295 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:00:07.298 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271207295] time[3] tag[updateCacheFromDb]
+2026-02-05 00:01:07.301 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:01:07.304 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271267301] time[2] tag[updateCacheFromDb]
+2026-02-05 00:02:07.309 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:02:07.311 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271327309] time[2] tag[updateCacheFromDb]
+2026-02-05 00:03:07.323 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:03:07.326 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271387323] time[3] tag[updateCacheFromDb]
+2026-02-05 00:04:07.334 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:04:07.342 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271447334] time[7] tag[updateCacheFromDb]
+2026-02-05 00:05:07.353 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:05:07.357 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271507353] time[3] tag[updateCacheFromDb]
+2026-02-05 00:06:07.363 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:06:07.367 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271567363] time[4] tag[updateCacheFromDb]
+2026-02-05 00:07:07.380 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:07:07.384 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271627380] time[3] tag[updateCacheFromDb]
+2026-02-05 00:08:07.385 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:08:07.389 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271687385] time[3] tag[updateCacheFromDb]
+2026-02-05 00:09:07.393 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:09:07.396 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271747393] time[2] tag[updateCacheFromDb]
+2026-02-05 00:10:07.397 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:10:07.400 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271807397] time[2] tag[updateCacheFromDb]
+2026-02-05 00:11:07.413 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:11:07.416 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271867413] time[3] tag[updateCacheFromDb]
+2026-02-05 00:12:07.418 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:12:07.420 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271927418] time[2] tag[updateCacheFromDb]
+2026-02-05 00:12:15.136 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4011ms for session id 0x10001b5c4e40001
+2026-02-05 00:12:15.136 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x10001b5c4e40001 for sever kubernetes.docker.internal/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 4011ms for session id 0x10001b5c4e40001
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2026-02-05 00:12:15.280 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+2026-02-05 00:12:15.317 [schedule-upload-time] INFO  c.e.g.d.i.g.b.c.snowflake.SnowflakeZookeeperHolder - update init data error path is /snowflake/com.sankuai.leaf.opensource.test/forever/10.141.73.9:2222-0000000012 error is {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/com.sankuai.leaf.opensource.test/forever/10.141.73.9:2222-0000000012
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2551)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:291)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl$4.call(SetDataBuilderImpl.java:287)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:93)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.pathInForeground(SetDataBuilderImpl.java:284)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:270)
+	at org.apache.curator.framework.imps.SetDataBuilderImpl.forPath(SetDataBuilderImpl.java:33)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder.updateNewData(SnowflakeZookeeperHolder.java:158)
+	at com.evan.greennote.distributed.id.generator.biz.core.snowflake.SnowflakeZookeeperHolder$1.run(SnowflakeZookeeperHolder.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-02-05 00:12:17.218 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181.
+2026-02-05 00:12:17.218 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2026-02-05 00:12:17.220 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:47969, server: kubernetes.docker.internal/127.0.0.1:2181
+2026-02-05 00:12:17.247 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, session id = 0x10001b5c4e40001, negotiated timeout = 6000
+2026-02-05 00:12:17.248 [main-EventThread] INFO  o.a.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+2026-02-05 00:12:17.252 [main-EventThread] INFO  org.apache.curator.framework.imps.EnsembleTracker - New config event received: {}
+2026-02-05 00:13:07.422 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:13:07.427 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770271987422] time[5] tag[updateCacheFromDb]
+2026-02-05 00:14:07.440 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:14:07.442 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272047440] time[2] tag[updateCacheFromDb]
+2026-02-05 00:15:07.456 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:15:07.460 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272107456] time[3] tag[updateCacheFromDb]
+2026-02-05 00:16:07.463 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:16:07.466 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272167463] time[3] tag[updateCacheFromDb]
+2026-02-05 00:17:07.472 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:17:07.475 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272227472] time[2] tag[updateCacheFromDb]
+2026-02-05 00:18:07.480 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:18:07.483 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272287480] time[2] tag[updateCacheFromDb]
+2026-02-05 00:19:07.498 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:19:07.500 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272347498] time[2] tag[updateCacheFromDb]
+2026-02-05 00:20:07.502 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:20:07.506 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272407502] time[2] tag[updateCacheFromDb]
+2026-02-05 00:21:07.510 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:21:07.514 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272467510] time[2] tag[updateCacheFromDb]
+2026-02-05 00:22:07.515 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:22:07.518 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272527515] time[3] tag[updateCacheFromDb]
+2026-02-05 00:23:07.532 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:23:07.537 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272587532] time[4] tag[updateCacheFromDb]
+2026-02-05 00:24:07.542 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:24:07.544 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272647542] time[2] tag[updateCacheFromDb]
+2026-02-05 00:25:07.555 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:25:07.559 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272707555] time[3] tag[updateCacheFromDb]
+2026-02-05 00:26:07.559 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:26:07.563 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272767559] time[3] tag[updateCacheFromDb]
+2026-02-05 00:27:07.569 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:27:07.578 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272827569] time[8] tag[updateCacheFromDb]
+2026-02-05 00:28:07.582 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:28:07.586 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272887582] time[3] tag[updateCacheFromDb]
+2026-02-05 00:29:07.590 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:29:07.593 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770272947590] time[2] tag[updateCacheFromDb]
+2026-02-05 00:30:07.599 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:30:07.603 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770273007599] time[3] tag[updateCacheFromDb]
+2026-02-05 00:31:07.605 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:31:07.608 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770273067605] time[2] tag[updateCacheFromDb]
+2026-02-05 00:32:07.611 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:32:07.614 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770273127611] time[2] tag[updateCacheFromDb]
+2026-02-05 00:33:07.624 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:33:07.627 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770273187624] time[2] tag[updateCacheFromDb]
+2026-02-05 00:34:07.633 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:34:07.636 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770273247633] time[2] tag[updateCacheFromDb]
+2026-02-05 00:35:07.649 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:35:07.652 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770273307649] time[2] tag[updateCacheFromDb]
+2026-02-05 00:36:07.667 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-05 00:36:07.669 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770273367667] time[2] tag[updateCacheFromDb]
+2026-02-05 00:36:35.817 [Thread-8] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2026-02-05 00:36:35.818 [Thread-8] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2026-02-05 00:36:35.818 [Thread-11] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2026-02-05 00:36:35.819 [Thread-11] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2026-02-05 00:36:35.994 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2026-02-05 00:36:35.996 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] greennote deregistering service GreenNote-distributed-id-generator with instance: Instance{instanceId='null', ip='10.141.73.9', port=8085, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2026-02-05 00:36:36.007 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2026-02-05 00:36:36.007 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2026-02-05 00:36:36.007 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2026-02-05 00:36:36.008 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2026-02-05 00:36:36.011 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2026-02-05 00:36:36.011 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2026-02-05 00:36:36.012 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2026-02-05 00:36:36.012 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2026-02-05 00:36:36.012 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2026-02-05 00:36:36.013 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2026-02-05 00:36:36.013 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2026-02-05 00:36:36.013 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2026-02-05 00:36:36.013 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2026-02-05 00:36:36.013 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2026-02-05 00:36:36.013 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2026-02-05 00:36:36.013 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2026-02-05 00:36:36.014 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2026-02-05 00:36:36.014 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@1652bbe0[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2026-02-05 00:36:36.014 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1770269049806_127.0.0.1_40640
+2026-02-05 00:36:36.020 [nacos-grpc-client-executor-127.0.0.1-893] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1770269049806_127.0.0.1_40640]Ignore complete event,isRunning:false,isAbandon=false
+2026-02-05 00:36:36.051 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@1c84f899[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 894]
+2026-02-05 00:36:36.051 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@2be21efe[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 1445]
+2026-02-05 00:36:36.053 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2026-02-05 00:36:36.054 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2026-02-05 00:36:36.054 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop

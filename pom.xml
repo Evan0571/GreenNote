@@ -336,6 +336,12 @@
                 <artifactId>rocketmq-client</artifactId>
                 <version>${rocketmq-client.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.evan</groupId>
+                <artifactId>GreenNote-count-api</artifactId>
+                <version>${revision}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

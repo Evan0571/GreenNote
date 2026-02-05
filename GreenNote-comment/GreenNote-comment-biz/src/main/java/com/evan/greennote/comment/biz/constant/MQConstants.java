@@ -11,4 +11,20 @@ public interface MQConstants {
 
     //Topic: 评论热度值更新
     String TOPIC_COMMENT_HEAT_UPDATE = "CommentHeatUpdateTopic";
+
+    //Topic: 评论点赞、取消点赞共用一个 Topic
+    String TOPIC_COMMENT_LIKE_OR_UNLIKE = "CommentLikeUnlikeTopic";
+
+    //Topic: 删除本地缓存 —— 评论详情
+    String TOPIC_DELETE_COMMENT_LOCAL_CACHE = "DeleteCommentDetailLocalCacheTopic";
+
+    //Topic: 删除评论
+    String TOPIC_DELETE_COMMENT = "DeleteCommentTopic";
+
+    //Tag 标签：点赞
+    String TAG_LIKE = "Like";
+
+    //Tag 标签：取消点赞
+    String TAG_UNLIKE = "UnLike";
+
 }

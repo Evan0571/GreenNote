@@ -1,6 +1,8 @@
 package com.evan.greennote.user.biz.service;
 
 import com.evan.framework.common.response.Response;
+import com.evan.greennote.user.biz.model.vo.FindUserProfileReqVO;
+import com.evan.greennote.user.biz.model.vo.FindUserProfileRspVO;
 import com.evan.greennote.user.biz.model.vo.UpdateUserInfoReqVO;
 import com.evan.greennote.user.dto.req.*;
 import com.evan.greennote.user.dto.resp.FindUserByEmailRspDTO;
@@ -27,4 +29,7 @@ public interface UserService {
 
     //批量根据用户 ID 查询用户信息
     Response<List<FindUserByIdRspDTO>> findByIds(FindUserByIdsReqDTO findUserByIdsReqDTO);
+
+    //获取用户主页信息
+    Response<FindUserProfileRspVO> findUserProfile(FindUserProfileReqVO findUserProfileReqVO);
 }

@@ -27,4 +27,6 @@ public interface NoteService {
     Response<?> collectNote(CollectNoteReqVO collectNoteReqVO);
     //笔记取消收藏
     Response<?> unCollectNote(UnCollectNoteReqVO unCollectNoteReqVO);
+    //获取是否点赞、收藏数据
+    Response<FindNoteIsLikedAndCollectedRspVO> isLikedAndCollectedData(FindNoteIsLikedAndCollectedReqVO findNoteIsLikedAndCollectedReqVO);
 }

@@ -18,3 +18,4 @@ end
 
 -- 添加新的笔记收藏关系
 redis.call('ZADD', key, timestamp, noteId)
+return 0

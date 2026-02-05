@@ -2,6 +2,8 @@ package com.evan.greennote.user.biz.controller;
 
 import com.evan.framework.biz.operationlog.aspect.ApiOperationLog;
 import com.evan.framework.common.response.Response;
+import com.evan.greennote.user.biz.model.vo.FindUserProfileReqVO;
+import com.evan.greennote.user.biz.model.vo.FindUserProfileRspVO;
 import com.evan.greennote.user.biz.model.vo.UpdateUserInfoReqVO;
 import com.evan.greennote.user.biz.service.UserService;
 import com.evan.greennote.user.dto.req.*;
@@ -65,5 +67,11 @@ public class UserController {
     @ApiOperationLog(description = "根据id批量查询用户信息")
     public Response<List<FindUserByIdRspDTO>> findByIds(@Validated @RequestBody FindUserByIdsReqDTO findUserByIdsReqDTO){
         return userService.findByIds(findUserByIdsReqDTO);
+    }
+
+    //获取用户主页信息
+    @PostMapping(value = "/profile")
+    public Response<FindUserProfileRspVO> findUserProfile(@Validated @RequestBody FindUserProfileReqVO findUserProfileReqVO) {
+        return userService.findUserProfile(findUserProfileReqVO);
     }
 }

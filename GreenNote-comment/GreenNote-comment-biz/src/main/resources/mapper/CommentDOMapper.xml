@@ -58,6 +58,10 @@
         from t_comment
         where note_id = #{noteId} and level = 1 order by heat desc limit 500
     </select>
+    <select id="selectChildCommentTotalById" resultType="long">
+        select child_comment_total from t_comment
+        where id = #{commentId} and level = 1
+    </select>
     <select id="selectTwoLevelCommentByIds" resultMap="BaseResultMap" parameterType="list">
         select
         id, user_id, content_uuid, is_content_empty, image_url, like_total, create_time, heat
@@ -66,6 +70,29 @@
         <foreach collection="commentIds" open="(" separator="," close=")" item="commentId">
             #{commentId}
         </foreach>
+    </select>
+    <select id="selectChildPageList" resultMap="BaseResultMap" parameterType="map">
+        select id, user_id, note_id, content_uuid, is_content_empty, image_url, like_total,
+               create_time, reply_user_id, parent_id, reply_comment_id
+        from t_comment
+        where parent_id = #{parentId} and level = 2 order by id asc
+            limit #{offset}, #{pageSize}
+    </select>
+    <select id="selectCommentCountByIds" resultMap="BaseResultMap" parameterType="list">
+        select
+        id, child_comment_total, like_total, level
+        from t_comment
+        where id in
+        <foreach collection="commentIds" open="(" separator="," close=")" item="commentId">
+            #{commentId}
+        </foreach>
+    </select>
+    <select id="selectChildCommentsByParentIdAndLimit" resultMap="BaseResultMap" parameterType="map">
+        select id, create_time
+        from t_comment
+        where parent_id = #{parentId} and level = 2
+        order by create_time asc
+            limit #{limit}
     </select>
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from t_comment
@@ -278,5 +305,29 @@
         update t_comment
         set first_reply_comment_id = #{firstReplyCommentId}
         where id = #{id}
+    </update>
+    <delete id="deleteByParentId" parameterType="long">
+        delete from t_comment
+        where parent_id = #{commentId}
+    </delete>
+    <delete id="deleteByIds" parameterType="map">
+        delete from t_comment
+        where id in
+        <foreach collection="commentIds" item="commentId" open="(" separator="," close=")">
+            #{commentId}
+        </foreach>
+    </delete>
+    <select id="selectByReplyCommentId" resultMap="BaseResultMap" parameterType="long">
+        select
+        <include refid="Base_Column_List" />
+        from t_comment
+        where reply_comment_id = #{commentId}
+    </select>
+
+    <update id="decreaseChildCommentTotal" parameterType="map">
+        update t_comment
+        set child_comment_total = GREATEST(COALESCE(child_comment_total, 0) - #{count}, 0),
+            update_time = now()
+        where id = #{parentId} and level = 1
     </update>
 </mapper>

@@ -4,6 +4,7 @@ import com.evan.greennote.count.biz.domain.dataobject.CommentDO;
 import org.apache.ibatis.annotations.Param;
 
 public interface CommentDOMapper {
+
     int deleteByPrimaryKey(Long id);
 
     int insert(CommentDO record);
@@ -18,4 +19,8 @@ public interface CommentDOMapper {
 
     //更新一级评论的子评论总数
     int updateChildCommentTotal(@Param("parentId") Long parentId, @Param("count") int count);
+
+    //更新评论点赞数
+    int updateLikeTotalByCommentId(@Param("count") Integer count,
+                                   @Param("commentId") Long commentId);
 }

@@ -223,8 +223,13 @@
   </update>
     <update id="updateChildCommentTotal" parameterType="map">
         update t_comment
-        set child_comment_total = child_comment_total + #{count}, update_time = now()
+        set child_comment_total = COALESCE(child_comment_total, 0) + #{count}, update_time = now()
         where id = #{parentId} and level = 1
     </update>
-
+    <update id="updateLikeTotalByCommentId" parameterType="map">
+        update t_comment
+        set like_total = GREATEST(like_total + #{count}, 0),
+            update_time = now()
+        where id = #{commentId}
+    </update>
 </mapper>

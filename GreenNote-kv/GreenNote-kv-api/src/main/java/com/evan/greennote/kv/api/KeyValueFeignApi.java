@@ -35,4 +35,9 @@ public interface KeyValueFeignApi {
     //批量查询评论内容
     @PostMapping(value = PREFIX + "/comment/content/batchFind")
     Response<List<FindCommentContentRspDTO>> batchFindCommentContent(@RequestBody BatchFindCommentContentReqDTO batchFindCommentContentReqDTO);
+
+    //删除评论内容
+    @PostMapping(value = PREFIX + "/comment/content/delete")
+    Response<?> deleteCommentContent(@RequestBody DeleteCommentContentReqDTO deleteCommentContentReqDTO);
+
 }
