@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ab4837d-c112-4b7d-be43-b200b407ba63" name="Changes" comment="final">
-      <change beforePath="$PROJECT_DIR$/GreenNote-comment/GreenNote-comment-biz/src/main/java/com/evan/greennote/comment/biz/retry/SendMqRetryHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-comment/GreenNote-comment-biz/src/main/java/com/evan/greennote/comment/biz/retry/SendMqRetryHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GreenNote-note/GreenNote-note-biz/src/main/java/com/evan/greennote/note/biz/listener/PublishNote2DBLocalTransactionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-note/GreenNote-note-biz/src/main/java/com/evan/greennote/note/biz/listener/PublishNote2DBLocalTransactionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GreenNote-note/GreenNote-note-biz/src/main/java/com/evan/greennote/note/biz/service/impl/NoteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-note/GreenNote-note-biz/src/main/java/com/evan/greennote/note/biz/service/impl/NoteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-auth/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-auth/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-gateway/src/main/java/com/evan/greennote/gateway/auth/SaTokenConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-gateway/src/main/java/com/evan/greennote/gateway/auth/SaTokenConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenNote-search/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-search/.flattened-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GreenNote-user-relation/GreenNote-user-relation-biz/src/main/java/com/evan/greennote/user/relation/biz/service/impl/RelationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreenNote-user-relation/GreenNote-user-relation-biz/src/main/java/com/evan/greennote/user/relation/biz/service/impl/RelationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/distributed-id-generator.2026-02-07-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/distributed-id-generator.2026-02-07-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/search.2026-02-07-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/search.2026-02-07-0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="stage" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -53,6 +62,9 @@
         <option name="userSettingsFile" value="C:\Maven\apache-maven-3.9.11\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -248,9 +260,9 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.GreenNoteAuthApplication" />
+      <item itemvalue="Spring Boot.GreenNoteCountBizApplication" />
       <item itemvalue="Spring Boot.GreenNoteSearchApplication" />
       <item itemvalue="Spring Boot.GreenNoteCommentBizApplication" />
-      <item itemvalue="Spring Boot.GreenNoteCountBizApplication" />
       <item itemvalue="Spring Boot.GreenNoteDataAlignApplication" />
       <item itemvalue="Spring Boot.GreenNoteDistributedGeneratorBizApplication" />
       <item itemvalue="Spring Boot.GreenNoteGatewayApplication" />
@@ -263,6 +275,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GreenNoteKVBizApplication" />
+        <item itemvalue="Spring Boot.GreenNoteKVBizApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -274,6 +287,9 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1ab4837d-c112-4b7d-be43-b200b407ba63" name="Changes" comment="" />
@@ -284,7 +300,7 @@
       <workItem from="1769407416949" duration="73467000" />
       <workItem from="1770141440808" duration="692000" />
       <workItem from="1770142526786" duration="23706000" />
-      <workItem from="1770320895320" duration="28325000" />
+      <workItem from="1770320895320" duration="39909000" />
     </task>
     <task id="LOCAL-00001" summary="search update">
       <option name="closed" value="true" />
@@ -342,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770443887633</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="final">
+      <option name="closed" value="true" />
+      <created>1770444086544</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1770444086544</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

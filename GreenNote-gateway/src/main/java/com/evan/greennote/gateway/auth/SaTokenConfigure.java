@@ -21,8 +21,10 @@ public class SaTokenConfigure {
                 .setAuth(obj->{
                     log.info("===============> SaReactorFilter, Path: {}", SaHolder.getRequest().getRequestPath());
                     SaRouter.match("/**")
+                            .notMatch("/")
                             .notMatch("/auth/login")
                             .notMatch("/auth/verification/code/send")
+                            .notMatch("/search/**")
                             .check(r->StpUtil.checkLogin())
                             ;
                     //SaRouter.match("/auth/logout",r->StpUtil.checkPermission("app:note:publish"));

@@ -4,6 +4,20 @@ server:
 spring:
   cloud:
     gateway:
+      globalcors:
+        add-to-simple-url-handler-mapping: true
+        corsConfigurations:
+          "[/**]":
+            allowedOriginPatterns: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+            allowedHeaders: "*"
+            allowCredentials: true
+            maxAge: 3600
       routes:
         - id: auth
           uri: lb://GreenNote-auth
@@ -33,6 +47,30 @@ spring:
           uri: lb://GreenNote-comment
           predicates:
             - Path=/comment/**
+          filters:
+            - StripPrefix=1
+        - id: search
+          uri: lb://GreenNote-search
+          predicates:
+            - Path=/search/**
+          filters:
+            - StripPrefix=1
+        - id: count
+          uri: lb://GreenNote-count
+          predicates:
+            - Path=/count/**
+          filters:
+            - StripPrefix=1
+        - id: file
+          uri: lb://GreenNote-oss
+          predicates:
+            - Path=/file/**
+          filters:
+            - StripPrefix=1
+        - id: kv
+          uri: lb://GreenNote-kv
+          predicates:
+            - Path=/kv/**
           filters:
             - StripPrefix=1
 

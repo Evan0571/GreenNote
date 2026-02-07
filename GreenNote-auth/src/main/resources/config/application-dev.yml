@@ -1,4 +1,13 @@
+server:
+  port: 8088
+  address: 0.0.0.0
+
 spring:
+  cloud:
+    nacos:
+      discovery:
+        prefer-ip-address: true
+        ip: 10.140.156.5
   data:
     redis:
       database: 0 # Redis 数据库索引（默认为 0）
