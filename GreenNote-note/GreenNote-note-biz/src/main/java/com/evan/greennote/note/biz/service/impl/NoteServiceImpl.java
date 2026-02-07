@@ -210,7 +210,7 @@ public class NoteServiceImpl implements NoteService {
     //处理笔记正文为空的情况
     private void processPublishContentEmptyNote(Long creatorId, NoteDO noteDO, String snowflakeIdId) {
         // 删除个人主页 - 已发布笔记列表缓存
-        // TODO: 应采取灵活的策略，如果是大V, 应该直接更新缓存，而不是直接删除；普通用户则可直接删除
+        // 应采取灵活的策略，如果是大V, 应该直接更新缓存，而不是直接删除；普通用户则可直接删除
         String publishedNoteListRedisKey = RedisKeyConstants.buildPublishedNoteListKey(creatorId);
         redisTemplate.delete(publishedNoteListRedisKey);
 

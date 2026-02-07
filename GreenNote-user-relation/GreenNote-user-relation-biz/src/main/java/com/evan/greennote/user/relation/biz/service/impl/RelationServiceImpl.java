@@ -102,7 +102,7 @@ public class RelationServiceImpl implements RelationService {
                 DefaultRedisScript<Long> script2=new DefaultRedisScript<>();
                 script2.setScriptSource(new ResourceScriptSource(new ClassPathResource("/lua/follow_add_and_expire.lua")));
                 script2.setResultType(Long.class);
-                //TODO:可根据用户类型设置不同过期时长
+                // 可根据用户类型设置不同过期时长
                 redisTemplate.execute(script2, Collections.singletonList(followingRedisKey), followUserId, timestamp, expireSeconds);
             }else{
                 //若记录不为空，则将关注数据全量同步到Redis中，并设置过期时间
@@ -488,8 +488,6 @@ public class RelationServiceImpl implements RelationService {
         //RPC: 批量查询用户信息
         List<FindUserByIdRspDTO> findUserByIdRspDTOS = userRpcService.findByIds(userIds);
 
-        //TODO：RPC 批量查询用户计数数据
-
         //若不为空， DTO转VO
         if(CollUtil.isNotEmpty(findUserByIdRspDTOS)){
             findFansUserRspVOS=findUserByIdRspDTOS.stream()
@@ -497,8 +495,8 @@ public class RelationServiceImpl implements RelationService {
                             .userId(dto.getId())
                             .avatar(dto.getAvatar())
                             .nickname(dto.getNickname())
-                            .noteTotal(0L) //TODO
-                            .fansTotal(0L) //TODO
+                            .noteTotal(0L)
+                            .fansTotal(0L)
                             .build())
                     .toList();
         }

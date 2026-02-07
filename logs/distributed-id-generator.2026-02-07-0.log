@@ -1,0 +1,4 @@
+2026-02-07 00:00:11.735 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-07 00:00:11.739 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770444011735] time[3] tag[updateCacheFromDb]
+2026-02-07 00:01:11.746 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-07 00:01:11.749 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770444071746] time[2] tag[updateCacheFromDb]

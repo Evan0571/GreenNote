@@ -672,3 +672,7 @@ org.apache.zookeeper.ClientCnxn$SessionExpiredException: Unable to reconnect to 
 2026-02-06 23:56:11.684 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770443771680] time[3] tag[updateCacheFromDb]
 2026-02-06 23:57:11.689 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
 2026-02-06 23:57:11.698 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770443831693] time[4] tag[updateCacheFromDb]
+2026-02-06 23:58:11.703 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-06 23:58:11.706 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770443891703] time[2] tag[updateCacheFromDb]
+2026-02-06 23:59:11.709 [check-idCache-thread] INFO  c.e.g.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2026-02-06 23:59:11.710 [check-idCache-thread] INFO  org.perf4j.TimingLogger - start[1770443951709] time[2] tag[updateCacheFromDb]
