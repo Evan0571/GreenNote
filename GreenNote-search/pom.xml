@@ -11,7 +11,7 @@
 
     <modules>
         <module>GreenNote-search-biz</module>
-        <module>Greennote-search-api</module>
+        <module>GreenNote-search-api</module>
     </modules>
 
     <artifactId>GreenNote-search</artifactId>

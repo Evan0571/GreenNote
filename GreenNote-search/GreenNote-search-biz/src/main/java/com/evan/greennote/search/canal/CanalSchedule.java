@@ -45,6 +45,9 @@ public class CanalSchedule implements Runnable {
         // 初始化批次 ID，-1 表示未开始或未获取到数据
         long batchId = -1;
         try {
+            // 检查连接状态，必要时重连
+            checkAndReconnect();
+            
             // 从 canalConnector 获取批量消息，返回的数据量由 batchSize 控制，若不足，则拉取已有的
             Message message = canalConnector.getWithoutAck(canalProperties.getBatchSize());
 
@@ -57,7 +60,9 @@ public class CanalSchedule implements Runnable {
                 try {
                     // 拉取数据为空，休眠 1s, 防止频繁拉取
                     TimeUnit.SECONDS.sleep(1);
-                } catch (InterruptedException e) {}
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                }
             } else {
                 // 如果当前批次有数据，处理这批次数据
                 processEntry(message.getEntries());
@@ -66,12 +71,72 @@ public class CanalSchedule implements Runnable {
             // 对当前批次的消息进行 ack 确认，表示该批次的数据已经被成功消费
             canalConnector.ack(batchId);
         } catch (Exception e) {
-            log.error("消费 Canal 批次数据异常", e);
-            // 如果出现异常，需要进行数据回滚，以便重新消费这批次的数据
-            canalConnector.rollback(batchId);
+            log.error("消费 Canal 批次数据异常, batchId: {}", batchId, e);
+            
+            // 区分不同类型的异常进行处理
+            if (isConnectionException(e)) {
+                log.warn("检测到连接异常，将在下次循环中自动重连");
+                // 连接异常时不执行rollback，避免进一步的IO异常
+            } else {
+                try {
+                    // 如果出现业务异常，需要进行数据回滚，以便重新消费这批次的数据
+                    canalConnector.rollback(batchId);
+                } catch (Exception rollbackEx) {
+                    log.error("执行rollback时发生异常, batchId: {}", batchId, rollbackEx);
+                }
+            }
         }
     }
 
+    //检查连接状态并在必要时重连
+    private void checkAndReconnect() {
+        try {
+            // 简单的心跳检查 - 尝试获取少量数据来验证连接
+            Message testMessage = canalConnector.getWithoutAck(1);
+            if (testMessage.getId() != -1) {
+                // 如果获取到了数据，需要ack确认
+                canalConnector.ack(testMessage.getId());
+            }
+        } catch (Exception e) {
+            log.warn("Canal连接异常，准备重连: {}", e.getMessage());
+            reconnect();
+        }
+    }
+    
+    //重连Canal服务
+    private synchronized void reconnect() {
+        try {
+            log.info("开始重新连接Canal服务...");
+            
+            // 断开现有连接
+            try {
+                canalConnector.disconnect();
+            } catch (Exception e) {
+                log.debug("断开现有连接时出现异常: {}", e.getMessage());
+            }
+            
+            // 重新连接
+            canalConnector.connect();
+            canalConnector.subscribe(canalProperties.getSubscribe());
+            canalConnector.rollback();
+            
+            log.info("Canal服务重连成功");
+        } catch (Exception e) {
+            log.error("Canal服务重连失败", e);
+            // 可以在这里添加告警通知逻辑
+        }
+    }
+    
+    //判断是否为连接异常
+    private boolean isConnectionException(Exception e) {
+        return e instanceof java.io.IOException || 
+               e.getCause() instanceof java.io.IOException ||
+               e.getMessage() != null && (
+                   e.getMessage().contains("连接") || 
+                   e.getMessage().contains("connection") ||
+                   e.getMessage().contains("网络"));
+    }
+    
     //处理这一批次数据
     private void processEntry(List<CanalEntry.Entry> entrys) throws Exception {
         // 循环处理批次数据

@@ -3,3 +3,9 @@ spring:
     keyspace-name: greennote
     contact-points: 127.0.0.1
     port: 9042
+
+rocketmq:
+  name-server: 127.0.0.1:9876 #name server地址
+  consumer:
+    group: greennote_group
+    pull-batch-size: 5 #每次拉去最大消息数

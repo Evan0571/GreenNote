@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.evan</groupId>
-  <artifactId>GreenNote-spring-boot-starter-jackson</artifactId>
+  <artifactId>GreenNote-spring-boot-starter-biz-jackson</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>${project.artifactId}</name>
   <description>自定义 Jackson 配置: 支持 Java 8 新的日期 API，如 LocalDateTime、LocalDate 等等</description>

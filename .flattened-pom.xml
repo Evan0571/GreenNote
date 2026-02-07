@@ -22,6 +22,7 @@
     <module>GreenNote-count</module>
     <module>GreenNote-data-align</module>
     <module>GreenNote-search</module>
+    <module>GreenNote-comment</module>
   </modules>
   <properties>
     <minio.version>8.2.1</minio.version>
@@ -38,6 +39,7 @@
     <spring-cloud.version>2022.0.0</spring-cloud.version>
     <elasticsearch.version>7.3.0</elasticsearch.version>
     <mybatis-generator-maven-plugin.version>1.3.5</mybatis-generator-maven-plugin.version>
+    <mapstruct.version>1.5.5.Final</mapstruct.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <commons-lang3.version>3.12.0</commons-lang3.version>
     <caffeine.version>3.1.8</caffeine.version>
@@ -48,10 +50,12 @@
     <activation.version>1.1.1</activation.version>
     <maven-compiler.source>${java.version}</maven-compiler.source>
     <buffertrigger.version>0.2.21</buffertrigger.version>
+    <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
     <jaxb-runtime.version>2.3.3</jaxb-runtime.version>
     <revision>0.0.1-SNAPSHOT</revision>
     <lombok.version>1.18.30</lombok.version>
     <jaxb-api.version>2.3.1</jaxb-api.version>
+    <rocketmq-client.version>4.9.4</rocketmq-client.version>
     <canal.version>1.1.7</canal.version>
     <druid.version>1.2.23</druid.version>
     <nacos-config.version>0.3.0-RC</nacos-config.version>
@@ -233,7 +237,7 @@
       </dependency>
       <dependency>
         <groupId>com.evan</groupId>
-        <artifactId>GreenNote-spring-boot-starter-jackson</artifactId>
+        <artifactId>GreenNote-spring-boot-starter-biz-jackson</artifactId>
         <version>0.0.1-SNAPSHOT</version>
       </dependency>
       <dependency>
@@ -265,6 +269,26 @@
         <groupId>com.alibaba.otter</groupId>
         <artifactId>canal.protocol</artifactId>
         <version>${canal.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.evan</groupId>
+        <artifactId>GreenNote-search-api</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.rocketmq</groupId>
+        <artifactId>rocketmq-client</artifactId>
+        <version>${rocketmq-client.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.evan</groupId>
+        <artifactId>GreenNote-count-api</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mapstruct</groupId>
+        <artifactId>mapstruct</artifactId>
+        <version>${mapstruct.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
@@ -332,6 +356,22 @@
           <configuration>
             <verbose>true</verbose>
             <overwrite>true</overwrite>
+          </configuration>
+        </plugin>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${maven-compiler-plugin.version}</version>
+          <configuration>
+            <source>${java.version}</source>
+            <target>${java.version}</target>
+            <encoding>${project.build.sourceEncoding}</encoding>
+            <annotationProcessorPaths>
+              <path>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct-processor</artifactId>
+                <version>${mapstruct.version}</version>
+              </path>
+            </annotationProcessorPaths>
           </configuration>
         </plugin>
       </plugins>

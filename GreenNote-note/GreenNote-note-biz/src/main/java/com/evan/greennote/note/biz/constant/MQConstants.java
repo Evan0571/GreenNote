@@ -15,6 +15,10 @@ public interface MQConstants {
     String TOPIC_COUNT_NOTE_COLLECT="CountNoteCollectTopic";
     //topic:笔记操作（发布/删除）
     String TOPIC_NOTE_OPERATE="NoteOperateTopic";
+    //topic:延迟双删 Redis 已发布笔记列表缓存
+    String TOPIC_DELAY_DELETE_PUBLISHED_NOTE_LIST_REDIS_CACHE = "DelayDeletePublishedNoteListRedisCacheTopic";
+    //topic:发布笔记事务消息
+    String TOPIC_PUBLISH_NOTE_TRANSACTION = "PublishNoteTransactionTopic";
     //点赞标签
     String TAG_LIKE="Like";
     //取消点赞标签

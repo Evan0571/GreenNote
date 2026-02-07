@@ -11,7 +11,15 @@
   <sql id="Base_Column_List">
     id, user_id, note_id, create_time, `status`
   </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    <select id="selectByUserIdAndNoteIds" resultMap="BaseResultMap" parameterType="map">
+        select note_id, user_id from t_note_like
+        where user_id = #{userId} and status = 1
+        and note_id in
+        <foreach collection="noteIds" item="noteId" open="(" separator="," close=")">
+            #{noteId}
+        </foreach>
+    </select>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
     from t_note_like

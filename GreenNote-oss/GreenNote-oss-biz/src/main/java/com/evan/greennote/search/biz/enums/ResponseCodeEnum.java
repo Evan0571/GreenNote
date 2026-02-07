@@ -19,4 +19,14 @@ public enum ResponseCodeEnum implements BaseExceptionInterface {
     private final String errorCode;
     //异常信息
     private final String errorMessage;
+
+    @Override
+    public String getErrorCode() {
+        return this.errorCode;
+    }
+
+    @Override
+    public String getErrorMessage() {
+        return this.errorMessage;
+    }
 }

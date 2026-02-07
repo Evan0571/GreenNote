@@ -22,4 +22,13 @@ public class CanalProperties {
     private String subscribe;
     //一批次拉取数据量，默认 1000 条
     private int batchSize = 1000;
+    
+    // 连接超时时间（毫秒），默认30秒
+    private int connectionTimeout = 30000;
+    // 获取数据超时时间（毫秒），默认10秒
+    private int fetchTimeout = 10000;
+    // 重连间隔时间（毫秒），默认5秒
+    private int reconnectInterval = 5000;
+    // 最大重连次数，默认10次
+    private int maxReconnectAttempts = 10;
 }

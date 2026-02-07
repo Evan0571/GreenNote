@@ -23,12 +23,18 @@ public class RedisKeyConstants {
     //用户笔记收藏列表 ZSet 前缀
     public static final String USER_NOTE_COLLECT_ZSET_KEY = "user:note:collects:";
 
-
     //构建完整的笔记详情 KEY
     public static String buildNoteDetailKey(Long noteId) {
         return NOTE_DETAIL_KEY + noteId;
     }
 
+    //已发布笔记列表 KEY 前缀
+    private static final String PUBLISHED_NOTE_LIST_KEY = "note:published:list:";
+
+    //构建完整的已发布笔记列表 KEY
+    public static String buildPublishedNoteListKey(Long userId) {
+        return PUBLISHED_NOTE_LIST_KEY + userId;
+    }
 
     //构建完整的布隆过滤器：用户笔记点赞 KEY
     public static String buildBloomUserNoteLikeListKey(Long userId) {

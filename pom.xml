@@ -62,6 +62,8 @@
         <elasticsearch.version>7.3.0</elasticsearch.version>
         <canal.version>1.1.7</canal.version>
         <rocketmq-client.version>4.9.4</rocketmq-client.version>
+        <mapstruct.version>1.5.5.Final</mapstruct.version>
+        <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
     </properties>
 
     <!--统一依赖管理-->
@@ -342,6 +344,13 @@
                 <artifactId>GreenNote-count-api</artifactId>
                 <version>${revision}</version>
             </dependency>
+
+            <!-- Mapstruct 属性映射 -->
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct</artifactId>
+                <version>${mapstruct.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -402,6 +411,25 @@
                             <version>${mysql-connector-java.version}</version>
                         </dependency>
                     </dependencies>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven-compiler-plugin.version}</version>
+                    <configuration>
+                        <source>${java.version}</source>
+                        <target>${java.version}</target>
+                        <encoding>${project.build.sourceEncoding}</encoding>
+                        <annotationProcessorPaths>
+                            // 省略...
+                            <path>
+                                <groupId>org.mapstruct</groupId>
+                                <artifactId>mapstruct-processor</artifactId>
+                                <version>${mapstruct.version}</version>
+                            </path>
+                        </annotationProcessorPaths>
+                    </configuration>
                 </plugin>
 
             </plugins>

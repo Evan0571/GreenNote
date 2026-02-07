@@ -9,6 +9,10 @@ canal: # Canal 配置
   password: canal # 数据库密码
   subscribe: greennote.t_note,greennote.t_user # 订阅规则，只订阅笔记表和用户表
   batchSize: 1000 # 一批次拉取数据量
+  connectionTimeout: 30000 # 连接超时时间（毫秒）
+  fetchTimeout: 10000 # 获取数据超时时间（毫秒）
+  reconnectInterval: 5000 # 重连间隔时间（毫秒）
+  maxReconnectAttempts: 10 # 最大重连次数
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver

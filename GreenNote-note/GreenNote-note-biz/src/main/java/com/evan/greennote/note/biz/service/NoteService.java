@@ -29,4 +29,6 @@ public interface NoteService {
     Response<?> unCollectNote(UnCollectNoteReqVO unCollectNoteReqVO);
     //获取是否点赞、收藏数据
     Response<FindNoteIsLikedAndCollectedRspVO> isLikedAndCollectedData(FindNoteIsLikedAndCollectedReqVO findNoteIsLikedAndCollectedReqVO);
+    //用户主页 - 查询已发布的笔记列表
+    Response<FindPublishedNoteListRspVO> findPublishedNoteList(FindPublishedNoteListReqVO findPublishedNoteListReqVO);
 }

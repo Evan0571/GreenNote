@@ -97,4 +97,11 @@ public class NoteController {
         return noteService.isLikedAndCollectedData(findNoteIsLikedAndCollectedReqVO);
     }
 
+    //用户主页已发布笔记列表
+    @PostMapping(value = "/published/list")
+    @ApiOperationLog(description = "用户主页 - 已发布笔记列表")
+    public Response<FindPublishedNoteListRspVO> findPublishedNoteList(@Validated @RequestBody FindPublishedNoteListReqVO findPublishedNoteListReqVO) {
+        return noteService.findPublishedNoteList(findPublishedNoteListReqVO);
+    }
+
 }

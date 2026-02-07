@@ -37,12 +37,19 @@ public class CanalClient implements DisposableBean {
                 canalProperties.getUsername(),
                 canalProperties.getPassword());
 
-        // 连接到 Canal 服务端
-        canalConnector.connect();
-        // 订阅 Canal 中的数据变化，指定要监听的数据库和表（可以使用表名、数据库名的通配符）
-        canalConnector.subscribe(canalProperties.getSubscribe());
-        // 回滚 Canal 消费者的位点，回滚到上次提交的消费位置
-        canalConnector.rollback();
+        try {
+            // 连接到 Canal 服务端
+            canalConnector.connect();
+            // 订阅 Canal 中的数据变化，指定要监听的数据库和表（可以使用表名、数据库名的通配符）
+            canalConnector.subscribe(canalProperties.getSubscribe());
+            // 回滚 Canal 消费者的位点，回滚到上次提交的消费位置
+            canalConnector.rollback();
+            log.info("Canal客户端连接成功: {}:{}", host, port);
+        } catch (Exception e) {
+            log.error("Canal客户端连接失败: {}:{}, 错误: {}", host, port, e.getMessage());
+            throw new RuntimeException("Canal客户端初始化失败", e);
+        }
+        
         return canalConnector;
     }
 
